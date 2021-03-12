@@ -1,0 +1,20 @@
+-- PlaylistName: Random Punk incl. all subgenres (RATED)
+-- PlaylistGroups:
+
+select tracks.url from tracks
+	join tracks_persistent on
+		tracks.url=tracks_persistent.url and tracks_persistent.rating > 0
+	join genre_track on
+		tracks.id=genre_track.track
+	join genres on
+		genre_track.genre=genres.id
+	left join dynamicplaylist_history on
+		tracks.id=dynamicplaylist_history.id and dynamicplaylist_history.client='PlaylistPlayer'
+	where
+		audio=1
+		and genres.name like 'Punk%%'
+		and tracks.secs>90
+		and dynamicplaylist_history.id is null
+	group by tracks.id
+	order by random()
+	limit 30;
