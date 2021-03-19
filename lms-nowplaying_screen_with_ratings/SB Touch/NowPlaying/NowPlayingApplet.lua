@@ -1921,14 +1921,18 @@ function showNowPlaying(self, transition, direct)
 				if not chunk.data[1] or chunk.data[1] ~= "ratingslightchangedratingupdate" then
 					return
 				end
-
+				local playerStatus = self.player:getPlayerStatus()
+				local thisTrackID = playerStatus.item_loop[1].params.track_id
+				local changedTrackID = chunk.data[3]
 				local currentRatingInfo = chunk.data[5]
-				if currentRatingInfo then
-					local rating = tonumber(currentRatingInfo)
-					if rating > 0 then
-						self.myrating:setStyle('ratingLevel'..rating)
-					else
-						self.myrating:setStyle("")
+				if (tostring(changedTrackID) == tostring(thisTrackID)) then
+					if currentRatingInfo then
+						local rating = tonumber(currentRatingInfo);
+						if rating > 0 then
+							self.myrating:setStyle('ratingLevel'..rating)
+						else
+							self.myrating:setStyle("")
+						end
 					end
 				end
 			end,
