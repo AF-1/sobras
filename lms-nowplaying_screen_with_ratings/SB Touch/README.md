@@ -3,6 +3,8 @@ SB Touch - display ratings on *Now Playing* screen
 tested with Touch firmware version 7.8.0 r16754<br><br>
 
 ![screenshot1](../screenshots/touch.jpg)
+<br><br>
+Modifying the NowPlaying applet and some skin applet is not very risky and it works for me. But *I don't take any responsibility* if you mess up your Now Playing screen in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, you can always reset the firmware (restore factory settings).
 <br>
 ## Installation
 

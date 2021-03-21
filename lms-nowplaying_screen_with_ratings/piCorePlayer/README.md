@@ -5,8 +5,12 @@ and 7″ touchscreen monitor (Raspberry Pi Foundation)<br><br>
 
 ![screenshot1](../screenshots/pcp1.jpg)<br><br>
 ![screenshot2](../screenshots/pcp2.jpg)
+<br><br>
+Modifying the NowPlaying applet and some skin applet is not very risky and it works for me. But *I don't take any responsibility* if you mess up your Now Playing screen in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, you can always restore from a SD card backup (piCorePlayer).
 <br>
 # Installation
+
+**Recommended**: create a complete backup of your piCorePlayer SD card. Makes restoring quick and easy if something goes wrong.
 
 ### remote access (ssh)
 on piCorePlayer *remote access* (ssh) should be enabled by default<br>

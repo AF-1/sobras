@@ -4,6 +4,8 @@ tested with Radio firmware version 7.7.3 r16676<br><br>
 
 ![screenshot1](../screenshots/radio1.jpg)<br><br>
 ![screenshot2](../screenshots/radio2.jpg)
+<br><br>
+Modifying the NowPlaying applet and some skin applet is not very risky and it works for me. But *I don't take any responsibility* if you mess up your Now Playing screen in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, you can always reset the firmware (restore factory settings).
 <br>
 ## Read this first please
 I've included 2 versions of the file **NowPlayingApplet.lua**: the one that includes the *subscribe* function unfortunately makes the *NowPlaying* **menu item** disappear from the *home menu*. Otherwise it works as expected.<br>The only difference between the two is the subscribe function that allows your Radio to update the rating value without user interaction when the rating value has been changed elsewhere. Eiter way, no big deal.
