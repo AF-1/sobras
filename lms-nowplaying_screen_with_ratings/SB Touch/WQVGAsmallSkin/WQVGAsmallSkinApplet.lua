@@ -2808,6 +2808,7 @@ function skin(self, s)
 
 	local NP_ARTISTALBUM_FONT_SIZE = 20
 	local NP_TRACK_FONT_SIZE = 24
+	local NP_DIFFERENT_FONT_CORRECT = 2
 
 	local controlHeight = 38
 	local controlWidth = 45
@@ -2866,7 +2867,7 @@ function skin(self, s)
 			border     = _tracklayout.border,
 			x          = _tracklayout.x,
 			y          = TITLE_HEIGHT + 20,
-			h          = 32,
+			h          = 32 + NP_DIFFERENT_FONT_CORRECT,
 			nptrack =  {
 				w          = screenWidth - _tracklayout.x - 10,
 				h          = WH_FILL,
@@ -2892,7 +2893,7 @@ function skin(self, s)
 			border     = _tracklayout.border,
 			x          = _tracklayout.x,
 			y          = TITLE_HEIGHT + 20 + 32,
-			h          = 32,
+			h          = 32 + NP_DIFFERENT_FONT_CORRECT,
 			npartist = {
 				padding    = { 0, 6, 0, 0 },
 				w          = screenWidth - _tracklayout.x - 10,
@@ -2909,7 +2910,7 @@ function skin(self, s)
 			border     = _tracklayout.border,
 			x          = _tracklayout.x,
 			y          = TITLE_HEIGHT + 20 + 32 + 32,
-			h          = 32,
+			h          = 32 + NP_DIFFERENT_FONT_CORRECT,
 			npalbum = {
 				w          = screenWidth - _tracklayout.x - 10,
 				padding    = { 0, 6, 0, 0 },
