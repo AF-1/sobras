@@ -103,4 +103,4 @@ Reboot.
 
 ## Note
 
-If you're using the **DejaVu Sans Condensed font** and **scrolling of long track titles**, artist and album names on the Now Playing screen shows some *lazy pixels* (lagging behind) just **adjust the line height** like I did [**here**](https://github.com/AF-1/sobras/commit/5c31712a0caad5cbfd1b409b188bef0c72119df0).
+If you're using the **DejaVu Sans Condensed font** and **scrolling of long track titles**, artist and album names on the Now Playing screen shows some *lazy pixels* (lagging behind) just **adjust the line height** like I did [**here**](https://github.com/AF-1/sobras/commit/5c31712a0caad5cbfd1b409b188bef0c72119df0#diff-cc8446c70800fb65858a432d058a8133b80c1f10db8a5b1d6b07880fcd5f2321).
