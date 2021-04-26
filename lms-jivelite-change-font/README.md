@@ -41,7 +41,8 @@ Reboot.
 <br><br>
 
 *On your PC* - **copy** the new font files to this new folder:<br>
-`scp /localfilepath/DejaVuSansCondensed.ttf /localfilepath/DejaVuSansCondensed-Bold.ttf tc@deviceIP:/home/tc/.jivelite/userpath/fonts/`
+`scp /localfilepath/DejaVuSansCondensed.ttf tc@deviceIP:/home/tc/.jivelite/userpath/fonts/FreeSans.ttf`<br>
+`scp /localfilepath/DejaVuSansCondensed-Bold.ttf tc@deviceIP:/home/tc/.jivelite/userpath/fonts/FreeSansBold.ttf`
 <br><br>
 
 *On piCorePlayer* - **backup** your changes
