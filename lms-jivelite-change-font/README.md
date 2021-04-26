@@ -8,16 +8,9 @@ So if you want to use the **black star character to display track ratings** you 
 
 [Here](https://www.fileformat.info/info/unicode/char/2605/fontsupport.htm) is a non-exhaustive list of fonts that include the black star character.
 
-In this manual I use the **DejaVu Sans Condensed** font (ttf, **regular** and **bold**).
+The **FontReplacer applet** installs an expanded version of the default FreeSans font. If this font is too large for your device or the strain on memory resources is too great try a smaller one like the **DejaVu Sans Condensed** font (ttf, **regular** and **bold**). The example commands below use the DejaVu Sans Condensed font.
 
 If you need information on how to get SSH access to your device and copy files to your device, take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
-
-## Path of the font folder
-
-- **SB Touch**, **Radio**: /usr/share/jive/fonts<br><br>
-- **piCorePlayer**: /opt/jivelite/share/jive/fonts<br><br>
-
-In that folder you'll find 2 font files **FreeSans.ttf** and **FreeSansBold.ttf** (or on pCP symlinks to them).
 <br><br>
 
 ## SB Touch, SB Radio
@@ -41,6 +34,25 @@ Reboot.
 
 ## piCorePlayer
 
+### the easy way
+
+*On piCorePlayer* - **create a folder** for the font files (if it doesn't exist):<br>
+`mkdir ~/.jivelite/userpath/fonts`
+<br><br>
+
+*On your PC* - **copy** the new font files to this new folder:<br>
+`scp /localfilepath/DejaVuSansCondensed.ttf /localfilepath/DejaVuSansCondensed-Bold.ttf tc@deviceIP:/home/tc/.jivelite/userpath/fonts/`
+<br><br>
+
+*On piCorePlayer* - **backup** your changes
+`sudo filetool.sh -b`
+<br><br>
+Reboot.
+<br><br><br>
+
+
+### another way
+
 piCorePlayer recreates the symlinks to the original fonts after every reboot.<br>
 Therefore we have to copy the new font files to a folder that belongs to picCorePlayer's default user *tc* and use a script that is executed after every reboot to replace the *original* symlinks with symlinks that point to the *new* font files.
 
@@ -48,7 +60,7 @@ Therefore we have to copy the new font files to a folder that belongs to picCore
 `mkdir ~/ChangeOnBoot`
 <br><br>
 
-*On your PC* - copy the new font files to this new folder:<br>
+*On your PC* - **copy** the new font files to this new folder:<br>
 `scp /localfilepath/DejaVuSansCondensed.ttf /localfilepath/DejaVuSansCondensed-Bold.ttf tc@deviceIP:/home/tc/ChangeOnBoot/`
 <br><br>
 
@@ -82,8 +94,12 @@ tell piCorePlayer to **execute the script on boot**:<br>
 at the beginning, line 6, insert this line:<br>
 `/home/tc/ChangeOnBoot/replaceFont.sh 2>&1`
 <br><br>
-**Don't forget to backup your changes** with:<br>
+Don't forget to **backup** your changes with:<br>
 `sudo filetool.sh -b`
 <br><br>
 Reboot.
+<br><br>
 
+## Note
+
+If you're using the **DejaVu Sans Condensed font** and **scrolling of long track titles**, artist and album names on the Now Playing screen shows some *lazy pixels* (lagging behind) just **adjust the line height** like I did [**here**](https://github.com/AF-1/sobras/commit/5c31712a0caad5cbfd1b409b188bef0c72119df0).
