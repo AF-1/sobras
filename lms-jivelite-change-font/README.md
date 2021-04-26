@@ -45,7 +45,7 @@ Reboot.
 `scp /localfilepath/DejaVuSansCondensed-Bold.ttf tc@deviceIP:/home/tc/.jivelite/userpath/fonts/FreeSansBold.ttf`
 <br><br>
 
-*On piCorePlayer* - **backup** your changes
+*On piCorePlayer* - **backup** your changes with:<br>
 `sudo filetool.sh -b`
 <br><br>
 Reboot.
