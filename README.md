@@ -26,7 +26,8 @@ Playlist files for the LMS [*SQL Playlist*](https://github.com/erland/lms-sqlpla
 
 ## [LMS](https://github.com/Logitech/slimserver) - musly server on macOS
 
-"Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/). **Musly Server** will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br><br>
+"Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/).<br>
+**Musly Server** will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br>
 This guide will cover how to install musly **server** on macOS (includes the necessary binaries for macOS).
 <br><br>
 ➔ [*lms-musly-server_on_macos*](https://github.com/AF-1/sobras/tree/main/lms-musly-server_on_macos)

@@ -1,12 +1,13 @@
 Install Musly Server on macOS
 ====
 
-"Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/). **Musly Server** together with some Python API scripts and a complementary LMS plugin ([Music Similarity](https://github.com/CDrummond/lms-musicsimilarity) or [LMS Musly Integration](https://www.nexus0.net/pub/sw/lmsmusly/)) will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br><br>
+"Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/).<br>
+**Musly Server** together with some Python API scripts and a complementary LMS plugin ([Music Similarity](https://github.com/CDrummond/lms-musicsimilarity) or [LMS Musly Integration](https://www.nexus0.net/pub/sw/lmsmusly/)) will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br><br>
 
 ## Please read first
-This guide covers the installation of Musly Server on macOS (10.**15**). I also compiled the musly-0.2 binaries on MacOS 10.15. It may work on other versions of macOS but I haven't tested it.<br>
+This guide covers the installation of Musly Server on macOS (10.**15**). I've compiled the musly-0.2 binaries on macOS 10.15. It may work on other versions of macOS but I haven't tested it.<br>
 In this guide I'll use the [Python API scripts](https://github.com/CDrummond/musly-server) and the LMS plugin [Music Similarity](https://github.com/CDrummond/lms-musicsimilarity) of [CDrummond](https://github.com/CDrummond).
-Please substitute YOURUSERNAME in the example script etc. with your short username. Use the `whoami` command to display it.
+Please replace YOURUSERNAME in the example scripts etc. with your short username. Use the `whoami` command to display it.
 <br><br><br>
 
 ## Installation
