@@ -8,7 +8,7 @@ So if you want to use the **black star character to display track ratings** you 
 
 [Here](https://www.fileformat.info/info/unicode/char/2605/fontsupport.htm) is a non-exhaustive list of fonts that include the black star character.
 
-The **FontReplacer applet** installs an expanded version of the default FreeSans font. If this font is too large for your device or the strain on memory resources is too great try a smaller one like the **DejaVu Sans Condensed** font (ttf, **regular** and **bold**). The example commands below use the DejaVu Sans Condensed font.
+The **FontReplacer applet** installs an expanded version of the default FreeSans font. It's a "merged FreeSans + DroidSansFallback font to provide a fuller character set, including Chinese/Japanese/Korean characters". I recommend you try this one first.<br>If this font is too large for your device or the strain on memory resources is too great try a smaller one like the **DejaVu Sans Condensed** font (ttf, **regular** and **bold**). The example commands below use the DejaVu Sans Condensed font.
 
 If you need information on how to get SSH access to your device and copy files to your device, take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
 <br><br>
