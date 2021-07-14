@@ -18,13 +18,6 @@ Here's how to do it.
 ➔ [*lms-jivelite-change-font*](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font)
 <br><br>
 
-## LMS - SQL Playlist playlists
-
-Playlist files for the LMS [*SQL Playlist* plugin](https://github.com/erland/lms-sqlplaylist)
-<br><br>
-➔ [*lms-sqlplaylist_playlists*](https://github.com/AF-1/sobras/tree/main/lms-sqlplaylist_playlists)
-<br><br>
-
 ## LMS - musly server on macOS
 
 "Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/).<br>
