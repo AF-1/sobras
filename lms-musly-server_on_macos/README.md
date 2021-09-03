@@ -1,12 +1,12 @@
-Install Musly Server on macOS
+Install Music Similarity Server (Musly Server) on macOS
 ====
 
 "Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/).<br>
-**Musly Server** together with some Python API scripts and a complementary LMS plugin ([Music Similarity](https://github.com/CDrummond/lms-musicsimilarity) or [LMS Musly Integration](https://www.nexus0.net/pub/sw/lmsmusly/)) will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br><br>
+**Musly Server** together with some Python API scripts and a complementary LMS plugin ([Music Similarity](https://github.com/CDrummond/lms-musicsimilarity)) will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br><br>
 
 ## Please read first
 This guide covers the installation of Musly Server on macOS (10.**15**). I've compiled the musly-0.2 binaries on macOS 10.15. It may work on other versions of macOS but I haven't tested it.<br>
-In this guide I'll use the [Python API scripts](https://github.com/CDrummond/musly-server) and the LMS plugin [Music Similarity](https://github.com/CDrummond/lms-musicsimilarity) of [CDrummond](https://github.com/CDrummond).
+In this guide I'll use the [Python API scripts](https://github.com/CDrummond/music-similarity) and the LMS plugin [Music Similarity](https://github.com/CDrummond/lms-musicsimilarity) of [CDrummond](https://github.com/CDrummond).
 Please replace YOURUSERNAME in the example scripts etc. with your short username. Use the `whoami` command to display it.
 <br><br><br>
 
@@ -34,33 +34,43 @@ Create **Python3 virtual environment** (change the name if you like) and **insta
 Create these folders:<br>
 `mkdir ~/Music/Musly ~/Music/muslydb`<br>
 
-Get the lastest version of the [Python API scripts](https://github.com/CDrummond/musly-server) and unpack the **musly-server-master folder** into **~/Music/Musly**.<br>
+Get the lastest version of the [Python API scripts](https://github.com/CDrummond/music-similarity) and unpack the **music-similarity-master folder** into **~/Music/Musly**.<br>
+*Music Similarity* has the ability to use [Essentia](https://essentia.upf.edu/) analysis results but in this guide I only cover the Musly part because that's the most important/the only one I use.<br>
 
 Now **edit the config file**:<br>
-`nano ~/Music/Musly/musly-server-master/config.json`<br>
+`nano ~/Music/Musly/music-similarity-master/config.json`<br>
 
 Here's an example of some paths that you'll have to change:
 <br>
 ```
- "libmusly":"/usr/local/opt/musly-0.2/lib/libmusly.dylib",
+{
+ "musly":{
+  "lib":"/usr/local/opt/musly-0.2/lib/libmusly.dylib",
+  "styletracks":1000,
+  "extractstart":-48,
+  "extractlen":30
+ },
+ "essentia":{
+  "enabled":false
+ },
  "paths":{
   "db":"/Users/YOURUSERNAME/Music/muslydb/",
-  "musly":"/Volumes/external HDD/Music/",
+  "local":"/Volumes/external HDD/Music/",
   "lms":"/Volumes/external HDD/Music/",
   "tmp":"/tmp/"
  },
  "lmsdb":"/Users/YOURUSERNAME/Library/Caches/Squeezebox/library.db",
 ```
 
-**"musly"** and **"lms"** point to where your music files are stored.<br><br><br>
+**"local"** and **"lms"** point to where your music files are stored.<br><br><br>
 
 ## First run & analysis
 
-`cd ~/Music/Musly/musly-server-master/`<br>
+`cd ~/Music/Musly/music-similarity-master/`<br>
 `source ~/lmsmusly-pyenv/bin/activate`<br>
-`python3 musly-server.py --analyse m`<br>
+`python3 music-similarity.py --analyse m`<br>
 > **or:** use the debug option **-l DEBUG** to get (many) status messages:<br>
-> `python3 musly-server.py --analyse m -l DEBUG`
+> `python3 music-similarity.py --analyse m -l DEBUG`
 <br><br>
 
 How long this will take depends on your hardware and on the size of your library.<br>
@@ -70,28 +80,28 @@ BTW if the process hangs you can always stop it with **control z** and maybe res
 
 
 
-## Running musly-server as a daemon/in the background
+## Running music-similarity-server as a daemon/in the background
 
-On macOS you can simply use **launchd** to run musly-server in the background.<br>
+On macOS you can simply use **launchd** to run music-similarity-server in the background.<br>
 
-First create a **script** that will start musly-server:<br>
+First create a **script** that will start music-similarity-server:<br>
 
-`nano ~/Music/Musly/muslyserverdaemon.sh`
+`nano ~/Music/Musly/musicsimilarityserverdaemon.sh`
 <br><br>
 with this content (use your username):<br>
 
 ```
 #!/bin/sh
-cd /Users/YOURUSERNAME/Music/Musly/musly-server-master/
+cd /Users/YOURUSERNAME/Music/Musly/music-similarity-master/
 source /Users/YOURUSERNAME/lmsmusly-pyenv/bin/activate
-python3 musly-server.py
+python3 music-similarity-server.py
 ```
 
 Make it executable:<br>
-`chmod 755 ~/Music/Musly/muslyserverdaemon.sh`<br>
+`chmod 755 ~/Music/Muslymusicsimilarityserverdaemon.sh`<br>
 
 Then **create a launchjob** (if the folder *~/Library/LaunchAgents* does not exist create it first):<br>
-`nano ~/Library/LaunchAgents/com.me.muslyserverd.plist`<br>
+`nano ~/Library/LaunchAgents/com.me.musicsimilarityserverd.plist`<br>
 
 with this content:<br>
 ```
@@ -105,27 +115,27 @@ with this content:<br>
 	<array>
 		<string>bash</string>
 		<string>-c</string>
-		<string>/Users/YOURUSERNAME/Music/Musly/muslyserverdaemon.sh</string>
+		<string>/Users/YOURUSERNAME/Music/Musly/musicsimilarityserverdaemon.sh</string>
 	</array>
     <key>KeepAlive</key>
     <true/>
 	<key>StandardOutPath</key>
-	<string>/Users/YOURUSERNAME/Library/Logs/muslyserver.log</string>
+	<string>/Users/YOURUSERNAME/Library/Logs/musicsimilarityserver.log</string>
 	<key>StandardErrorPath</key>
-	<string>/Users/YOURUSERNAME/Library/Logs/muslyserver.log</string>
+	<string>/Users/YOURUSERNAME/Library/Logs/musicsimilarityserver.log</string>
 </dict>
 </plist>
 ```
 
 Now **start** the **launchjob** (and musly-server as a background process) with:<br>
-`launchctl load ~/Library/LaunchAgents/com.me.muslyserverd.plist`<br>
+`launchctl load ~/Library/LaunchAgents/com.me.musicsimilarityserverd.plist`<br>
 
 To **stop** it use:<br>
-`launchctl unload ~/Library/LaunchAgents/com.me.muslyserverd.plist`<br>
+`launchctl unload ~/Library/LaunchAgents/com.me.musicsimilarityserverd.plist`<br>
 
 To see if the launchjob is already up and running use:<br>
-`launchctl list | grep musly`<br>
+`launchctl list | grep musicsimilarity`<br>
 
-It will create a log file at *~/Library/Logs/muslyserver.log* if you want to check for error messages.<br>
+It will create a log file at *~/Library/Logs/musicsimilarityserver.log* if you want to check for error messages.<br>
 
 That's basically it.
