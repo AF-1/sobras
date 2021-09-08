@@ -18,12 +18,14 @@ Here's how to do it.
 ➔ [*lms-jivelite-change-font*](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font)
 <br><br>
 
-## LMS - musly server on macOS
+## LMS - Music Similarity on macOS
 
-"Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/).<br>
-**Musly Server** will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br>
-This guide will cover how to install musly **server** on macOS (includes the necessary binaries for macOS).
+Music Similarity is a "simple python3 API server to create a mix of music tracks for LMS" using the Musly audio music similarity library. "Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/).<br>
+
+**Music Similarity** will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br>
+
+This guide will cover how to install the Music Similarity **server** on macOS (includes the necessary binaries for macOS).
 <br><br>
-➔ [*lms-musly-server_on_macos*](https://github.com/AF-1/sobras/tree/main/lms-musly-server_on_macos)
+➔ [*lms-music-similarity_on_macos*](https://github.com/AF-1/sobras/tree/main/lms-music-similarity_on_macos)
 <br><br>
 
