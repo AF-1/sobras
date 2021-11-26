@@ -29,7 +29,7 @@
 		</plugin>
 		<plugin name="DynamicPlaylists3" version="3.3.3" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 3</title>
-			<desc lang="EN">PLEASE READ: Dynamic Playlists 3 uses a different name now. Please *uninstall* any *previous* version of Dynamic Playlists *3* BEFORE installing this version. The "More Info" link points to the FAQ. Sorry for the inconvenience.</desc>
+			<desc lang="EN">This plugin lets you play continuous music mixes based on selection criteria defined in so-called <i>dynamic playlists</i>. Comes with a number of ready-to-use dynamic playlists and new playlist parameters. In addition you can now <b>use your own custom dynamic playlist</b> definitions <b>directly</b> in DPL without any other intermediary plugins. Please read the FAQ ("More Info" link).</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/3.3.3/lms-dynamicplaylists-3.3.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylists#faq</link>
