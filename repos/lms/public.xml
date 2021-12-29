@@ -5,7 +5,7 @@
 	<plugins>
 		<plugin name="RatingsLight" version="2.0.8" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
-			<desc lang="EN">A plugin that takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from comment tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (webUI and context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes.</desc>
+			<desc lang="EN">A plugin that takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from comment tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes.</desc>
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.0.8/lms-ratingslight-2.0.8.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-ratingslight</link>
@@ -29,7 +29,7 @@
 		</plugin>
 		<plugin name="DynamicPlaylists3" version="3.4.3" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 3</title>
-			<desc lang="EN">This plugin lets you play continuous music mixes based on selection criteria defined in so-called dynamic playlists. Comes with a number of ready-to-use dynamic playlists and new playlist parameters. In addition you can now use your own custom dynamic playlist definitions directly in DPL without any other intermediary plugins. Please read the FAQ ("More Info" link).</desc>
+			<desc lang="EN">This plugin lets you play continuous music mixes based on selection criteria defined in so-called dynamic playlists. Comes with a number of ready-to-use dynamic playlists and new playlist parameters. In addition you can now use your own custom dynamic playlist definitions directly in DPL without intermediary plugins. Please read the FAQ ("More Info" link).</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/3.4.3/lms-dynamicplaylists-3.4.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylists#faq</link>
@@ -37,7 +37,7 @@
 		</plugin>
 		<plugin name="CustomSkip3" version="3.0.4" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Skip 3</title>
-			<desc lang="EN">Custom Skip v3 lets you define client-specific filter sets with rules for when tracks should be skipped. The "More Info" link points to the FAQ.</desc>
+			<desc lang="EN">This plugin lets you define client-specific filter sets with rules for when tracks should be skipped. The "More Info" link points to the FAQ.</desc>
 			<url>https://github.com/AF-1/lms-customskip/releases/download/3.0.4/lms-customskip-3.0.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customskip#faq</link>
