@@ -31,16 +31,23 @@ You'll probably have to remove Apple's quarantine flag from the binary files:<br
 `sudo xattr -r -d com.apple.quarantine /usr/local/opt/musly-0.2/lib/libmusly_resample.dylib`<br>
 `sudo xattr -r -d com.apple.quarantine /usr/local/opt/musly-0.2/bin/musly`<br>
 
-Create a **Python3 virtual environment** (change the name if you like) and **install the required Python3 modules**:<br>
-`python3 -m venv ~/lmssimilarity-pyenv`<br>
-`source ~/lmssimilarity-pyenv/bin/activate`<br>
-`pip3 install requests cherrypy flask mutagen`<br>
-
 Create these folders:<br>
 `mkdir ~/Music/MusicSimilarityServer ~/Music/musicsimilaritydb`<br>
 
 Get the lastest version of the [*Music Similarity Server*](https://github.com/CDrummond/music-similarity) and unpack the **music-similarity-master folder** into **~/Music/MusicSimilarityServer**.<br>
 *Music Similarity* has the ability to use [Essentia](https://essentia.upf.edu/) analysis results but in this guide I only cover the Musly part because that's the most important/the only one I use.<br>
+
+Create a **Python3 virtual environment** (change the name if you like) and activate it:<br>
+`python3 -m venv ~/lmssimilarity-pyenv`<br>
+`source ~/lmssimilarity-pyenv/bin/activate`<br>
+
+Change into the *Music Similarity Server* folder and **install the required Python3 modules** using the *requirements.txt* file:<br>
+`cd ~/Music/MusicSimilarityServer/music-similarity-master`<br>
+`pip3 install -r requirements.txt`<br>
+
+And one last module required on Macs:<br>
+`pip3 install cherrypy`<br>
+
 
 Now **edit the config file**:<br>
 `nano ~/Music/MusicSimilarityServer/music-similarity-master/config.json`<br>
