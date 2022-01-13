@@ -15,11 +15,14 @@ Music Similarity Server on macOS requires Python**3** and **ffmpeg**.<br>
 To keep it simple I will use **Homebrew** to install them.<br>
 If you prefer a different way to install them or have them installed already you can skip these steps.
 
-Install **XCode Command Line Tools**:<br>
+You need XCode's **Command Line Tools** to install **Homebrew** and **Python3**:<br>
 `xcode-select --install`
 
-Install **Homebrew** (as **admin** user!!):<br>
+Install **Homebrew** (as **admin** user):<br>
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+If you don't have **Python3** installed, use Homebrew to install it:<br>
+`brew install python3`
 
 Use Homebrew to install **ffmpeg**:<br>
 `brew install ffmpeg`
