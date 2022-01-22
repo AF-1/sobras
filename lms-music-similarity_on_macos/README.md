@@ -10,7 +10,7 @@ This guide covers the installation of *Music Similarity Server* on macOS (10.**1
 Please replace YOURUSERNAME in the example scripts etc. with your short username. Use the `whoami` command to display it.
 <br><br><br>
 
-## Installation - Musly
+## Installation
 Music Similarity Server on macOS requires Python**3** and **ffmpeg**.<br>
 To keep it simple I will use **Homebrew** to install them.<br>
 If you prefer a different way to install them or have them installed already you can skip these steps.
