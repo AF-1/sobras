@@ -19,14 +19,15 @@
 			<link>https://github.com/AF-1/lms-usecommenttaginfo</link>
 			<sha>e1637b200f4123dbbd9b4d426b3380fc22fb376a</sha>
 		</plugin>
-		<plugin name="VisualStatistics" version="1.2.3" minTarget="7.9" maxTarget="*">
+		<plugin name="VisualStatistics" version="1.2.4" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Visual Statistics</title>
 			<desc lang="EN">Have a look at your library statistics with charts</desc>
+			<desc lang="FR">Explorez les statistiques de votre librairie avec des graphiques</desc>
 			<desc lang="NL">Bekijk jouw mediabibliotheek statistieken door middel van grafieken</desc>
-			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/1.2.3/lms-visualstatistics-1.2.3.zip</url>
+			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/1.2.4/lms-visualstatistics-1.2.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-visualstatistics</link>
-			<sha>cc2489ab1c46e8ec4a8c936dc8e53e0ba8cc460a</sha>
+			<sha>a2ef6273a355ba31db22630ba39a778d4aa03dae</sha>
 		</plugin>
 		<plugin name="DynamicPlaylists3" version="3.4.3" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 3</title>
