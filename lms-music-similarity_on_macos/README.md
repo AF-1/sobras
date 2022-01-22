@@ -27,14 +27,15 @@ If you don't have **Python3** installed, use Homebrew to install it:<br>
 Use Homebrew to install **ffmpeg**:<br>
 `brew install ffmpeg`
 
-Get the lastest version of the [*Music Similarity Server*](https://github.com/CDrummond/music-similarity) and unpack the **music-similarity-master folder** into `~/Music/MusicSimilarityServer`.<br>
 Create these folders:<br>
 `mkdir ~/Music/MusicSimilarityServer ~/Music/musicsimilaritydb`<br>
+
+Get the lastest version of the [*Music Similarity Server*](https://github.com/CDrummond/music-similarity) and unpack the **music-similarity-master folder** into `~/Music/MusicSimilarityServer`.<br>
 
 Confirm that the folder `~/Music/MusicSimilarityServer/music-similarity-master/mac/i386` contains the 2 binaries `libmusly.dylib` and `streaming_extractor_music`. If not, download them from this repo, extract and copy them to that folder.
 
 You may have to remove Apple's quarantine flag from the binary files:<br>
-`cd ~/Music/MusicSimilarityServer/music-similarity-master/mac/i386`
+`cd ~/Music/MusicSimilarityServer/music-similarity-master/mac/i386`<br>
 `sudo xattr -r -d com.apple.quarantine libmusly.dylib`<br>
 `sudo xattr -r -d com.apple.quarantine streaming_extractor_music`<br>
 
