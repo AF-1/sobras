@@ -1,16 +1,16 @@
 Install Music Similarity Server on macOS
 ====
 
-**Music Similarity** is a "simple python3 API server to create a mix of music tracks for LMS" using the Musly audio music similarity library. "Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/).<br>
+**Music Similarity** is a "python3 script to analyse your music collection with Musly and (optionally) Essentia, and to provide a simple HTTP API allowing the creation of mix of similar music for LMS."<br>
 
 [**Music Similarity Server**](https://github.com/CDrummond/music-similarity) together with the LMS companion plugin ([Music Similarity](https://github.com/CDrummond/lms-musicsimilarity)) will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a continuous mix of similar tracks in LMS.<br><br>
 
 ## Please read first
-This guide covers the installation of *Music Similarity Server* on macOS (10.**15**). I've compiled the musly-0.2 binaries on macOS 10.15 based on [CDrummond's version of the Musly library](https://github.com/CDrummond/musly). It may work on other versions of macOS but I haven't tested it.<br>
+This guide covers the installation of *Music Similarity Server* on macOS (10.**15**). I've compiled the *libmusly* binary [(0.2)](https://github.com/CDrummond/musly) and the Essentia *streaming_extractor_music* binary (2.1beta6) on macOS 10.15. It may work with other versions of macOS but I haven't tested it.<br>
 Please replace YOURUSERNAME in the example scripts etc. with your short username. Use the `whoami` command to display it.
 <br><br><br>
 
-## Installation
+## Installation - Musly
 Music Similarity Server on macOS requires Python**3** and **ffmpeg**.<br>
 To keep it simple I will use **Homebrew** to install them.<br>
 If you prefer a different way to install them or have them installed already you can skip these steps.
@@ -27,18 +27,17 @@ If you don't have **Python3** installed, use Homebrew to install it:<br>
 Use Homebrew to install **ffmpeg**:<br>
 `brew install ffmpeg`
 
-Unpack [musly-0.2.zip](https://github.com/AF-1/sobras/tree/main/lms-music-similarity_on_macos/binaries) (as a folder) into **/usr/local/opt**<br>
-
-You'll probably have to remove Apple's quarantine flag from the binary files:<br>
-`sudo xattr -r -d com.apple.quarantine /usr/local/opt/musly-0.2/lib/libmusly.dylib`<br>
-`sudo xattr -r -d com.apple.quarantine /usr/local/opt/musly-0.2/lib/libmusly_resample.dylib`<br>
-`sudo xattr -r -d com.apple.quarantine /usr/local/opt/musly-0.2/bin/musly`<br>
-
+Get the lastest version of the [*Music Similarity Server*](https://github.com/CDrummond/music-similarity) and unpack the **music-similarity-master folder** into `~/Music/MusicSimilarityServer`.<br>
 Create these folders:<br>
 `mkdir ~/Music/MusicSimilarityServer ~/Music/musicsimilaritydb`<br>
 
-Get the lastest version of the [*Music Similarity Server*](https://github.com/CDrummond/music-similarity) and unpack the **music-similarity-master folder** into **~/Music/MusicSimilarityServer**.<br>
-*Music Similarity* has the ability to use [Essentia](https://essentia.upf.edu/) analysis results but in this guide I only cover the Musly part because that's the most important/the only one I use.<br>
+Confirm that the folder `~/Music/MusicSimilarityServer/music-similarity-master/mac/i386` contains the 2 binaries `libmusly.dylib` and `streaming_extractor_music`. If not, download them from this repo, extract and copy them to that folder.
+
+You may have to remove Apple's quarantine flag from the binary files:<br>
+`cd ~/Music/MusicSimilarityServer/music-similarity-master/mac/i386`
+`sudo xattr -r -d com.apple.quarantine libmusly.dylib`<br>
+`sudo xattr -r -d com.apple.quarantine streaming_extractor_music`<br>
+
 
 Create a **Python3 virtual environment** (change the name if you like) and activate it:<br>
 `python3 -m venv ~/lmssimilarity-pyenv`<br>
@@ -59,14 +58,22 @@ Here's an example of some paths that you'll have to change:
 <br>
 ```
 {
+{
  "musly":{
-  "lib":"/usr/local/opt/musly-0.2/lib/libmusly.dylib",
+  "lib":"/Users/YOURUSERNAME/Music/MusicSimilarityServer/music-similarity-master/mac/i386/libmusly.dylib",
   "styletracks":1000,
-  "extractstart":-48,
-  "extractlen":30
+  "extractlen":120,
+  "extractstart":-210
  },
  "essentia":{
-  "enabled":false
+  "enabled":true,
+  "extractor":"/Users/YOURUSERNAME/Music/MusicSimilarityServer/music-similarity-master/mac/i386/streaming_extractor_music",
+  "highlevel":true,
+  "bpm":20,
+  "loudness":10,
+  "filterkey":true,
+  "filterattrib":true,
+  "weight":0.0
  },
  "paths":{
   "db":"/Users/YOURUSERNAME/Music/musicsimilaritydb/",
@@ -77,7 +84,11 @@ Here's an example of some paths that you'll have to change:
  "lmsdb":"/Users/YOURUSERNAME/Library/Caches/Squeezebox/library.db",
 ```
 
-**"local"** and **"lms"** point to where your music files are stored.<br><br><br>
+**"local"** and **"lms"** point to where your music files are stored.<br>
+
+**If you run into problems with the SVM models try replacing MusicSimilarity's Essentia models (beta1) with the ones provided in this repo (beta5).**<br><br>
+
+
 
 ## First run & analysis
 
