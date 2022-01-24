@@ -3,16 +3,16 @@ about
 LMS = [Logitech Media Server](https://github.com/Logitech/slimserver)
 <br><br>
 
-## LMS - display ratings on *Now Playing* screen of piCorePlayer, Touch, Radio (jivelite)
+## Display track ratings on *Now Playing* screen (piCorePlayer, Touch, Radio, SqueezePlay)
 
-A mod of the **Now Playing** screen that enables the display of track ratings on **piCorePlayer**, **SB Touch**, **SB Radio**.
+A mod of the **Now Playing** screen that enables the display of track ratings on **piCorePlayer**, **SB Touch**, **SB Radio** and **SqueezePlay**.
 <br><br>
 ➔ [*lms-nowplaying_screen_with_ratings*](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings)
 <br><br>
 
-## LMS - change default font on piCorePlayer, Touch, Radio (jivelite)
+## Change default font - use title formats with rating star ★ (piCorePlayer, Touch, Radio, SqueezePlay)
 
-If you want to use the black star character (unicode 2605) to display track ratings you have to **replace the default font** on piCorePlayer, SB Touch, SB Radio or other devices running *jivelite* with a font that includes the black star character.<br>
+If you want to use the black star character ★ to display track ratings (LMS title formats) you have to **replace the default font** on piCorePlayer, SB Touch, SB Radio or other devices running *jivelite* with a font that includes the black star character.<br>
 Here's how to do it.
 <br><br>
 ➔ [*lms-jivelite-change-font*](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font)
@@ -20,7 +20,7 @@ Here's how to do it.
 
 ## LMS - Music Similarity on macOS
 
-Music Similarity is a "simple python3 API server to create a mix of music tracks for LMS" using the Musly audio music similarity library. "Musly analyzes the audio signal of music pieces to estimate their similarity" [[1]](https://www.musly.org/).<br>
+Music Similarity is a "python3 script to analyse your music collection with Musly and (optionally) Essentia, and to provide a simple HTTP API allowing the creation of mix of similar music for LMS".<br>
 
 **Music Similarity** will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br>
 
