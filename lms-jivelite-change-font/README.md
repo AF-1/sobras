@@ -2,18 +2,16 @@ Change font on piCorePlayer, Touch, Radio (jivelite)
 ====
 
 The *default font* of players with jivelite as graphical frontend (**piCorePlayer**,SB **Touch**, SB **Radio**, **SqueezePlay**...) is **Free Sans** which **does not include** the [**black star**](https://www.fileformat.info/info/unicode/char/2605/index.htm) (unicode 2605) character ★.<br><br>
-So if you want to use the **black star character to display track ratings** you will have to **make your player use a different font** that includes the black star character.<br>
-
-I don't take any responsibility if you mess up your device in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, you can always reset the firmware (restore factory settings).<br>
-Luckily, the process is not difficult. You can either use an applet to install the font on your device and copying the new fonts to your device manually using SSH.<br><br>
+So if you want to use the **black star character to display track ratings** you will have to **make your player use a different font** that includes the black star character.<br><br>
+Luckily, the process is not difficult. You can either use an applet to install the font on your device or copy the new fonts to your device manually using SSH.<br><br>
 
 ## Install fonts with FontReplacer applet
 
-Use the **FontReplacer applet** (from the LMS plugin/applet repository) to install an expanded version of the default FreeSans font. *I haven't tested this at all.* Since it's supposed to be very easy I recommend you try this first if you don't feel comfortable using SSH.<br><br><br>
+Use the **FontReplacer applet** (from the LMS plugin/applet repository) to install an expanded version of the default FreeSans font. *I haven't tested this at all.* It's supposed to be very easy. So I recommend you try this first if you don't feel comfortable using SSH.<br><br><br>
 
 ## Copy fonts to device using SSH
 
-If you have **SSH access**(*) enabled on your device **download the [font files](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font/new_fonts) from this repository** and use the commands for your device type below.<br><br>
+If you have **SSH access**(*) enabled on your device **download the [font files](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font/new_fonts) from this repository** and use the commands for your device type below. Since the *new* font files have to have the same name as the original fonts I've already renamed them.<br><br>
 
 ### piCorePlayer
 
@@ -47,7 +45,7 @@ Reboot.
 Reboot.
 <br><br>
 
-
+Disclaimer: I don't take any responsibility if you mess up your device in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, you can always reset the firmware (restore factory settings).<br>
 
 
 (*) If you need information on how to get SSH access to your device and copy files to your device, take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
