@@ -45,7 +45,7 @@ Reboot.
 Reboot.
 <br><br>
 
-Disclaimer: I don't take any responsibility if you mess up your device in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, you can always reset the firmware (restore factory settings).<br>
+**Disclaimer**: I don't take any responsibility if you mess up your device in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, you can always reset the firmware (restore factory settings).<br>
 
 
-(*) If you need information on how to get SSH access to your device and copy files to your device, take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
+(*****) If you need information on how to get SSH access to your device and copy files to your device, take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
