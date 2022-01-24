@@ -11,7 +11,7 @@ Use the **FontReplacer applet** (from the LMS plugin/applet repository) to insta
 
 ## Copy fonts to device using SSH
 
-If you have **SSH access**(*) enabled on your device **download the [font files](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font/new_fonts) from this repository** and use the commands for your device type below. Since the *new* font files have to have the same name as the original fonts I've already renamed them.<br><br>
+If you have **SSH access**(*) enabled on your device **download the [font files](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font/new_fonts) from this repository** and use the commands for your device type below. The *new* font files have to have the same name as the original fonts. I've already renamed them.<br><br>
 
 ### piCorePlayer
 
@@ -43,9 +43,9 @@ Reboot.
 <br><br>
 
 Reboot.
-<br><br>
+<br><br><br><br><br>
 
 **Disclaimer**: I don't take any responsibility if you mess up your device in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, you can always reset the firmware (restore factory settings).<br>
 
+**(*)** If you need information on how to enable SSH access on your device take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
 
-**(*)** If you need information on how to get SSH access to your device and copy files to your device, take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
