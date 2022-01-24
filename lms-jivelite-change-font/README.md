@@ -7,11 +7,11 @@ Luckily, the process is not difficult. You can either use an applet to install t
 
 ## Install fonts with FontReplacer applet
 
-Use the **FontReplacer applet** (from the LMS plugin/applet repository) to install an expanded version of the default FreeSans font. *I haven't tested this at all.* It's supposed to be very easy. So I recommend you try this first if you don't feel comfortable using SSH.<br><br><br>
+Use the **FontReplacer applet** (from the LMS plugin/applet repository) to install an expanded version of the default FreeSans font. *I haven't tested this at all.* It's supposed to be very easy. So I recommend you try this if you don't feel comfortable using SSH.<br><br><br>
 
 ## Copy fonts to device using SSH
 
-If you have **SSH access**(*) enabled on your device **download the [font files](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font/new_fonts) from this repository** and use the commands for your device type below. The *new* font files have to have the same name as the original fonts. I've already renamed them.<br><br>
+If you have **SSH access**(*) enabled on your device **download the [font files](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font/new_fonts) from this repository** and use the commands for your device type below. Your devices expects the *new* font files to have the same name as the original fonts. The downloadable font files in this repository already have the correct names.<br><br>
 
 ### piCorePlayer
 
