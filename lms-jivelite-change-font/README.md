@@ -2,7 +2,7 @@ Change font on piCorePlayer, Touch, Radio (jivelite)
 ====
 
 The *default font* of players with jivelite as graphical frontend (**piCorePlayer**,SB **Touch**, SB **Radio**, **SqueezePlay**...) is **Free Sans** which **does not include** the [**black star**](https://www.fileformat.info/info/unicode/char/2605/index.htm) (unicode 2605) character ★.<br><br>
-So if you want to use the **black star character to display track ratings** you will have to **make your player use a different font** that includes the black star character.<br><br>
+So if you want to use the **black star character to display track ratings** e.g. in title formats you will have to **make your player use a different font** that includes the black star character.<br><br>
 Luckily, the process is not difficult. You can either use an applet to install the font on your device or copy the new fonts to your device manually using SSH.<br><br>
 
 ## Install fonts with FontReplacer applet
