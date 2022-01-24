@@ -1,59 +1,61 @@
 piCorePlayer - display ratings on *Now Playing* screen
 ====
-tested with piCorePlayer v6.1.0<br>
+tested with piCorePlayer v8.1.0<br>
 and 7″ touchscreen monitor (Raspberry Pi Foundation)<br><br>
 
 ![screenshot1](../screenshots/pcp1.jpg)<br><br>
 ![screenshot2](../screenshots/pcp2.jpg)
 <br><br>
-Modifying the NowPlaying applet and some skin applet is not very risky and it works for me. But *I don't take any responsibility* if you mess up your Now Playing screen in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, you can always restore from a SD card backup (piCorePlayer).
-<br>
+This manual describes how to display track ratings / rating stars on the Now Playing screen of a **piCorePlayer** (that uses the *Joggler* skin).<br><br>
+
+
 # Installation
 
 **Recommended**: create a complete backup of your piCorePlayer SD card. Makes restoring quick and easy if something goes wrong.
 
-### remote access (ssh)
-on piCorePlayer *remote access* (ssh) should be enabled by default<br>
-if ssh is disabled, here's how to enable it:<br>
-- in your browser open the pcp-webadmin page: `http://IPaddressofyourpiCorePlayer` (add port if not default)<br>
-- go to **Main Page**, at the bottom click on **Beta**, then click on *Beta* > *Security*<br>
-- in tab *Disable SSH* click on **Enable SSH**
+### Remote access (ssh)
+On piCorePlayer *remote access* (ssh) should be enabled by default.<br>
+If ssh is disabled here's how to enable it:<br>
+- in your browser open the pCP-webadmin page: `http://IPaddressofyourpiCorePlayer` (add port if not default port 80).<br>
+- Go to **Main Page**, at the bottom click on **Beta**, then click on *Beta* > *Security*.<br>
+- In the tab *Disable SSH* click on **Enable SSH**.
 <br><br>
 
-### copy files
+### Copy files
 piCorePlayer mounts jivelite as a *read-only* extension and overwrites all changes after reboot.<br>
-**Workaround**: a script that deletes the links to the default applets *NowPlaying* and *JogglerSkin* after every reboot so that the customized versions of them will be used instead.
+We'll use a simple script that deletes the *links* to the default applets *NowPlaying* and *JogglerSkin* after every reboot so that pCP will use the modified versions you've downloaded from this repository instead.
 <br><br>
-log into your piCorePlayer (default user: tc, default password: piCore)
+**Log into** your piCorePlayer (default user: tc, default password: piCore)
 <br>
-`ssh tc@deviceIP`
+`ssh tc@pCPdeviceIP`
 <br><br>
-copy default version of applets *NowPlaying* and *JogglerSkin* to user applet folder<br>
+**Copy** the default applets *NowPlaying* and *JogglerSkin* to the *user* applet folder:<br>
 `sudo cp -r /opt/jivelite/share/jive/applets/NowPlaying/ ~/.jivelite/userpath/applets/ && sudo cp -r /opt/jivelite/share/jive/applets/JogglerSkin/ ~/.jivelite/userpath/applets/`
 <br><br>
-remove applet files in copied applet folders<br>
+**Remove** those files that we're going to replace with our modified versions:<br>
 `sudo rm ~/.jivelite/userpath/applets/NowPlaying/NowPlayingApplet.lua && sudo rm ~/.jivelite/userpath/applets/JogglerSkin/JogglerSkinApplet.lua`
 <br><br>
-create script *pcpOnBootChanges* to delete default version of these applets after every reboot<br>
+**Create a script** called *pcpOnBootChanges* to delete the links to the default applet versions after every reboot:<br>
 `cd ~/ && echo "sudo rm -rf /opt/jivelite/share/jive/applets/NowPlaying/ && sudo rm -rf /opt/jivelite/share/jive/applets/JogglerSkin/" > pcpOnBootChanges.sh && chmod 755 pcpOnBootChanges.sh`
 <br><br>
-run script after boot<br>
+Let's **run the script after (every) boot**:<br>
 `sudo echo "/home/tc/pcpOnBootChanges.sh 2>&1" >> /opt/bootlocal.sh`
 <br><br>
-log out of piCorePlayer with `exit` but **don't** reboot or power off piCorePlayer
+**Log out** of piCorePlayer with `exit` but **don't reboot or power off piCorePlayer!!**
 <br><br>
-copy new files to piCorePlayer (replace *localfilepath* with local path where you stored these files on your computer)<br>
-`scp /localfilepath/NowPlaying/NowPlayingApplet.lua tc@deviceIP:/home/tc/`<br>
-`scp /localfilepath/JogglerSkin/JogglerSkinApplet.lua tc@deviceIP:/home/tc`<br>
-`scp /localfilepath/JogglerSkin/images/NowPlaying/*.png tc@deviceIP:/home/tc`
+**Copy the new files** you've downloaded from this repository to your piCorePlayer:<br>
+`scp /path/to/NowPlaying/NowPlayingApplet.lua tc@pCPdeviceIP:/home/tc/`<br>
+`scp /path/to/JogglerSkin/JogglerSkinApplet.lua tc@pCPdeviceIP:/home/tc`<br>
+`scp /path/to/JogglerSkin/images/NowPlaying/*.png tc@pCPdeviceIP:/home/tc`
 <br><br>
-log into your piCorePlayer
-<br>
-`ssh tc@deviceIP`
+**Log into** your piCorePlayer:<br>
+`ssh tc@pCPdeviceIP`
 <br><br>
-move new files into correct folders<br>
+**Move the new files** to the user applet folders:<br>
 `sudo mv NowPlayingApplet.lua ~/.jivelite/userpath/applets/NowPlaying/ && sudo mv JogglerSkinApplet.lua ~/.jivelite/userpath/applets/JogglerSkin/ && sudo mv *.png ~/.jivelite/userpath/applets/JogglerSkin/images/NowPlaying/`
 <br><br>
-**important**: now backup all changes so they will survive a reboot<br>
+**Important**: now **backup** all changes so they will survive a reboot:<br>
 `sudo filetool.sh -b`<br><br>
-now reboot your piCorePlayer with `sudo reboot`
+Now **reboot** your piCorePlayer with `sudo reboot`
+<br><br><br><br><br>
+**Disclaimer:** Modifying the NowPlaying applet and the Joggler skin applet works for me. But *I don't take any responsibility* if you mess up your Now Playing screen in the process. If you forgot to back up the original files before modifying them and it didn't work out you can always restore from a backup of your piCorePlayer SD card.
