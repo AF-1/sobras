@@ -90,7 +90,7 @@ Here's an example of some paths that you'll have to change:
  "lmsdb":"/Users/YOURUSERNAME/Library/Caches/Squeezebox/library.db",
 ```
 
-**Important:** Please have a look at the latest template of the [**MusicSimilarity configuration template**](https://github.com/CDrummond/music-similarity/blob/master/docs/OtherConfig.md) to make sure that the configuration contains all the required parameters. Even if you don't use *Essentia* (enabled: false) adding its parameters might save you some errors / troubleshooting.<br>
+**Important:** Please have a look at the latest version of the [**MusicSimilarity configuration template**](https://github.com/CDrummond/music-similarity/blob/master/docs/OtherConfig.md) to make sure that the configuration contains all the required parameters. Even if you don't use *Essentia* (enabled: false) adding its parameters might save you some errors / troubleshooting.<br>
 
 **"local"** and **"lms"** point to where your music files are stored.<br>
 
