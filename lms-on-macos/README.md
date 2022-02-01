@@ -80,7 +80,7 @@ If you're using a dedicated, maybe older and headless mac to host LMS you may wa
 
 First, disable all OS sleep settings. In **System Preferences** > **Energy Saver** and set **Display sleep** and **Computer sleep** to **Never**. And make sure that **Wake for Ethernet network access** is ticked.
 
-Then download the [**Narcolepdy Applescript script**](https://github.com/AF-1/sobras/tree/main/lms-on-mac/scripts/narcolepsy.scpt) _(*)_ that will handle everything necessary to put your mac to sleep.
+Then download the [**Narcolepdy Applescript script**](https://github.com/AF-1/sobras/tree/main/lms-on-macos/scripts) _(*)_ that will handle everything necessary to put your mac to sleep.
 
 Open it in Apple's **Script Editor** (from */Applications/Utilities/*) and fill in the correct values for LMS username and LMS password. If you don't use a username and password with LMS just remove this part from the curl commands:<br>
 `--user '" & LMSusername & ":" & LMSuserPW & "'`
