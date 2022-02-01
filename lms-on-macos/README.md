@@ -80,7 +80,7 @@ If you're using a dedicated, maybe older and headless mac to host LMS you may wa
 
 First, disable all OS sleep settings. In **System Preferences** > **Energy Saver** and set **Display sleep** and **Computer sleep** to **Never**. And make sure that **Wake for Ethernet network access** is ticked.
 
-Then download the [**Narcolepsy Applescript script**](https://github.com/AF-1/sobras/tree/main/lms-on-macos/scripts)_*_ that will handle everything necessary to put your mac to sleep.
+Then download the [**Narcolepsy Applescript script**](https://github.com/AF-1/sobras/tree/main/lms-on-macos/resources)_*_ that will handle everything necessary to put your mac to sleep.
 
 Open it in Apple's **Script Editor** (from */Applications/Utilities/*) and fill in the correct values for LMS username and LMS password. If you don't use a username and password with LMS just remove this part from the curl commands:<br>
 `--user '" & LMSusername & ":" & LMSuserPW & "'`
@@ -116,4 +116,20 @@ Confirm it's listed with:<br>
 `nvram -p | grep darkwake`<br>
 
 Reboot your Mac.
+<br><br><br><br>
 
+
+## App to wake your LMS Mac
+
+Most LMS players will send a 'magic packet' (Wake-on-LAN / WOL) to wake your LMS Mac or, if not enabled by default, have a setting where you can enable auto-waking the server.
+
+But if you disable *dark wake* there may be times when you'll have to wake your LMS Mac yourself, i.e. manually use a WOL command / send a 'magic packet' to wake your server.
+
+It happens, for example, when I'm using the web UI (*LMS default skin* or *Material*) on another machine. With dark wake disabled entering the LMS server IP into the browser url bar will **not** wake the server.
+
+I use a tiny AppleScript app with a Mac wake-on-lan binary to wake my LMS Mac.<br>
+[**Download the app**](https://github.com/AF-1/sobras/tree/main/lms-on-macos/resources) and open it in Apple's **Script Editor** (from */Applications/Utilities/*) to **change the values for server IP and server MAC address**. You can find both values on the *LMS settings* > *Information* page. Since it doesn't have a developer ID you may have to remove the quarantine flag of that app before starting it:
+
+`sudo xattr -r -d com.apple.quarantine path/to/WakeMac.app`
+
+One click to start the WakeMac app and the server should wake up.
