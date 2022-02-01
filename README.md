@@ -29,3 +29,9 @@ This guide will cover how to install the Music Similarity **server** on macOS (i
 ➔ [*lms-music-similarity_on_macos*](https://github.com/AF-1/sobras/tree/main/lms-music-similarity_on_macos)
 <br><br>
 
+## LMS on macOS - LMS auto-start, mac sleep...
+
+How I start LMS on my headless Mac mini - and how I make sure it goes to sleep when I don't use LMS.
+<br><br>
+➔ [*lms-on-macos*](https://github.com/AF-1/sobras/tree/main/lms-on-macos)
+<br><br>
