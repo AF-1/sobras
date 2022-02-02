@@ -94,7 +94,7 @@ Here's an example of some paths that you'll have to change:
 
 **"local"** and **"lms"** point to where your music files are stored.<br>
 
-**If you run into problems with the SVM models try replacing MusicSimilarity's Essentia models (beta1) with the ones provided in this repo (beta5).**<br><br>
+**Version 2.1beta6 of Essentia's *streaming_extractor_music* binary requires the 2.1beta5 SVM (Gaia) models. So you have to replace MusicSimilarity's Essentia models (beta1) with the ones provided in this repo (beta5).**<br><br>
 
 
 
