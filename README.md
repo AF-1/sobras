@@ -20,8 +20,6 @@ Here's how to do it.
 
 ## LMS - Music Similarity on macOS
 
-Music Similarity is a "python3 script to analyse your music collection with Musly and (optionally) Essentia, and to provide a simple HTTP API allowing the creation of mix of similar music for LMS".<br>
-
 **Music Similarity** will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.<br>
 
 This guide will cover how to install the Music Similarity **server** on macOS (includes the necessary binaries for macOS).
