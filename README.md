@@ -31,15 +31,3 @@ How to sync your macOS Music (app) library ratings to LMS using file tags (BPM o
 <br><br>
 ➔ [*lms-ratings-sync-file-tags*](https://github.com/AF-1/sobras/tree/main/lms-ratings-sync-file-tags)
 <br><br>
-
-
-## LMS - Music Similarity on macOS
-
-Try [**Bliss Mixer**](https://github.com/CDrummond/lms-blissmixer) instead.<br>
-
-~~**Music Similarity** will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a dynamic playlist with similar tracks in LMS.~~<br>
-
-~~This guide will cover how to install the Music Similarity **server** on macOS (includes the necessary binaries for macOS).~~
-<br><br>
-➔ [*lms-music-similarity_on_macos*](https://github.com/AF-1/sobras/tree/main/lms-music-similarity_on_macos)
-<br><br>

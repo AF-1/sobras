@@ -1,6 +1,8 @@
 Install Music Similarity Server on macOS
 ====
 
+Maybe try [**Bliss Mixer**](https://github.com/CDrummond/lms-blissmixer) instead.<br>
+
 **Music Similarity** is a "python3 script to analyse your music collection with Bliss, Essentia, and Musly, and to provide a simple HTTP API allowing the creation of mix of similar music for LMS.."<br>
 
 [**Music Similarity Server**](https://github.com/CDrummond/music-similarity) together with the LMS companion plugin ([Music Similarity](https://github.com/CDrummond/lms-musicsimilarity)) will find music tracks similar to a specific track or use the LMS plugin *Don't Stop The Music* to create a continuous mix of similar tracks in LMS.<br><br>
