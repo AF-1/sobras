@@ -38,13 +38,13 @@
 			<link>https://github.com/AF-1/lms-customskip#faq</link>
 			<sha>8f2608476a763ebc2e22fe8f22e065b72a6203c7</sha>
 		</plugin>
-		<plugin name="SQLiteVirtualLibraries" version="0.3.4" minTarget="7.9" maxTarget="*">
+		<plugin name="SQLiteVirtualLibraries" version="0.3.5" minTarget="7.9" maxTarget="*">
 			<title lang="EN">SQLite Virtual Libraries</title>
 			<desc lang="EN">Create your own virtual libraries using files with an SQLite statement and create browse menus for any LMS virtual library, incl. those not created with SQLVL.</desc>
-			<url>https://github.com/AF-1/lms-sqlitevirtuallibraries/releases/download/0.3.4/lms-sqlitevirtuallibraries-0.3.4.zip</url>
+			<url>https://github.com/AF-1/lms-sqlitevirtuallibraries/releases/download/0.3.5/lms-sqlitevirtuallibraries-0.3.5.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-sqlitevirtuallibraries</link>
-			<sha>99d4f41ac00aabd694861240486ef0b2059f5a91</sha>
+			<sha>981a5220c65c10e40183a217464178cb60c4852d</sha>
 		</plugin>
 		<plugin name="AlternativePlayCount" version="0.3.9" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
