@@ -1,6 +1,6 @@
 LMS on my mac
 ====
-My (headless) Mac mini runs the latest macOS 10.15. So while I can't know if anything I'll describe below works with later OS versions or on M1 machines I guess that some or most of it will work.
+My (headless) Mac mini runs the latest macOS 10.15. So I don't know if anything I'll describe below works with later OS versions or on M1 machines but I guess that some or most of it will.
 <br><br><br>
 
 
@@ -8,7 +8,7 @@ My (headless) Mac mini runs the latest macOS 10.15. So while I can't know if any
 
 If the default method to start LMS works fine for you, skip this. There's more than one way to start LMS on a Mac. Here's mine:<br>
 I have **auto-login enabled** so that when I start my mac it will boot directly into the user account that runs LMS.<br>
-And I suppose that you've already granted one or more perl binaries (/usr/bin/perl, /usr/bin/perl5.18, /usr/bin/perl5.28) **Full Disk Access** (*System Preferences* > *Security & Privacy* > *Full Disk Access*).
+And I suppose that you've already granted one or more perl binaries (/usr/bin/perl, /usr/bin/perl5.18, /usr/bin/perl5.28 or the one that's installed by the LMS package) **Full Disk Access** (*System Preferences* > *Security & Privacy* > *Full Disk Access*).
 
 Log in to the user account that runs LMS.
 
@@ -93,11 +93,11 @@ If you want it to **start automatically after every OS reboot**: open **System P
 That should be it.<br><br>
 
 ### Editing the script
-You can edit the script, of course: change time values, add more conditions or apps Narcolepsy should monitor. If Narcolepsy doesn't put your mac to sleep try setting **debug output** to **true** for more detailled information.<br><br>
+You can edit the script, of course: change time values, add more conditions or apps Narcolepsy should monitor. If Narcolepsy doesn't put your mac to sleep try setting **debug output** to **true** for more detailed information.<br><br>
 
 ### Notes
 * *Narcolepsy* will not put your mac to sleep if **any** of your players is still active/switched on.
-* If you edit the script and save it as an application you have to start the app afterwards so macOS can ask you for the required permissions. Unfortunately, every edit seems to require a regranting of permissions.
+* If you edit the script and save it as an application, you have to start the app afterwards so macOS can ask you for the required permissions. Unfortunately, every edit seems to require a regranting of permissions.
 <br><br>
 
 _*_ based on the 2012 script by Kynan Shook & Torben Schreiter

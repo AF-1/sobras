@@ -30,4 +30,4 @@ This manual describes how to display track ratings / rating stars on the Now Pla
 <br><br>
 **Disable SSH** on your device if no longer needed.
 <br><br><br><br><br>
-**Disclaimer:** Modifying the NowPlaying applet and the WQVGAsmall skin applet works for me. But *I don't take any responsibility* if you mess up your Now Playing screen in the process. If you forgot to back up the original files before modifying them and it didn't work out you can always reset the firmware (restore factory settings).
+**Disclaimer:** Modifying the NowPlaying applet and the WQVGAsmall skin applet works for me. But *I don't take any responsibility* if you mess up your Now Playing screen in the process. If you forgot to back up the original files before modifying them and it didn't work out, you can always reset the firmware (restore factory settings).

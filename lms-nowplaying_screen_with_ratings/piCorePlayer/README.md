@@ -58,4 +58,4 @@ Let's **run the script after (every) boot**:<br>
 `sudo filetool.sh -b`<br><br>
 Now **reboot** your piCorePlayer with `sudo reboot`
 <br><br><br><br><br>
-**Disclaimer:** Modifying the NowPlaying applet and the Joggler skin applet works for me. But *I don't take any responsibility* if you mess up your Now Playing screen in the process. If you forgot to back up the original files before modifying them and it didn't work out you can always restore from a backup of your piCorePlayer SD card.
+**Disclaimer:** Modifying the NowPlaying applet and the Joggler skin applet works for me. But *I don't take any responsibility* if you mess up your Now Playing screen in the process. If you forgot to back up the original files before modifying them and it didn't work out, you can always restore from a backup of your piCorePlayer SD card.

@@ -17,10 +17,8 @@ This is a mod of the **Now Playing** screen that enables the **display of rating
 <br>
 
 Each subfolder contains the modified files for the *NowPlaying* applet, one *skin* applet (usually the default one), and the rating star images. Plus some basic installation instructions.
-<br><br>
+<br>
 
-
-### Info
-* If you use the **Ratings Light** plugin to set track ratings and you change the rating value of the currently playing track anywhere else (another player, web UI) the displayed rating on your NowPlaying screen will only take a moment to update.
+If you use the [**Ratings Light**](https://github.com/AF-1/lms-ratingslight) plugin to **set track ratings** and you change the rating value of the currently playing track anywhere else (another player, web UI), the **displayed rating** on your NowPlaying screen **will only take a moment to update**.
 <br><br>
-* You can **define a keyword** in the *NowPlayingApplet.lua* (line 127 or 128). If the current track's **comment tag** contains this keyword the **track title gets a slight glow** (see radio screenshot #2).
+You can **define a keyword** in the *NowPlayingApplet.lua* (line 127 or 128). If the current track's **comments tag** contains this keyword the **track title gets a slight glow** (see radio screenshot #2).
