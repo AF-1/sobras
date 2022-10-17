@@ -1,7 +1,6 @@
 about
 ====
-LMS = [Logitech Media Server](https://github.com/Logitech/slimserver)
-<br><br>
+<br>
 
 ## Display track ratings on *Now Playing* screen (piCorePlayer, Touch, Radio, SqueezePlay)
 
@@ -10,9 +9,9 @@ A mod of the **Now Playing** screen that enables the display of track ratings on
 ➔ [*More detailed information*](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings)
 <br><br>
 
-## Change default font - use title formats with rating star ★ (piCorePlayer, Touch, Radio, SqueezePlay)
+## Use title formats with rating star ★ on piCorePlayer, Touch, Radio or SqueezePlay
 
-If you want to use the black star character ★ to display track ratings (LMS title formats), you have to **replace the default font** on piCorePlayer, SB Touch, SB Radio or other devices running *jivelite* with a font that includes the black star character.
+If you want to use the black star character ★ to display track ratings (LMS title formats) on players with a *jivelite* UI (piCorePlayer, Touch, Radio or SqueezePlay), you have to **replace the default font** on these devices with a font that includes the black star character.
 <br><br>
 ➔ [*More detailed information*](https://github.com/AF-1/sobras/tree/main/lms-jivelite-change-font)
 <br><br>
