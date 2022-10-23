@@ -1,4 +1,4 @@
-piCorePlayer - display ratings on *Now Playing* screen
+piCorePlayer - display ratings & lyrics on *Now Playing* screen
 ====
 tested with piCorePlayer v8.2.0<br>
 and 7″ touchscreen monitor (Raspberry Pi Foundation)<br><br>

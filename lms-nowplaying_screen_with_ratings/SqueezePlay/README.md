@@ -1,4 +1,4 @@
-SqueezePlay - display ratings on *Now Playing* screen
+SqueezePlay - display ratings & lyrics on *Now Playing* screen
 ====
 tested with SqueezePlay v8.0.1r1382 (macOS 12)<br>
 
