@@ -30,8 +30,8 @@ local Tile             = require("jive.ui.Tile")
 local Timer            = require("jive.ui.Timer")
 local Player           = require("jive.slim.Player")
 
-local VUMeter          = require("jive.vis.VUMeter")
-local SpectrumMeter    = require("jive.vis.SpectrumMeter")
+local VUMeter          = require("jive.audio.VUMeter")
+local SpectrumMeter    = require("jive.audio.SpectrumMeter")
 
 local debug            = require("jive.utils.debug")
 local datetime         = require("jive.utils.datetime")
@@ -110,7 +110,6 @@ local function _getIcon(self, item, icon, remote)
 	end
 
 	if iconId then
-		log:debug(":_getIcon ",iconId,",", icon,",", ARTWORK_SIZE )
 		-- Fetch an image from SlimServer
 		server:fetchArtwork(iconId, icon, ARTWORK_SIZE)
 	elseif item and item["params"] and item["params"]["track_id"] then
@@ -173,6 +172,7 @@ end
 function init(self)
 
 	jnt:subscribe(self)
+
 	self.player = false
 	self.lastVolumeSliderAdjustT = 0
 	self.cumulativeScrollTicks = 0
@@ -283,9 +283,8 @@ function getNPStyles(self)
 		end
 	end
 
-	if log:isDebug() then
-		debug.dump(auditedNPStyles)
-	end
+	-- for debug
+	--debug.dump(auditedNPStyles)
 
 	return auditedNPStyles
 end
@@ -736,15 +735,8 @@ end
 
 
 function notify_skinSelected(self)
-	log:debug("notify_skinSelected")
 	-- update menu
 	notify_playerCurrent(self, self.player)
-	-- update NP style info.
-	self.nowPlayingScreenStyles = self:getNPStyles()
-	if self.window and self.player then
-		-- redisplay with no extra transition
-		self:replaceNPWindow(true)
-	end
 end
 
 
@@ -829,6 +821,15 @@ function _updateAll(self)
 	self:_updateVolume()
 end
 
+function _getButtons(self, playerStatus)
+	if not playerStatus then playerStatus = self.player:getPlayerStatus() end
+
+	if playerStatus then
+		return playerStatus.buttons or
+			(playerStatus.remoteMeta and playerStatus.remoteMeta.buttons)
+	end
+end
+
 function _updateButtons(self, playerStatus)
 	log:debug('_updateButtons')
 	-- no sense updating the transport buttons unless
@@ -837,20 +838,23 @@ function _updateButtons(self, playerStatus)
 		return
 	end
 
-	local remoteMeta = playerStatus.remoteMeta
+	local buttons = self:_getButtons(playerStatus)
 
-	local buttons = remoteMeta and remoteMeta.buttons
-	-- if we have buttons data, the remoteMeta is remapping some buttons
+	-- if we have buttons data we are remapping some buttons
 	if buttons then
-		log:debug('remap buttons to whatever remoteMeta needs')
+		log:debug('remap buttons')
+		local button
+
 		-- disable rew or fw as needed
-		if buttons.rew and tonumber(buttons.rew) == 0 then
+		button = buttons.rew
+		if button and tonumber(button) == 0 then
 			self:_remapButton('rew', 'rewDisabled', nil)
 		else
 			self.controlsGroup:setWidget('rew', self.rewButton)
 		end
 
-		if buttons.fwd and tonumber(buttons.fwd) == 0 then
+		button = buttons.fwd
+		if button and tonumber(button) == 0 then
 			-- Bug 15336: in order for a skip limit showBriefly to be generated, we still need to
 			-- allow the jump_fwd action to be sent for the disabled button
 			-- this could have implications for services that expect a disabled button to not send the action
@@ -859,27 +863,29 @@ function _updateButtons(self, playerStatus)
 			self.controlsGroup:setWidget('fwd', self.fwdButton)
 		end
 
-		if buttons.shuffle then
+		button = buttons.like or buttons.shuffle	-- backwards compatible
+		if button then
+			local command = button.command or function() return EVENT_CONSUME end
 			local callback = function()
 				local id      = self.player:getId()
 				local server  = self.player:getSlimServer()
-				local command = buttons.shuffle.command or function() return EVENT_CONSUME end
 				server:userRequest(nil, id, command)
 			end
-			self:_remapButton('shuffleMode', buttons.shuffle.jiveStyle, callback)
+			self:_remapButton('shuffleMode', button.jiveStyle, callback)
 		end
 
-		if buttons['repeat'] then
+		button = buttons.dislike or buttons['repeat']	-- backwards compatible
+		if button then
+			local command = button.command or function() return EVENT_CONSUME end
 			local callback = function()
 				local id      = self.player:getId()
 				local server  = self.player:getSlimServer()
-				local command = buttons['repeat'].command or function() return EVENT_CONSUME end
 				server:userRequest(nil, id, command)
 			end
-			self:_remapButton('repeatMode', buttons['repeat'].jiveStyle, callback)
+			self:_remapButton('repeatMode', button.jiveStyle, callback)
 		end
 
-	-- if we don't have remoteMeta and button remapping, go back to defaults
+	-- if we don't have button remapping, go back to defaults
 	else
 		local playlistSize = self.player and self.player:getPlaylistSize()
 		-- bug 15085, gray out buttons under certain circumstances
@@ -1116,19 +1122,23 @@ function _updatePosition(self)
 			elapsedWidget:setStyle('elapsed')
 		end
 		--]]
+		elapsedWidget:setStyle('elapsed')
+
 		self.progressGroup:setWidgetValue("elapsed", strElapsed)
 
 		if showProgressBar then
 			local remainWidget = self.progressGroup:getWidget('remain')
 			local remainLen    = string.len(strRemain)
 			local remainStyle  = remainWidget:getStyle()
-		--[[
+			--[[
 			if remainLen > 5 and remainStyle ~= 'remainSmall' then
 				remainWidget:setStyle('remainSmall')
 			elseif remainLen <= 5 and remainStyle ~= 'remain' then
 				remainWidget:setStyle('remain')
 			end
-		--]]
+			--]]
+			remainWidget:setStyle('remain')
+
 			self.progressGroup:setWidgetValue("remain", strRemain)
 			self.progressSlider:setValue(elapsed)
 		end
@@ -1156,11 +1166,8 @@ function _updateShuffle(self, mode)
 	log:debug("_updateShuffle(): ", mode)
 	-- don't update this if SC/SN has remapped shuffle button
 	if self.player then
-		local playerStatus = self.player:getPlayerStatus()
-		if playerStatus and
-			playerStatus.remoteMeta and
-			playerStatus.remoteMeta.buttons and
-			playerStatus.remoteMeta.shuffle then
+		local buttons = self:_getButtons()
+		if buttons and buttons.shuffle then
 			return
 		end
 	end
@@ -1180,11 +1187,8 @@ function _updateRepeat(self, mode)
 	log:debug("_updateRepeat(): ", mode)
 	-- don't update this if SC/SN has remapped repeat button
 	if self.player then
-		local playerStatus = self.player:getPlayerStatus()
-		if playerStatus and
-			playerStatus.remoteMeta and
-			playerStatus.remoteMeta.buttons and
-			playerStatus.remoteMeta['repeat'] then
+		local buttons = self:_getButtons()
+		if buttons and buttons['repeat'] then
 			return
 		end
 	end
@@ -1204,7 +1208,7 @@ function _updateMode(self, mode)
 	local token = mode
 	-- sometimes there is a race condition here between updating player mode and power,
 	-- so only set the title to 'off' if the mode is also not 'play'
-	if token ~= 'play' and not self.player:isPowerOn() then
+	if token != 'play' and not self.player:isPowerOn() then
 		token = 'off'
 	end
 	if self.titleGroup then
@@ -1256,22 +1260,6 @@ function _installListeners(self, window)
 		return EVENT_CONSUME
 
 	end
-
-	-- FIXME: hack to deal with removing actions from left/right - fix this in more generic way?
-	window:addListener(EVENT_KEY_PRESS,
-		function(event)
-			local keycode = event:getKeycode()
-			if keycode == KEY_LEFT then
-				Framework:pushAction("back")
-				return EVENT_CONSUME
-			end
-			if keycode == KEY_RIGHT then
-				Framework:pushAction("go")
-				return EVENT_CONSUME
-			end
-			return EVENT_UNUSED
-		end
-	)
 
 	window:addActionListener("go", self, showPlaylistAction)
 	window:addActionListener("go_home", self, _goHomeAction)
@@ -1433,18 +1421,20 @@ function toggleNPScreenStyle(self)
 end
 
 
-function replaceNPWindow(self,noTrans)
+function replaceNPWindow(self)
 	log:debug("REPLACING NP WINDOW")
 	local oldWindow = self.window
 
 	self.window = _createUI(self)
 	if self.player and self.player:getPlayerStatus() then
-		self:_updateButtons(self.player:getPlayerStatus())
+		self:_updateButtons()
 		self:_updateRepeat(self.player:getPlayerStatus()['playlist repeat'])
 		self:_updateShuffle(self.player:getPlayerStatus()['playlist shuffle'])
 	end
 	self:_refreshRightButton()
-	self.window:replace(oldWindow, noTrans and Window.transitionNone or Window.transitionFadeIn)
+	self.window:replace(oldWindow, Window.transitionFadeIn)
+
+
 end
 
 
@@ -1974,6 +1964,7 @@ function showNowPlaying(self, transition, direct)
 ----------------------------------
 ----------------------------------
 
+
 	local playerStatus = self.player and self.player:getPlayerStatus()
 
 	log:debug("player=", self.player, " status=", playerStatus)
@@ -2106,4 +2097,5 @@ function free(self)
 
 	return true
 end
+
 

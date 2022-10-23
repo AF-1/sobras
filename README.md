@@ -4,7 +4,7 @@ about
 
 ## Display track ratings on *Now Playing* screen (piCorePlayer, Touch, Radio, SqueezePlay)
 
-A mod of the **Now Playing** screen that enables the display of track ratings on **piCorePlayer**, **SB Touch**, **SB Radio** and **SqueezePlay**.
+A mod of the **Now Playing** screen that enables the display of track ratings on **piCorePlayer**, **SB Touch**, **SB Radio** and **SqueezePlay**. It also includes an **alternative Now Playing View** that **displays track lyrics** (pCP, Touch and SqueezePlay only).
 <br><br>
 ➔ [*More detailed information*](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings)
 <br><br>

@@ -1,12 +1,13 @@
 piCorePlayer - display ratings on *Now Playing* screen
 ====
-tested with piCorePlayer v8.1.0<br>
+tested with piCorePlayer v8.2.0<br>
 and 7″ touchscreen monitor (Raspberry Pi Foundation)<br><br>
 
 ![screenshot1](../screenshots/pcp1.jpg)<br><br>
-![screenshot2](../screenshots/pcp2.jpg)
+![screenshot1](../screenshots/pcp2.jpg)<br><br>
+![screenshot2](../screenshots/pcp3.jpg)
 <br><br>
-This manual describes how to display track ratings / rating stars on the Now Playing screen of a **piCorePlayer** (that uses the *Joggler* skin).<br><br>
+This manual describes how to display track ratings / rating stars on the Now Playing screen of a **piCorePlayer** (that uses the *Joggler* skin).<br>It also includes an **alternative Now Playing View** that **displays track lyrics** (see screenshot 3). You may have to enable this in your settings: *Settings*  > *Screen* > *Now Playing* > *Now Playing Views* > *Lyrics*.<br><br>
 
 
 # Installation
