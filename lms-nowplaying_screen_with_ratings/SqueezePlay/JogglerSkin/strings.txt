@@ -13,7 +13,7 @@ JOGGLER_SKIN_1280_800
 
 JOGGLER_SKIN_1366_768
 	EN	Touch Skin (1366x768)
-	
+
 JOGGLER_SKIN_CUSTOM
 	EN	Touch Skin
 
@@ -218,7 +218,7 @@ LARGE_ART_AND_TEXT
 	DE	Grosse Plattenhülle und Text
 	EN	Large Artwork and Text
 	FR	Grande Pochette et texte
-	
+
 ART_AND_TEXT
 	CS	Obal alba a text
 	DA	Albumcover og tekst
@@ -265,7 +265,6 @@ TEXT_LYRICS
 	RU	Тексты
 	SV	Text
 	ZH_CN	歌词
-
 
 ART_ONLY
 	CS	Pouze obal alba
