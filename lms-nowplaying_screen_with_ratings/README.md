@@ -6,9 +6,10 @@ This is a mod of the **Now Playing** screen that enables the **display of rating
 ## **SB Touch**
 ![screenshot1](screenshots/touch.jpg)<br><br><br>
 
-## **piCorePlayer**
+## **piCorePlayer** & **SqueezePlay**
 ![screenshot1](screenshots/pcp1.jpg)<br><br>
 ![screenshot2](screenshots/pcp2.jpg)<br><br>
+![screenshot3](screenshots/pcp3.jpg)<br><br>
 
 ## **SB Radio**
 ![screenshot1](screenshots/radio1.jpg)<br><br>
