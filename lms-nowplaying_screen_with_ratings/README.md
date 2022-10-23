@@ -3,13 +3,13 @@ Display ratings on *Now Playing* screen (Touch, piCorePlayer, Radio)
 
 This is a mod of the **Now Playing** screen that enables the **display of ratings** (pulled directly from the LMS) on *these devices*:
 
-## **SB Touch**
-![screenshot1](screenshots/touch.jpg)<br><br><br>
-
 ## **piCorePlayer** & **SqueezePlay**
 ![screenshot1](screenshots/pcp1.jpg)<br><br>
 ![screenshot2](screenshots/pcp2.jpg)<br><br>
 ![screenshot3](screenshots/pcp3.jpg)<br><br>
+
+## **SB Touch**
+![screenshot1](screenshots/touch.jpg)<br><br><br>
 
 ## **SB Radio**
 ![screenshot1](screenshots/radio1.jpg)<br><br>
