@@ -35,7 +35,7 @@
 
 		<plugin name="DynamicPlaylists3" version="3.7.8" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 3</title>
-			<desc lang="EN">Update to notify users of version 3 that version 4 is available and has to be installed manually. More information on the GitHub page.</desc>
+			<desc lang="EN">Install ONLY if you don't want to upgrade to version 4 which has to be installed manually. Please read the upgrade FAQ on the this plugin's GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/3.7.8/lms-dynamicplaylists-3.7.8.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylists#faq</link>
