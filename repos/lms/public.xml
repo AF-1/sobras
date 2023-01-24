@@ -33,23 +33,13 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists3" version="3.7.8" minTarget="7.9" maxTarget="*">
-			<title lang="EN">Dynamic Playlists 3</title>
-			<desc lang="EN">Install ONLY if you don't want to upgrade to version 4 which has to be installed manually. Please read the upgrade FAQ on the this plugin's GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/3.7.8/lms-dynamicplaylists-3.7.8.zip</url>
-			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-dynamicplaylists#faq</link>
-			<sha>fcb601b9998c266f43f5a074bb169bb377746730</sha>
-		</plugin>
-
-
-		<plugin name="DynamicPlaylists4" version="4.0.8" minTarget="7.9" maxTarget="*">
+		<plugin name="DynamicPlaylists4" version="4.0.9" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 4</title>
 			<desc lang="EN">This plugin lets you play continuous music mixes based on selection criteria defined in so-called dynamic playlists. Comes with a number of ready-to-use dynamic playlists. If you're upgrading from version 3, please READ THE UPGRADE FAQ on the GitHub page before installing version 4.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.0.8/lms-dynamicplaylists-4.0.8.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.0.9/lms-dynamicplaylists-4.0.9.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylists#faq</link>
-			<sha>6d76f5b79436788b8d1996e4259ff8e77e7c9e30</sha>
+			<sha>38bb4580f2d936e6c247ea555adf9544f1c155af</sha>
 		</plugin>
 
 
