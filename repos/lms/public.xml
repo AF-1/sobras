@@ -3,13 +3,13 @@
 		<title lang="EN">AF-1 Repo</title>
 	</details>
 	<plugins>
-		<plugin name="AlternativePlayCount" version="1.2.2" minTarget="7.9" maxTarget="*">
+		<plugin name="AlternativePlayCount" version="1.2.3" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. Create (scheduled) backups, restore from backups. More information on the GitHub page. Intended as a companion plugin for 'Dynamic Playlists' and 'Visual Statistics'.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.2.2/lms-alternativeplaycount-1.2.2.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.2.3/lms-alternativeplaycount-1.2.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-alternativeplaycount</link>
-			<sha>7f2991e14a286e99411ae94e8ed829941801d5ca</sha>
+			<sha>66364fb7664d2c59d485bc00b6b99494fe714b0b</sha>
 		</plugin>
 
 
