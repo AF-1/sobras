@@ -33,13 +33,13 @@
 		</plugin>
 
 
-		<plugin name="DarkDefaultSkin" version="0.1.8" minTarget="7.9" maxTarget="*">
+		<plugin name="DarkDefaultSkin" version="0.1.9" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dark Default Skin</title>
 			<desc lang="EN">Dark-themed version of the LMS Default skin. Screenshots and more information on GitHub.</desc>
-			<url>https://github.com/AF-1/lms-darkdefaultskin/releases/download/0.1.8/lms-darkdefaultskin-0.1.8.zip</url>
+			<url>https://github.com/AF-1/lms-darkdefaultskin/releases/download/0.1.9/lms-darkdefaultskin-0.1.9.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-darkdefaultskin</link>
-			<sha>447ad17e04ddc890e70a89fa2cb55d1fad0419e2</sha>
+			<sha>cfc141e86b2db97d286471f803b1ec858262ac85</sha>
 		</plugin>
 
 
