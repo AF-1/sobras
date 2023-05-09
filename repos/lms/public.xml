@@ -23,13 +23,13 @@
 		</plugin>
 
 
-		<plugin name="CustomStartStopTimes" version="1.0.1" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomStartStopTimes" version="1.0.2" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Start Stop Times</title>
 			<desc lang="EN">This plugin allows you to start and stop tracks at a specified playback/song time. Just add custom start and stop times to a track's comments tag and, with the help of this plugin, the song will start and end, i.e. skip to the next one, when you want it to. No more annoying song intros or minutes of silence at the end. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.0.1/lms-customstartstoptimes-1.0.1.zip</url>
+			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.0.2/lms-customstartstoptimes-1.0.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customstartstoptimes</link>
-			<sha>7c59319654c4216e5a22d5500bfa3380688e4305</sha>
+			<sha>8908995a5efca51b5f18b7a58db0069f18d8aa12</sha>
 		</plugin>
 
 
