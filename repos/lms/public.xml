@@ -33,6 +33,16 @@
 		</plugin>
 
 
+		<plugin name="CustomTagImporter" version="1.0.2" minTarget="7.9" maxTarget="*">
+			<title lang="EN">CustomTagImporter</title>
+			<desc lang="EN">Custom Tag Importer scans track information from custom tags in your music files (incl. rating tags). More information on the GitHub page.</desc>
+			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.0.2/lms-customtagimporter-1.0.2.zip</url>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/lms-customtagimporter</link>
+			<sha>056d6016ebc8681294594be0c02791eb34c0e126</sha>
+		</plugin>
+
+
 		<plugin name="DarkDefaultSkin" version="0.1.9" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dark Default Skin</title>
 			<desc lang="EN">Dark-themed version of the LMS Default skin. Screenshots and more information on GitHub.</desc>
