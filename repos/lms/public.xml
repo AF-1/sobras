@@ -83,6 +83,16 @@
 		</plugin>
 
 
+		<plugin name="SQLiteVirtualLibraries" version="1.0.5" minTarget="7.9" maxTarget="*">
+			<title lang="EN">SQLite Virtual Libraries</title>
+			<desc lang="EN">This plugin is deprecated. Please try the Virtual Library Creator plugin instead.</desc>
+			<url>https://github.com/AF-1/lms-sqlitevirtuallibraries/releases/download/1.0.5/lms-sqlitevirtuallibraries-1.0.5.zip</url>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/lms-sqlitevirtuallibraries</link>
+			<sha>79578718fc5143b3458ae1018cb233579ded93c2</sha>
+		</plugin>
+
+
 		<plugin name="VirtualLibraryCreator" version="1.0.2" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
 			<desc lang="EN">Create custom virtual libraries with optional LMS browse menus using a template in a browser or by adding files with customized SQLite statements. More information on the GitHub page.</desc>
