@@ -3,15 +3,15 @@ Display ratings on *Now Playing* screen
 
 This is a mod of the **Now Playing** screen that enables the **display of ratings** and lyrics on *these devices*:
 
-# [**piCorePlayer**](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/piCorePlayer) & [**SqueezePlay**](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/SqueezePlay) (ratings & lyrics)
+## [**piCorePlayer**](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/piCorePlayer) & [**SqueezePlay**](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/SqueezePlay) (ratings & lyrics)
 ![screenshot1](screenshots/pcp1.jpg)<br><br>
 ![screenshot2](screenshots/pcp2.jpg)<br><br>
 ![screenshot3](screenshots/pcp3.jpg)<br><br><br>
 
-# [**SB Touch**](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/SB%20Touch) (ratings)
+## [**SB Touch**](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/SB%20Touch) (ratings)
 [![screenshot1](screenshots/touch.jpg)](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/SB%20Touch)<br><br><br>
 
-# [**SB Radio**](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/SB%20Radio) (ratings)
+## [**SB Radio**](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/SB%20Radio) (ratings)
 [![screenshot1](screenshots/radio1.jpg)](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/SB%20Radio)<br><br>
 [![screenshot2](screenshots/radio2.jpg)](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/SB%20Radio)<br><br><br>
 
