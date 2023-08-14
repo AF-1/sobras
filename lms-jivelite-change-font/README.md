@@ -46,7 +46,7 @@ Reboot.
 
 - On the **SB Touch**, there's **alternative**: use a USB Stick (e.g. formatted as FAT32 / MBR) and copy the file to it. Insert it into the SB Touch and copy the files from there:<br>
 `cp /media/sda1/FreeSans.ttf /media/sda1/FreeSansBold.ttf /usr/share/jive/fonts/`<br><br>
-Probably optional: set correct permissions:<br>
+Set correct permissions (optional):<br>
 `cd /usr/share/jive/fonts/ && chmod 644 FreeSans.ttf && chmod 644 FreeSansBold.ttf`<br><br>
 
 
