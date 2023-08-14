@@ -37,4 +37,4 @@ This manual describes how to display track ratings / rating stars on the Now Pla
 
 **NowPlayingApplet version with subscribe function**:<br>
 I've included a second version of the **NowPlayingApplet.lua** file. This version includes a *subscribe* function that allows your Radio to update the rating value on your *Now Playing* screen without user interaction when the rating value has been changed elsewhere.<br>
-Unfortunately, it makes the *NowPlaying* **menu item** disappear from the *home menu*. Otherwise it works as expected. So it's a trade-off between auto-updating the rating value on the Now Playing screen (while the song is playing) and having the NowPlaying home menu item.<br>If in doubt, use the version **without** the subscribe function.
+⚠️ Unfortunately, it makes the *NowPlaying* **menu item** disappear from the *home menu*. Otherwise it works as expected. So it's a trade-off between auto-updating the rating value on the Now Playing screen (while the song is playing) and having the NowPlaying home menu item.<br>If in doubt, use the version **without** the subscribe function.
