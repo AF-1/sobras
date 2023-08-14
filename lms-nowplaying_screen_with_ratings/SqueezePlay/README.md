@@ -11,7 +11,7 @@ This manual describes how to display track ratings / rating stars on the Now Pla
 
 # Installation
 
-[**Download the modified files from this repository.**](https://github.com/AF-1/sobras/raw/main/lms-nowplaying_screen_with_ratings/NPmodFiles-SqueezePlay.zip)
+[**Download the modified files from this repository.**](https://github.com/AF-1/sobras/raw/main/lms-nowplaying_screen_with_ratings/SqueezePlay/NPmodFiles-SqueezePlay.zip)
 
 You just have to  move a couple of files. The paths here are for macOS. If you're on Windows or Linux, just locate the corresponding folders and use those.
 

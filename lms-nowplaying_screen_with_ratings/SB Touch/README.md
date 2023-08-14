@@ -9,7 +9,7 @@ This manual describes how to display track ratings / rating stars on the Now Pla
 
 ## Installation
 
-[**Download the modified files from this repository.**](https://github.com/AF-1/sobras/raw/main/lms-nowplaying_screen_with_ratings/NPmodFiles-SBTouch.zip)
+[**Download the modified files from this repository.**](https://github.com/AF-1/sobras/raw/main/lms-nowplaying_screen_with_ratings/SB%20Touch/NPmodFiles-SBTouch.zip)
 
 **Enable Remote Access** (ssh) on your SB Touch: *Settings* > *Advanced* > *Remote Login* > *Enable SSH*
 <br><br>
