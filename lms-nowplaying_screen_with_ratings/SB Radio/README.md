@@ -10,6 +10,8 @@ This manual describes how to display track ratings / rating stars on the Now Pla
 
 ## Installation
 
+[**Download the modified files from this repository.**](https://github.com/AF-1/sobras/raw/main/lms-nowplaying_screen_with_ratings/NPmodFiles-SBRadio.zip)
+
 **Enable Remote Access** (ssh) on your SB Radio: *Settings* > *Advanced* > *Remote Login* > *Enable SSH*
 <br><br>
 **Log into** your device (user: root, default password: 1234). You may need to use legacy algorithms and ciphers to log in:<br>

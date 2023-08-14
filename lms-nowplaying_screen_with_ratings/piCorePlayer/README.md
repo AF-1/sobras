@@ -14,6 +14,8 @@ This manual describes how to display track ratings / rating stars on the Now Pla
 
 **Recommended**: create a complete backup of your piCorePlayer SD card. Makes restoring quick and easy if something goes wrong.
 
+[**Download the modified files from this repository.**](https://github.com/AF-1/sobras/raw/main/lms-nowplaying_screen_with_ratings/NPmodFiles-pCP.zip)
+
 ### Remote access (ssh)
 On piCorePlayer *remote access* (ssh) should be enabled by default.<br>
 If ssh is disabled here's how to enable it:<br>

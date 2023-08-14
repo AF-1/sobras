@@ -1,15 +1,17 @@
 SqueezePlay - display ratings & lyrics on *Now Playing* screen
 ====
-tested with SqueezePlay v8.0.1r1382 (macOS 12)<br>
+tested with SqueezePlay v8.0.1r1382 (macOS 13)<br>
 
 ![screenshot1](../screenshots/pcp1.jpg)<br><br>
 ![screenshot1](../screenshots/pcp2.jpg)<br><br>
 ![screenshot2](../screenshots/pcp3.jpg)
 <br><br>
-This manual describes how to display track ratings / rating stars on the Now Playing screen of **SqueezePlay** (using the *Joggler* skin).<br>It also includes an **alternative Now Playing View** that **displays track lyrics** (see screenshot 3). You may have to enable this in your settings: *Settings*  > *Screen* > *Now Playing* > *Now Playing Views* > *Lyrics*.<br><br>
+This manual describes how to display track ratings / rating stars on the Now Playing screen of **SqueezePlay** (using the ***Joggler* skin**).<br>It also includes an **alternative Now Playing View** that **displays track lyrics** (see screenshot 3). You may have to enable this in your settings: *Settings*  > *Screen* > *Now Playing* > *Now Playing Views* > *Lyrics*.<br><br>
 
 
 # Installation
+
+[**Download the modified files from this repository.**](https://github.com/AF-1/sobras/raw/main/lms-nowplaying_screen_with_ratings/NPmodFiles-SqueezePlay.zip)
 
 You just have to  move a couple of files. The paths here are for macOS. If you're on Windows or Linux, just locate the corresponding folders and use those.
 
