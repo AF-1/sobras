@@ -11,7 +11,7 @@ Use the **FontReplacer applet** (from the LMS plugin/applet repository) to insta
 
 ## Copy fonts to device using SSH
 
-If you have **SSH access**(*) enabled on your device, **download the [archive with the font files](https://github.com/AF-1/sobras/raw/main/lms-jivelite-change-font/NewFontFiles.zip) from this repository**, extract the font files and use the commands for your device type below. Your device expects the *new* font files to have the same name as the original fonts. The downloadable font files in this repository already have the correct names.<br><br>
+If you have **SSH access**(*) enabled on your device, [**download the archive with the font files](https://github.com/AF-1/sobras/raw/main/lms-jivelite-change-font/NewFontFiles.zip) from this repository**, extract the font files and use the commands for your device type below. Your device expects the *new* font files to have the same name as the original fonts. The downloadable font files in this repository already have the correct names.<br><br>
 
 ### piCorePlayer
 
