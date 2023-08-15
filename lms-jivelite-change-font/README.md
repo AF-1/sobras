@@ -1,8 +1,9 @@
-Change font on piCorePlayer, Touch, Radio (jivelite)
+Change font to use title formats with the rating star ★
 ====
+**(piCorePlayer, SqueezePlay, Touch, Radio, jivelite controllers)**
 
-The *default font* of players with jivelite as graphical frontend (**piCorePlayer**,SB **Touch**, SB **Radio**, **SqueezePlay**...) is **Free Sans** which **does not include** the [**black star**](https://www.fileformat.info/info/unicode/char/2605/index.htm) (unicode 2605) character ★.<br><br>
-So if you want to use the **black star character to display track ratings** (e.g. in title formats), you will have to **use a different font on your player** that **includes the black star character**.<br><br>
+The *default font* of players with jivelite as graphical frontend (**piCorePlayer**, **SqueezePlay**, SB **Touch**, SB **Radio**...) **does not include** the [**black star**](https://www.fileformat.info/info/unicode/char/2605/index.htm) (unicode 2605) character ★.<br><br>
+So if you want to use the **black star character to display track ratings** with **LMS title formats**, you will have to **use a different font on your player** that **includes the black star character**.<br><br>
 Fortunately, that's not difficult. You can either use an applet to install the font on your device or copy the new fonts to your device manually using SSH.<br><br>
 
 ## Install fonts with FontReplacer applet
@@ -15,7 +16,7 @@ If you have **SSH access**(*) enabled on your device, [**download** the archive 
 
 ### piCorePlayer
 
-*On the **piCorePlayer** device:* **create a folder** for the font files (if it doesn't exist).<br>
+*On the **piCorePlayer** device:* **create a folder** for the font files (*if it doesn't exist*).<br>
 `mkdir ~/.jivelite/userpath/fonts`
 <br><br>
 
@@ -40,15 +41,17 @@ Reboot.
 `mv /usr/share/jive/fonts/FreeSansBold.ttf /usr/share/jive/fonts/FreeSansBold.ttf_ORIGINAL`
 <br><br>
 
-*On your **PC**:* copy the **new/dowloaded** font files to the font folder of your device.<br>
+**Copy the **new/dowloaded** font files to the font folder of your device:**
 
-- **SB Touch & SB Radio:** `scp /path/to/FreeSans.ttf /path/to/FreeSansBold.ttf root@deviceIP:/usr/share/jive/fonts/`<br><br>
+- using **SSH** on your **PC** (SB **Touch** & SB **Radio**):<br>
+        `scp /path/to/FreeSans.ttf /path/to/FreeSansBold.ttf root@deviceIP:/usr/share/jive/fonts/`<br><br>
 
-- On the **SB Touch**, there's **alternative**: use a USB Stick (e.g. formatted as FAT32 / MBR) and copy the file to it. Insert it into the SB Touch and copy the files from there:<br>
-`cp /media/sda1/FreeSans.ttf /media/sda1/FreeSansBold.ttf /usr/share/jive/fonts/`<br><br>
-Set correct permissions (optional):<br>
+- using a **USB Stick** (e.g. formatted as FAT32 / MBR) (SB **Touch**):<br>
+        copy the files to the USB Stick, insert it into the SB Touch and copy the files from there:<br>
+        `cp /media/sda1/FreeSans.ttf /media/sda1/FreeSansBold.ttf /usr/share/jive/fonts/`<br><br>
+
+*On your device* - set correct permissions for copied font files (optional):<br>
 `cd /usr/share/jive/fonts/ && chmod 644 FreeSans.ttf && chmod 644 FreeSansBold.ttf`<br><br>
-
 
 `reboot`
 <br><br><br><br><br>
