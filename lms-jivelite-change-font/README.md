@@ -34,8 +34,6 @@ Reboot.
 
 ### SB Touch, SB Radio
 
-**Please note: I haven't tested this with the new 8.x firmware on SB Radio/Touch. But I don't expect a simple file replacement to cause any problems.**
-
 *On your **device**:* **rename** the **original/old** font files (as a backup).<br>
 `mv /usr/share/jive/fonts/FreeSans.ttf /usr/share/jive/fonts/FreeSans.ttf_ORIGINAL`<br>
 `mv /usr/share/jive/fonts/FreeSansBold.ttf /usr/share/jive/fonts/FreeSansBold.ttf_ORIGINAL`
