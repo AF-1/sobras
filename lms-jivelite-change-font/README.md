@@ -1,4 +1,4 @@
-Change font to use title formats with the rating star ★
+Change font to use the rating star ★ in LMS title formats
 ====
 **(piCorePlayer, SqueezePlay, Touch, Radio, jivelite controllers)**
 
