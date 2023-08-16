@@ -12,7 +12,7 @@ Use the **FontReplacer applet** (from the LMS plugin/applet repository) to insta
 
 ## Copy fonts to device using SSH
 
-If you have **SSH access**(*) enabled on your device, [**download** the archive with the font files](https://github.com/AF-1/sobras/raw/main/lms-jivelite-change-font/NewFontFiles.zip) from this repository, extract the font files and use the commands for your device type below. Your device expects the *new* font files to have the same name as the original fonts. The downloadable font files in this repository already have the correct names.<br><br>
+If you have **SSH access**[^1] enabled on your device, [**download** the archive with the font files](https://github.com/AF-1/sobras/raw/main/lms-jivelite-change-font/NewFontFiles.zip) from this repository, extract the font files and use the commands for your device type below. Your device expects the *new* font files to have the same name as the original fonts. The downloadable font files in this repository already have the correct names.<br><br>
 
 ### piCorePlayer
 
@@ -39,7 +39,7 @@ Reboot.
 `mv /usr/share/jive/fonts/FreeSansBold.ttf /usr/share/jive/fonts/FreeSansBold.ttf_ORIGINAL`
 <br><br>
 
-**Copy the **new/dowloaded** font files to the font folder of your device:**
+**Copy[^2] the **new/dowloaded** font files to the font folder of your device:**
 
 - using **SSH** on your **PC** (SB **Touch** & SB **Radio**):<br>
         `scp /path/to/FreeSans.ttf /path/to/FreeSansBold.ttf root@deviceIP:/usr/share/jive/fonts/`<br><br>
@@ -56,5 +56,8 @@ Reboot.
 
 **Disclaimer**: I don't take any responsibility if you mess up your device in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, **you can always reset your installation using *restore factory settings***.<br>
 
-**(*)** If you need information on how to enable SSH access on your device take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
+[^1]: If you need information on how to enable SSH access on your device take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
+[^2]: since SB *Touch* and SB *Radio* are quite old, you may need to use legacy algorithms and ciphers to log in or for secure copying:<br>
+**logging in:** `ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@TouchDeviceIP`<br>
+**secure copying:** `scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIP:/path/to/folder/`<br>
 
