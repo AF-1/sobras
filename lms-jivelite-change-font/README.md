@@ -39,7 +39,7 @@ Reboot.
 `mv /usr/share/jive/fonts/FreeSansBold.ttf /usr/share/jive/fonts/FreeSansBold.ttf_ORIGINAL`
 <br><br>
 
-**Copy[^2] the **new/dowloaded** font files to the font folder of your device:**
+**Copy the **new/dowloaded** font files to the font folder of your device:**
 
 - using **SSH/scp** on your **PC** (SB **Touch** & SB **Radio**):<br>
         `scp /path/to/FreeSans.ttf /path/to/FreeSansBold.ttf root@deviceIP:/usr/share/jive/fonts/`[^2]<br><br>
