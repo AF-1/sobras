@@ -41,8 +41,8 @@ Reboot.
 
 **Copy[^2] the **new/dowloaded** font files to the font folder of your device:**
 
-- using **SSH** on your **PC** (SB **Touch** & SB **Radio**):<br>
-        `scp /path/to/FreeSans.ttf /path/to/FreeSansBold.ttf root@deviceIP:/usr/share/jive/fonts/`<br><br>
+- using **SSH/scp** on your **PC** (SB **Touch** & SB **Radio**):<br>
+        `scp /path/to/FreeSans.ttf /path/to/FreeSansBold.ttf root@deviceIP:/usr/share/jive/fonts/`[^2]<br><br>
 
 - using a **USB Stick** (e.g. formatted as FAT32 / MBR) (SB **Touch**):<br>
         copy the files to the USB Stick, insert it into the SB Touch and copy the files from there:<br>
@@ -57,7 +57,7 @@ Reboot.
 **Disclaimer**: I don't take any responsibility if you mess up your device in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, **you can always reset your installation using *restore factory settings***.<br>
 
 [^1]: If you need information on how to enable SSH access on your device take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
-[^2]: since SB *Touch* and SB *Radio* are quite old, you may need to use legacy algorithms and ciphers to log in or for secure copying:<br>
+[^2]: Since SB *Touch* and SB *Radio* are quite old, you may need to use **legacy algorithms and ciphers** to log in or for secure copying:<br>
 **logging in:** `ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@TouchDeviceIP`<br>
 **secure copying:** `scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIP:/path/to/folder/`<br>
 
