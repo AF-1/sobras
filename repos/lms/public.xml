@@ -63,13 +63,13 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" version="1.3.8" minTarget="7.9" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" version="1.3.9" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">This plugin lets you create custom dynamic playlists for the Dynamic Playlists plugin (version 4) using templates. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.3.8/lms-dynamicplaylistcreator-1.3.8.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.3.9/lms-dynamicplaylistcreator-1.3.9.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylistcreator</link>
-			<sha>078a39a663e65f715d58f0845e2a6db0864982f5</sha>
+			<sha>297938ad76607427fe3f5dac35a337126a1f1486</sha>
 		</plugin>
 
 
@@ -83,13 +83,13 @@
 		</plugin>
 
 
-		<plugin name="VirtualLibraryCreator" version="1.1.4" minTarget="7.9" maxTarget="*">
+		<plugin name="VirtualLibraryCreator" version="1.1.5" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
 			<desc lang="EN">Create custom virtual libraries with optional LMS browse menus using a template in a browser or by adding files with customized SQLite statements. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.1.4/lms-virtuallibrarycreator-1.1.4.zip</url>
+			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.1.5/lms-virtuallibrarycreator-1.1.5.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-virtuallibrarycreator</link>
-			<sha>e4ba29d2f2d3623693eb76d90ebc29000fe4a2af</sha>
+			<sha>43eb7644b0f68d772d626b9331cd78aa7e0c9e7c</sha>
 		</plugin>
 
 
