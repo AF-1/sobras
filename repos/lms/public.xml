@@ -53,23 +53,23 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" version="4.2.1" minTarget="7.9" maxTarget="*">
+		<plugin name="DynamicPlaylists4" version="4.2.2" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 4</title>
 			<desc lang="EN">This plugin lets you play continuous music mixes based on selection criteria defined in so-called dynamic playlists. Comes with a number of ready-to-use dynamic playlists. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.2.1/lms-dynamicplaylists-4.2.1.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.2.2/lms-dynamicplaylists-4.2.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylists</link>
-			<sha>4a9f3505a673d6c2a0a5d07fe7b8d36f86115982</sha>
+			<sha>d8ca82e1fd5cfbad99da40f805fc0cb89da63d89</sha>
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" version="1.4.0" minTarget="7.9" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" version="1.4.1" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">This plugin lets you create custom dynamic playlists for the Dynamic Playlists plugin (version 4) using templates. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.4.0/lms-dynamicplaylistcreator-1.4.0.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.4.1/lms-dynamicplaylistcreator-1.4.1.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylistcreator</link>
-			<sha>d27f48954ee3c7238b645cb447b95862e11feeb3</sha>
+			<sha>8d863a2ed8a2bc74c0fb8d3162a4e60c787b0759</sha>
 		</plugin>
 
 
