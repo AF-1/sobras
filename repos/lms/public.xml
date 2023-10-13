@@ -5,7 +5,7 @@
 	<plugins>
 		<plugin name="AlternativePlayCount" version="1.3.3" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
-			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. Create (scheduled) backups, restore from backups. More information on the GitHub page. Intended as a companion plugin for 'Dynamic Playlists' and 'Visual Statistics'.</desc>
+			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Create (scheduled) backups, restore from backups. More information on the GitHub page. Intended as a companion plugin for 'Dynamic Playlists' and 'Visual Statistics'.</desc>
 			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.3.3/lms-alternativeplaycount-1.3.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-alternativeplaycount</link>
@@ -15,7 +15,7 @@
 
 		<plugin name="CustomSkip3" version="3.4.3" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Skip 3</title>
-			<desc lang="EN">This plugin lets you define client-specific filter sets with rules for when tracks should be skipped automatically. More information on the GitHub page.</desc>
+			<desc lang="EN">This plugin lets you set client-specific rules for when the current track or upcoming tracks in your playlist should be skipped and removed automatically. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customskip/releases/download/3.4.3/lms-customskip-3.4.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customskip</link>
@@ -34,7 +34,7 @@
 
 
 		<plugin name="CustomTagImporter" version="1.0.8" minTarget="7.9" maxTarget="*">
-			<title lang="EN">CustomTagImporter</title>
+			<title lang="EN">Custom Tag Importer</title>
 			<desc lang="EN">Custom Tag Importer scans track information from custom tags in your music files (incl. rating tags). More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.0.8/lms-customtagimporter-1.0.8.zip</url>
 			<creator>AF</creator>
@@ -55,7 +55,7 @@
 
 		<plugin name="DynamicPlaylists4" version="4.2.2" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 4</title>
-			<desc lang="EN">This plugin lets you play continuous music mixes based on selection criteria defined in so-called dynamic playlists. Comes with a number of ready-to-use dynamic playlists. More information on the GitHub page.</desc>
+			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria. Comes with a number of ready-to-use dynamic playlists. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.2.2/lms-dynamicplaylists-4.2.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylists</link>
@@ -65,7 +65,7 @@
 
 		<plugin name="DynamicPlaylistCreator" version="1.4.1" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
-			<desc lang="EN">This plugin lets you create custom dynamic playlists for the Dynamic Playlists plugin (version 4) using templates. More information on the GitHub page.</desc>
+			<desc lang="EN">Templates make creating custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin very easy. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.4.1/lms-dynamicplaylistcreator-1.4.1.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylistcreator</link>
