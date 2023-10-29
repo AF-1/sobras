@@ -2,7 +2,7 @@ Change font to use the rating star ★ in LMS title formats
 ====
 **(Radio, piCorePlayer, SqueezePlay, Touch, jivelite controllers)**
 
-⚠️ The [Dark Flat Skin](https://github.com/AF-1/jivelite-darkflatskin#dark-flat-skin) applet (piCorePlayer, SqueezePlay, SB Touch) already includes the required font files.
+> ⚠️ The [Dark Flat Skin](https://github.com/AF-1/jivelite-darkflatskin#dark-flat-skin) applet (piCorePlayer, SqueezePlay, SB Touch) already includes the required font files.
 
 The *default font* of players with jivelite as graphical frontend (**piCorePlayer**, **SqueezePlay**, SB **Touch**, SB **Radio**...) **does not include** the [**black star**](https://www.fileformat.info/info/unicode/char/2605/index.htm) (unicode 2605) character ★.<br><br>
 So if you want to use the **black star character to display track ratings** with **LMS title formats**, you will have to **use a different font on your player** that **includes the black star character** (unless you already use the [Dark Flat Skin](https://github.com/AF-1/jivelite-darkflatskin#dark-flat-skin) applet on piCorePlayer, SqueezePlay or SB Touch).<br><br>
@@ -37,8 +37,8 @@ Reboot.
 ### SB Touch, SB Radio
 
 > Since SB *Touch* and SB *Radio* are quite old, you may need to use **legacy algorithms and ciphers** to log in or for secure copying:<br>
-> - **log in:** `ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@deviceIPaddress`<br><br>
-> - **secure copy:** `scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIPaddress:/path/to/folder_on_device/`<br>
+> - **log in:**<br>`ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@deviceIPaddress`<br><br>
+> - **secure copy:**<br>`scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIPaddress:/path/to/folder_on_device/`<br><br>
 
 
 *On your **device**:* **rename** the **original/old** font files (as a backup).<br>
