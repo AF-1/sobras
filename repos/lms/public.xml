@@ -34,7 +34,7 @@
 		<applet name="NPwithRatingsInstaller" version="1.0.2" target="baby" maxTarget="*">
 			<title lang="EN">NowPlaying Screen with Ratings Installer</title>
 			<desc lang="EN">This applet installs a NowPlaying screen with ratings on your SB Radio (for QVGAlandscapeSkin). More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lmsrepo/NPwithRatingsInstaller-baby-1.0.2.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/NPwithRatingsInstaller-baby-1.0.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>4bc5c8f2ddaf4505005cf578bbf4c7dc96438619</sha>
