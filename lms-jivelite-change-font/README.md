@@ -38,6 +38,7 @@ Reboot.
 
 ### SB Touch, SB Radio
 
+> [!NOTE]
 > Since SB *Touch* and SB *Radio* are quite old, you may need to use **legacy algorithms and ciphers** to log in or for secure copying:<br>
 > - **log in:**<br>`ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@deviceIPaddress`<br><br>
 > - **secure copy:**<br>`scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIPaddress:/path/to/folder_on_device/`<br>
