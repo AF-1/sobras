@@ -16,7 +16,7 @@
 		<applet name="DarkFlatSkinInstaller" version="1.0.4" target="jivelite" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lmsrepo/DarkFlatSkinInstaller-pcp-1.0.4.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-pcp-1.0.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
 			<sha>9390a4d7d03fd619815c26a37ebc4f933b023f70</sha>
@@ -25,7 +25,7 @@
 		<applet name="DarkFlatSkinInstaller" version="1.0.4" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch (based on WQVGAsmallSkin). More information, screenshots and FAQ on https://github.com/AF-1. See FAQ for information on known SB Touch issue.</desc>
-			<url>http://af1.userspace.sosou.eu/lmsrepo/DarkFlatSkinInstaller-fab4-1.0.4.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-fab4-1.0.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
 			<sha>ae1a198a1a63c8a7ac2345a476d77425816fefa8</sha>
