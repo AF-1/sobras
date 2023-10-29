@@ -39,8 +39,9 @@ Reboot.
 
 > Since SB *Touch* and SB *Radio* are quite old, you may need to use **legacy algorithms and ciphers** to log in or for secure copying:<br>
 > - **log in:**<br>`ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@deviceIPaddress`<br><br>
-> - **secure copy:**<br>`scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIPaddress:/path/to/folder_on_device/`<br><br>
+> - **secure copy:**<br>`scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIPaddress:/path/to/folder_on_device/`<br>
 
+<br><br>
 
 *On your **device**:* **rename** the **original/old** font files (as a backup).<br>
 `mv /usr/share/jive/fonts/FreeSans.ttf /usr/share/jive/fonts/FreeSans.ttf_ORIGINAL`<br>
@@ -54,9 +55,7 @@ Reboot.
 
 - using a **USB Stick** (e.g. formatted as FAT32 / MBR) (SB **Touch**):<br>
         copy the files to the USB Stick, insert it into the SB Touch and copy the files from there:<br>
-        `cp /media/sda1/FreeSans.ttf /media/sda1/FreeSansBold.ttf /usr/share/jive/fonts/`
-
-<br><br><br>
+        `cp /media/sda1/FreeSans.ttf /media/sda1/FreeSansBold.ttf /usr/share/jive/fonts/`<br><br>
 
 *On your device* - set correct permissions for copied font files (optional):<br>
 `cd /usr/share/jive/fonts/ && chmod 644 FreeSans.ttf && chmod 644 FreeSansBold.ttf`<br><br>
