@@ -1,9 +1,11 @@
 Change font to use the rating star ★ in LMS title formats
 ====
-**(piCorePlayer, SqueezePlay, Touch, Radio, jivelite controllers)**
+**(Radio, piCorePlayer, SqueezePlay, Touch, jivelite controllers)**
+
+⚠️ The [Dark Flat Skin](https://github.com/AF-1/jivelite-darkflatskin#dark-flat-skin) applet (piCorePlayer, SqueezePlay, SB Touch) already includes the required font files.
 
 The *default font* of players with jivelite as graphical frontend (**piCorePlayer**, **SqueezePlay**, SB **Touch**, SB **Radio**...) **does not include** the [**black star**](https://www.fileformat.info/info/unicode/char/2605/index.htm) (unicode 2605) character ★.<br><br>
-So if you want to use the **black star character to display track ratings** with **LMS title formats**, you will have to **use a different font on your player** that **includes the black star character**.<br><br>
+So if you want to use the **black star character to display track ratings** with **LMS title formats**, you will have to **use a different font on your player** that **includes the black star character** (unless you already use the [Dark Flat Skin](https://github.com/AF-1/jivelite-darkflatskin#dark-flat-skin) applet on piCorePlayer, SqueezePlay or SB Touch).<br><br>
 Fortunately, that's not difficult. You can either use an applet to install the font on your device or copy the new fonts to your device manually using SSH.<br><br>
 
 ## Install fonts with FontReplacer applet
@@ -12,7 +14,7 @@ Use the **FontReplacer applet** (from the LMS plugin/applet repository) to insta
 
 ## Copy fonts to device using SSH
 
-If you have **SSH access**[^1] enabled on your device, [**download** the archive with the font files](https://github.com/AF-1/sobras/raw/main/lms-jivelite-change-font/NewFontFiles.zip) from this repository, extract the font files and use the commands for your device type below. Your device expects the *new* font files to have the same name as the original fonts. The downloadable font files in this repository already have the correct names.<br><br>
+If you have **SSH access** enabled on your device, [**download** the archive with the font files](https://github.com/AF-1/sobras/raw/main/lms-jivelite-change-font/NewFontFiles.zip) from this repository, extract the font files and use the commands for your device type below. Your device expects the *new* font files to have the same name as the original fonts. The downloadable font files in this repository already have the correct names.<br><br>
 
 ### piCorePlayer
 
@@ -34,6 +36,11 @@ Reboot.
 
 ### SB Touch, SB Radio
 
+> Since SB *Touch* and SB *Radio* are quite old, you may need to use **legacy algorithms and ciphers** to log in or for secure copying:<br>
+> - **log in:** `ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@deviceIPaddress`<br><br>
+> - **secure copy:** `scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIPaddress:/path/to/folder_on_device/`<br>
+
+
 *On your **device**:* **rename** the **original/old** font files (as a backup).<br>
 `mv /usr/share/jive/fonts/FreeSans.ttf /usr/share/jive/fonts/FreeSans.ttf_ORIGINAL`<br>
 `mv /usr/share/jive/fonts/FreeSansBold.ttf /usr/share/jive/fonts/FreeSansBold.ttf_ORIGINAL`
@@ -42,7 +49,7 @@ Reboot.
 **Copy the **new/dowloaded** font files to the font folder of your device:**
 
 - using **SSH/scp** on your **PC** (SB **Touch** & SB **Radio**):<br>
-        `scp /path/to/FreeSans.ttf /path/to/FreeSansBold.ttf root@deviceIP:/usr/share/jive/fonts/`[^2]<br><br>
+		`scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/FreeSans.ttf /path/to/FreeSansBold.ttf root@deviceIP:/usr/share/jive/fonts/`<br><br>
 
 - using a **USB Stick** (e.g. formatted as FAT32 / MBR) (SB **Touch**):<br>
         copy the files to the USB Stick, insert it into the SB Touch and copy the files from there:<br>
@@ -55,9 +62,3 @@ Reboot.
 <br><br><br><br><br>
 
 **Disclaimer**: I don't take any responsibility if you mess up your device in the process. If you forgot to back up the original files before modifying them and it goes wrong, of course, **you can always reset your installation using *restore factory settings***.<br>
-
-[^1]: If you need information on how to enable SSH access on your device take a look at the first steps of [this manual](https://github.com/AF-1/sobras/tree/main/lms-nowplaying_screen_with_ratings/).
-[^2]: Since SB *Touch* and SB *Radio* are quite old, you may need to use **legacy algorithms and ciphers** to log in or for secure copying:<br>
-**logging in:** `ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@TouchDeviceIP`<br>
-**secure copying:** `scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIP:/path/to/folder/`<br>
-
