@@ -41,7 +41,7 @@ Reboot.
 > - **log in:**<br>`ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@deviceIPaddress`<br><br>
 > - **secure copy:**<br>`scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIPaddress:/path/to/folder_on_device/`<br>
 
-<br><br>
+<br>
 
 *On your **device**:* **rename** the **original/old** font files (as a backup).<br>
 `mv /usr/share/jive/fonts/FreeSans.ttf /usr/share/jive/fonts/FreeSans.ttf_ORIGINAL`<br>
