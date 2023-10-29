@@ -4,19 +4,19 @@
 	</details>
 
 	<applets>
-		<applet name="DarkFlatSkinInstaller" version="1.0.4" target="squeezeplay" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.0.5" target="squeezeplay" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1  Windows and Linux users: please read the FAQ BEFORE installing.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-squeezeplay-1.0.4.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-squeezeplay-1.0.5.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
 			<sha>15613cb9871cfc7b428c679c527e3727b4d6509b</sha>
 		</applet>
 
-		<applet name="DarkFlatSkinInstaller" version="1.0.4" target="jivelite" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.0.5" target="jivelite" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-pcp-1.0.4.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-pcp-1.0.5.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
 			<sha>9390a4d7d03fd619815c26a37ebc4f933b023f70</sha>
@@ -31,10 +31,10 @@
 			<sha>ae1a198a1a63c8a7ac2345a476d77425816fefa8</sha>
 		</applet>
 
-		<applet name="NPwithRatingsInstaller" version="1.0.2" target="baby" maxTarget="*">
+		<applet name="NPwithRatingsInstaller" version="1.0.3" target="baby" maxTarget="*">
 			<title lang="EN">NowPlaying Screen with Ratings Installer</title>
 			<desc lang="EN">This applet installs a NowPlaying screen with ratings on your SB Radio (for QVGAlandscapeSkin). More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/NPwithRatingsInstaller-baby-1.0.2.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/NPwithRatingsInstaller-baby-1.0.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>4bc5c8f2ddaf4505005cf578bbf4c7dc96438619</sha>
