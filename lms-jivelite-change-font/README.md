@@ -38,9 +38,8 @@ Reboot.
 
 ### SB Touch, SB Radio
 
-> Since SB *Touch* and SB *Radio* are quite old, you may need to use **legacy algorithms and ciphers** to log in or for secure copying:<br>
-> - **log in:**<br>`ssh -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc root@deviceIPaddress`<br><br>
-> - **secure copy:**<br>`scp -o KexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc /path/to/file root@deviceIPaddress:/path/to/folder_on_device/`<br>
+> [NOTE!]:
+> If you have problems logging into or copying files to your *SB Radio* or *SB Touch*, please read [**this**](https://github.com/AF-1/sobras/wiki/Command-line-access-to-SB-Radio-and-SB-Touch).
 
 <br>
 
