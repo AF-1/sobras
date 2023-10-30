@@ -39,7 +39,7 @@ Reboot.
 ### SB Touch, SB Radio
 
 > [!IMPORTANT]
-> If you have problems logging into or copying files to your *SB Radio* or *SB Touch*, please read [**this**](https://github.com/AF-1/sobras/wiki/Command-line-access-to-SB-Radio-and-SB-Touch).
+> If you have problems logging in or copying files to your *SB Radio* or *SB Touch*, please read [**this**](https://github.com/AF-1/sobras/wiki/Command-line-access-to-SB-Radio-and-SB-Touch).
 
 <br>
 
