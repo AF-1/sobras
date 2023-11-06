@@ -54,7 +54,7 @@
 
 		<plugin name="CustomSkip3" version="3.4.3" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Skip 3</title>
-			<desc lang="EN">This plugin lets you set client-specific rules for when the current track or upcoming tracks in your playlist should be skipped and removed automatically. More information on the GitHub page.</desc>
+			<desc lang="EN">Lets you set player-specific rules for when the current track or upcoming tracks in your playlist should be skipped and removed from the playlist automatically. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customskip/releases/download/3.4.3/lms-customskip-3.4.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customskip</link>
@@ -64,7 +64,7 @@
 
 		<plugin name="CustomStartStopTimes" version="1.0.3" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Start Stop Times</title>
-			<desc lang="EN">This plugin allows you to start and stop tracks at a specified playback/song time. Just add custom start and stop times to a track's comments tag and, with the help of this plugin, the song will start and end, i.e. skip to the next one, when you want it to. No more annoying song intros or minutes of silence at the end. More information on the GitHub page.</desc>
+			<desc lang="EN">Allows you to start and stop tracks at a specified playback/song time. Just add custom start and stop times to a track's comments tag and, with the help of this plugin, the song will start and end, when you want it to. No more annoying song intros or minutes of silence at the end. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.0.3/lms-customstartstoptimes-1.0.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customstartstoptimes</link>
@@ -74,7 +74,7 @@
 
 		<plugin name="CustomTagImporter" version="1.0.8" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Tag Importer</title>
-			<desc lang="EN">Custom Tag Importer scans track information from custom tags in your music files (incl. rating tags). More information on the GitHub page.</desc>
+			<desc lang="EN">Scans track information from custom tags in your music files (incl. rating tags). More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.0.8/lms-customtagimporter-1.0.8.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customtagimporter</link>
@@ -104,7 +104,7 @@
 
 		<plugin name="DynamicPlaylistCreator" version="1.4.1" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
-			<desc lang="EN">Templates make creating custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin very easy. More information on the GitHub page.</desc>
+			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin using templates. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.4.1/lms-dynamicplaylistcreator-1.4.1.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylistcreator</link>
@@ -114,7 +114,7 @@
 
 		<plugin name="RatingsLight" version="2.4.7" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
-			<desc lang="EN">A plugin that takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from file tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes. More information on the GitHub page.</desc>
+			<desc lang="EN">Takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from file tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.4.7/lms-ratingslight-2.4.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-ratingslight</link>
