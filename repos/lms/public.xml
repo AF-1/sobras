@@ -42,7 +42,7 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" version="1.4.1" minTarget="7.9" maxTarget="*">
+		<plugin name="AlternativePlayCount" version="1.4.1" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Create (scheduled) backups, restore from backups. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.4.1/lms-alternativeplaycount-1.4.1.zip</url>
@@ -52,7 +52,7 @@
 		</plugin>
 
 
-		<plugin name="CustomSkip3" version="3.4.3" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomSkip3" version="3.4.3" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Custom Skip 3</title>
 			<desc lang="EN">Lets you set player-specific rules for when the current track or upcoming tracks in your playlist should be skipped and removed from the playlist automatically. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customskip/releases/download/3.4.3/lms-customskip-3.4.3.zip</url>
@@ -92,7 +92,7 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" version="4.2.2" minTarget="7.9" maxTarget="*">
+		<plugin name="DynamicPlaylists4" version="4.2.2" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 4</title>
 			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria. Comes with a number of ready-to-use dynamic playlists. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.2.2/lms-dynamicplaylists-4.2.2.zip</url>
@@ -102,7 +102,7 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" version="1.4.1" minTarget="7.9" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" version="1.4.1" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin using templates. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.4.1/lms-dynamicplaylistcreator-1.4.1.zip</url>
@@ -112,7 +112,7 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" version="2.4.9" minTarget="7.9" maxTarget="*">
+		<plugin name="RatingsLight" version="2.4.9" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from file tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.4.9/lms-ratingslight-2.4.9.zip</url>
@@ -122,7 +122,7 @@
 		</plugin>
 
 
-		<plugin name="VirtualLibraryCreator" version="1.1.6" minTarget="7.9" maxTarget="*">
+		<plugin name="VirtualLibraryCreator" version="1.1.6" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
 			<desc lang="EN">Create custom virtual libraries with optional LMS browse menus using a template in a browser or by adding files with customized SQLite statements. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.1.6/lms-virtuallibrarycreator-1.1.6.zip</url>
@@ -132,7 +132,7 @@
 		</plugin>
 
 
-		<plugin name="VisualStatistics" version="1.5.8" minTarget="7.9" maxTarget="*">
+		<plugin name="VisualStatistics" version="1.5.8" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Visual Statistics</title>
 			<desc lang="EN">Have a look at your library statistics with charts. More information on the GitHub page.</desc>
 			<desc lang="FR">Explorez les statistiques de votre librairie avec des graphiques. Plus d'information sur la page GitHub.</desc>
