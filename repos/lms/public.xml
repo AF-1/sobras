@@ -42,13 +42,13 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" version="1.4.0" minTarget="7.9" maxTarget="*">
+		<plugin name="AlternativePlayCount" version="1.4.1" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Create (scheduled) backups, restore from backups. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.4.0/lms-alternativeplaycount-1.4.0.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.4.1/lms-alternativeplaycount-1.4.1.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-alternativeplaycount</link>
-			<sha>9a396066c366a9c6419fec5de025f38ad0872f5d</sha>
+			<sha>a1521cfd490c58193daf5be3c3731c4a556c335b</sha>
 		</plugin>
 
 
@@ -112,13 +112,13 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" version="2.4.8" minTarget="7.9" maxTarget="*">
+		<plugin name="RatingsLight" version="2.4.9" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from file tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.4.8/lms-ratingslight-2.4.8.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.4.9/lms-ratingslight-2.4.9.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-ratingslight</link>
-			<sha>11e4fb3b503b29642d5828e328905455b4ca1b39</sha>
+			<sha>20608a52bc8c5d4cfe2e33725f5db8208d79f23d</sha>
 		</plugin>
 
 
