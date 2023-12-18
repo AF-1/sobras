@@ -26,18 +26,18 @@ Create a smart playlist in the macOS Music app with all tracks where the Music a
 The **rules** of your smart playlist depend on the selected file tag. To create *nested* rules hold down the *alt* key.
 <br><br>
 
-## Comments tag
+## Comment tag
 
-If you select the **Comments** tag to save rating values in your music files, you have to set at least a rating **keyword pre**fix. To make the string with the rating value even more unique, you'll want to add a rating **keyword suffix**.<br>
+If you select the **Comment** tag to save rating values in your music files, you have to set at least a rating **keyword pre**fix. To make the string with the rating value even more unique, you'll want to add a rating **keyword suffix**.<br>
 
 **Example**:<br>
 Rating keyword **pre**fix = "favstars", rating keyword **suffix** = "xx".<br>
-If a comments tag contains "favstars**4**xx" ➜ track rating = **4** stars<br>
+If a comment tag contains "favstars**4**xx" ➜ track rating = **4** stars<br>
 
 **Important**: You have to use **integer rating values on a scale from 1 to 5**. No half-star ratings.<br><br><br>
-The **smart playlist for comments tags** should look like this:<br>
+The **smart playlist for comment tags** should look like this:<br>
 
-![smart playlist for comments tags](resources/sc-comments.jpg)<br><br>
+![smart playlist for comment tags](resources/sc-comments.jpg)<br><br>
 
 <br><br>
 
@@ -79,7 +79,7 @@ The following applies to both:<br>
 
 <br><br>
 
-## Comments tag
+## Comment tag
 
 ⚠️ **Don't forget to replace the rating keywords** (prefix and suffix) at the beginning of the script **with your own keywords!**<br>
 
@@ -91,7 +91,7 @@ property ratingkeywordsuffix : "xx" -- your rating keyword SUFFIX
 global newP1, myprogress
 
 set progress completed steps to 0
-set progress description to "Fixing tracks whose rating does not match comments tag"
+set progress description to "Fixing tracks whose rating does not match comment tag"
 
 tell application "Music"
 	set total to (count every track of playlist source_playlistName)
@@ -171,6 +171,6 @@ If you use a copy of your music files for LMS, sync the changed tracks with that
 Then make LMS rescan your music files (*clear library and rescan everything*).<br><br>
 
 The last step requires the **Ratings Light** plugin:<br><br>
-Go to *LMS > Settings > Advanced > Ratings Light > **Import*** and select the file tag you want to import your ratings from. If it's the comments tag, dont't forget to set your rating keyword(s).<br><br>
+Go to *LMS > Settings > Advanced > Ratings Light > **Import*** and select the file tag you want to import your ratings from. If it's the comment tag, dont't forget to set your rating keyword(s).<br><br>
 Then click on **Import now** to start the import process.<br><br>
 If you want LMS to import ratings from file tags *automatically after every rescan*, check the **Include ratings import in LMS scan** option.
