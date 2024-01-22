@@ -92,13 +92,13 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" version="4.3.2" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylists4" version="4.3.4" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 4</title>
 			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria. Comes with a number of ready-to-use dynamic playlists. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.3.2/lms-dynamicplaylists-4.3.2.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.3.4/lms-dynamicplaylists-4.3.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylists</link>
-			<sha>87e305ec2ae86132698a46d95707e2c697954ad3</sha>
+			<sha>56fbf3396007a64da241c4f28b7406fb4b8a3d22</sha>
 		</plugin>
 
 
@@ -112,13 +112,13 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" version="2.5.6" minTarget="8.0" maxTarget="*">
+		<plugin name="RatingsLight" version="2.5.7" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from file tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.5.6/lms-ratingslight-2.5.6.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.5.7/lms-ratingslight-2.5.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-ratingslight</link>
-			<sha>c1ce814434000a3fafae88811e2954c9a3e92087</sha>
+			<sha>c6bce19a7df7a50b910a4a4bd79b98f6837bdfee</sha>
 		</plugin>
 
 
