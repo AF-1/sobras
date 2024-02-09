@@ -13,13 +13,13 @@
 			<sha>1f4182d5d1f563e236e3b2778e7e9cbd08f40315</sha>
 		</applet>
 
-		<applet name="DarkFlatSkinInstaller" version="1.0.6" target="jivelite" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.0.7" target="jivelite" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
-			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-pcp-1.0.6.zip</url>
+			<desc lang="EN">This applet installs the Dark Flat Skins on your piCorePlayer (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1</desc>
+			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-pcp-1.0.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
-			<sha>b0082ef1036fb2385adc5103c5b8b7bf1d7dc7ec</sha>
+			<sha>313a433f548c5e17f984cafb58de4447772e76c2</sha>
 		</applet>
 
 		<applet name="DarkFlatSkinInstaller" version="1.0.6" target="fab4" maxTarget="*">
@@ -112,13 +112,13 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" version="2.5.7" minTarget="8.0" maxTarget="*">
+		<plugin name="RatingsLight" version="2.5.8" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from file tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.5.7/lms-ratingslight-2.5.7.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.5.8/lms-ratingslight-2.5.8.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-ratingslight</link>
-			<sha>c6bce19a7df7a50b910a4a4bd79b98f6837bdfee</sha>
+			<sha>538f4445892dfd45f4f269f1bfceb47c606d7f9c</sha>
 		</plugin>
 
 
