@@ -112,13 +112,13 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" version="2.5.8" minTarget="8.0" maxTarget="*">
+		<plugin name="RatingsLight" version="2.5.9" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from file tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.5.8/lms-ratingslight-2.5.8.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.5.9/lms-ratingslight-2.5.9.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-ratingslight</link>
-			<sha>538f4445892dfd45f4f269f1bfceb47c606d7f9c</sha>
+			<sha>388629d3d5a9c01c943f7c591739b6be18ef58e3</sha>
 		</plugin>
 
 
