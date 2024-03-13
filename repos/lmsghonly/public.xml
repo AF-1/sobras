@@ -3,7 +3,7 @@
 		<title lang="EN">GitHub only Repo (AF1)</title>
 	</details>
 	<plugins>
-		<plugin name="PotPourri" version="0.5.0" minTarget="8.4" maxTarget="*">
+		<plugin name="PotPourri" category="tools" version="0.5.0" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
 			<desc lang="EN">A collection of small features: change the track order of static or client playlists, set a time for auto power-off of all players, set the power-on start volume for players, use (key)words in your music files' comment tags to add extra information to the song details page and to define/display custom title formats, adjust selected album release types using album title keywords. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.0/lms-potpourri-0.5.0.zip</url>
@@ -12,7 +12,7 @@
 			<sha>fcd61b2ec773886a54f4b63402c7c18ac25f7838</sha>
 		</plugin>
 
-		<plugin name="ContextStats" version="0.1.1" minTarget="8.4" maxTarget="*">
+		<plugin name="ContextStats" category="playlists" version="0.1.1" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Context Stats</title>
 			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. More information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.1.1/lms-contextstats-0.1.1.zip</url>
