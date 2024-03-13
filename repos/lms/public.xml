@@ -7,7 +7,7 @@
 		<applet name="DarkFlatSkinInstaller" version="1.0.6" target="squeezeplay" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1  Windows and Linux users: please read the FAQ BEFORE installing.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-squeezeplay-1.0.6.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.0.6.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
 			<sha>1f4182d5d1f563e236e3b2778e7e9cbd08f40315</sha>
@@ -16,7 +16,7 @@
 		<applet name="DarkFlatSkinInstaller" version="1.0.7" target="jivelite" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skins on your piCorePlayer (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-pcp-1.0.7.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.0.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
 			<sha>313a433f548c5e17f984cafb58de4447772e76c2</sha>
@@ -25,7 +25,7 @@
 		<applet name="DarkFlatSkinInstaller" version="1.0.6" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch (based on WQVGAsmallSkin). More information, screenshots and FAQ on https://github.com/AF-1. See FAQ for information on known SB Touch issue.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/DarkFlatSkinInstaller-fab4-1.0.6.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.0.6.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
 			<sha>7f4ec607f05a86af8a2712e3999100299dfe3588</sha>
@@ -34,7 +34,7 @@
 		<applet name="NPwithRatingsInstaller" version="1.0.4" target="baby" maxTarget="*">
 			<title lang="EN">NowPlaying Screen with Ratings Installer</title>
 			<desc lang="EN">This applet installs a NowPlaying screen with ratings on your SB Radio (for QVGAlandscapeSkin). More information on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/NPwithRatingsInstaller-baby-1.0.4.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=NPwithRatingsInstaller-baby-1.0.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>0d6711902a9080177d7ad211aa6033411ae9b0ce</sha>
@@ -42,7 +42,7 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" version="1.4.7" minTarget="8.0" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="1.4.7" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Create (scheduled) backups, restore from backups. More information, screenshots and FAQ on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.4.7/lms-alternativeplaycount-1.4.7.zip</url>
@@ -52,7 +52,7 @@
 		</plugin>
 
 
-		<plugin name="CustomSkip3" version="3.4.7" minTarget="8.0" maxTarget="*">
+		<plugin name="CustomSkip3" category="playlists" version="3.4.7" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Custom Skip 3</title>
 			<desc lang="EN">Lets you set player-specific rules for when the current track or upcoming tracks in your playlist should be skipped and removed from the playlist automatically. More information, screenshots and FAQ on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customskip/releases/download/3.4.7/lms-customskip-3.4.7.zip</url>
@@ -62,7 +62,7 @@
 		</plugin>
 
 
-		<plugin name="CustomStartStopTimes" version="1.1.4" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomStartStopTimes" category="playlists" version="1.1.4" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Start Stop Times</title>
 			<desc lang="EN">Allows you to start and stop tracks at a specific playback/song time or to skip a specific part of the song (e.g. silence). Just add custom start, stop or skip times to a track's comment tag and, with the help of this plugin, the song will start or end, when you want it to, or skip an unwanted part. No more annoying song intros or minutes of silence. More information and screenshots on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.1.4/lms-customstartstoptimes-1.1.4.zip</url>
@@ -72,7 +72,7 @@
 		</plugin>
 
 
-		<plugin name="CustomTagImporter" version="1.0.9" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomTagImporter" category="scanning" version="1.0.9" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Tag Importer</title>
 			<desc lang="EN">Scans track information from custom tags in your music files (incl. rating tags). More information and screenshots on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.0.9/lms-customtagimporter-1.0.9.zip</url>
@@ -82,7 +82,7 @@
 		</plugin>
 
 
-		<plugin name="DarkDefaultSkin" version="1.0.4" minTarget="7.9" maxTarget="*">
+		<plugin name="DarkDefaultSkin" category="skin" version="1.0.4" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Dark Default Skin</title>
 			<desc lang="EN">Dark-themed version of the LMS Default skin. Screenshots and more information on GitHub.</desc>
 			<url>https://github.com/AF-1/lms-darkdefaultskin/releases/download/1.0.4/lms-darkdefaultskin-1.0.4.zip</url>
@@ -92,7 +92,7 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" version="4.3.6" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylists4" category="playlists" version="4.3.6" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlists 4</title>
 			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria. Comes with a number of ready-to-use dynamic playlists. More information, screenshots and FAQ on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.3.6/lms-dynamicplaylists-4.3.6.zip</url>
@@ -102,7 +102,7 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" version="1.5.0" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.5.0" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin using templates. More information, screenshots and FAQ on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.5.0/lms-dynamicplaylistcreator-1.5.0.zip</url>
@@ -112,7 +112,7 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" version="2.6.3" minTarget="8.0" maxTarget="*">
+		<plugin name="RatingsLight" category="information" version="2.6.3" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Takes care of rating your tracks. Set track ratings (also with plugins/apps and IR remote). Import track ratings from file tags or playlists. Export track ratings to playlist files. Create (scheduled) backups, restore from backups. Create virtual libraries for (top) rated tracks. Browse (top) rated tracks by artist or genre (browse menus). Keep track of your recently rated songs with a dedicated playlist or log file. Show rated songs for artist, album, genre, year or playlist (context menu). Support for online library tracks where possible. Includes "Don't Stop The Music" mixes. More information, screenshots and FAQ on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.6.3/lms-ratingslight-2.6.3.zip</url>
@@ -122,7 +122,7 @@
 		</plugin>
 
 
-		<plugin name="VirtualLibraryCreator" version="1.2.4" minTarget="8.0" maxTarget="*">
+		<plugin name="VirtualLibraryCreator" category="scanning" version="1.2.4" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
 			<desc lang="EN">Create custom virtual libraries with optional LMS browse menus using a template in a browser or by adding files with customized SQLite statements. More information, screenshots and FAQ on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.2.4/lms-virtuallibrarycreator-1.2.4.zip</url>
@@ -132,7 +132,7 @@
 		</plugin>
 
 
-		<plugin name="VisualStatistics" version="1.6.3" minTarget="8.0" maxTarget="*">
+		<plugin name="VisualStatistics" category="information" version="1.6.3" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Visual Statistics</title>
 			<desc lang="EN">Have a look at your library statistics with charts. Screenshots and more information on the GitHub page.</desc>
 			<desc lang="FR">Explorez les statistiques de votre librairie avec des graphiques. Plus d'information sur la page GitHub.</desc>
