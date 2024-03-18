@@ -55,7 +55,7 @@
 
 		<plugin name="CustomSkip3" category="playlists" version="3.4.7" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Custom Skip 3</title>
-			<desc lang="EN">Lets you set player-specific rules for when the current track or upcoming tracks in your playlist should be skipped and removed from the playlist automatically. More information, screenshots and FAQ on the GitHub page.</desc>
+			<desc lang="EN">Set player-specific rules for when the current track or upcoming tracks in your playlist should be skipped and removed from the playlist automatically. More information, screenshots and FAQ on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customskip/releases/download/3.4.7/lms-customskip-3.4.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customskip</link>
@@ -65,7 +65,7 @@
 
 		<plugin name="CustomStartStopTimes" category="playlists" version="1.1.4" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Start Stop Times</title>
-			<desc lang="EN">Allows you to start and stop tracks at a specific playback/song time or to skip a specific part of the song (e.g. silence). Just add custom start, stop or skip times to a track's comment tag and, with the help of this plugin, the song will start or end, when you want it to, or skip an unwanted part. No more annoying song intros or minutes of silence. More information and screenshots on the GitHub page.</desc>
+			<desc lang="EN">Start and stop tracks at a specific playback/song time or to skip a specific part of the song (e.g. silence) by simply adding custom start, stop or skip times to a track's comments tag. More information and screenshots on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.1.4/lms-customstartstoptimes-1.1.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customstartstoptimes</link>
