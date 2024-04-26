@@ -12,7 +12,7 @@ And I suppose that you've already granted one or more perl binaries (/usr/bin/pe
 
 Log in to the user account that runs LMS.
 
-Open **System Preferences** > **Logitech Media Server** > **Status** and set the *auto-start preference* to **Never start server automatically**.
+Open **System Preferences** > **LMS** > **Status** and set the *auto-start preference* to **Never start server automatically**.
 
 Now **create a launch agent** that will start LMS automatically when you're booting into this user account.
 
