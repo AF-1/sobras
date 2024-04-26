@@ -73,13 +73,13 @@
 		</plugin>
 
 
-		<plugin name="CustomTagImporter" category="scanning" version="1.1.2" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomTagImporter" category="scanning" version="1.2.0" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Tag Importer</title>
 			<desc lang="EN">Scans track information from custom tags in your music files (incl. rating tags). More information and screenshots on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.1.2/lms-customtagimporter-1.1.2.zip</url>
+			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.2.0/lms-customtagimporter-1.2.0.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customtagimporter</link>
-			<sha>8603eea15e44fc15f4cf78b0cf73ed40d2b262bc</sha>
+			<sha>11ecbcb8131e047e279505054e5fcc7928d4eeea</sha>
 		</plugin>
 
 
