@@ -5,7 +5,7 @@
 	<plugins>
 		<plugin name="PotPourri" category="tools" version="0.5.3" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
-			<desc lang="EN">A collection of small features: change the track order of static or client playlists, set a time for auto power-off of all players, set the power-on start volume for players, use (key)words in your music files' comment tags to add extra information to the song details page and to define/display custom title formats, adjust selected album release types using album title keywords. More information on the GitHub page.</desc>
+			<desc lang="EN">A collection of small features: change playlist track order of playlists, scheduled auto power-off of all players, set a player's power-on start volume... More information (incl. a more comprehensive feature list) on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.3/lms-potpourri-0.5.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-potpourri</link>
