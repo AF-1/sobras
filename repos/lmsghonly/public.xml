@@ -3,22 +3,22 @@
 		<title lang="EN">GitHub only Repo (AF1)</title>
 	</details>
 	<plugins>
-		<plugin name="PotPourri" category="tools" version="0.5.3" minTarget="8.4" maxTarget="*">
+		<plugin name="PotPourri" category="tools" version="0.5.4" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
-			<desc lang="EN">A collection of small features: change playlist track order of playlists, scheduled auto power-off of all players, set a player's power-on start volume... More information (incl. a more comprehensive feature list) on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.3/lms-potpourri-0.5.3.zip</url>
+			<desc lang="EN">A collection of small features. Feature list, screenshots and more information on the GitHub page.</desc>
+			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.4/lms-potpourri-0.5.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-potpourri</link>
-			<sha>2edeebbf2a49e477b47bd3261ad7d40835e2e0bd</sha>
+			<sha>c88a33433ccca9b6a7e795890798e786e6892b8a</sha>
 		</plugin>
 
-		<plugin name="ContextStats" category="playlists" version="0.1.4" minTarget="8.4" maxTarget="*">
+		<plugin name="ContextStats" category="playlists" version="0.1.5" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Context Stats</title>
-			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. More information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.1.4/lms-contextstats-0.1.4.zip</url>
+			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. Screenshots and more information on the GitHub page.</desc>
+			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.1.5/lms-contextstats-0.1.5.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-contextstats</link>
-			<sha>148c32acf0fa51c98ee7f05053a72f56d4b37e10</sha>
+			<sha>330bf16e4604003583ea600876cded784e0c7a9f</sha>
 		</plugin>
 	</plugins>
 </extensions>
