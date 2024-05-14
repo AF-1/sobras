@@ -42,24 +42,24 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" category="information" version="1.4.9" minTarget="8.0" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="1.5.0" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Use the data with other plugins to create/play smart playlists, virtual libraries or to skip specific tracks. Screenshots and more information on the GitHub page.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué. Plus d'information sur la page GitHub.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.4.9/lms-alternativeplaycount-1.4.9.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.5.0/lms-alternativeplaycount-1.5.0.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-alternativeplaycount</link>
-			<sha>70ad76564d18278e35e742a8bbc56f7a0cd019c8</sha>
+			<sha>bd7c8f251323d62b6171c1640a86d448ca444e8c</sha>
 		</plugin>
 
 
-		<plugin name="CustomSkip3" category="playlists" version="3.5.1" minTarget="8.0" maxTarget="*">
+		<plugin name="CustomSkip3" category="playlists" version="3.6.0" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Custom Skip</title>
 			<desc lang="EN">Set player-specific rules for when the current track or upcoming tracks in your client playlist should be skipped and removed from the playlist automatically. Screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-customskip/releases/download/3.5.1/lms-customskip-3.5.1.zip</url>
+			<url>https://github.com/AF-1/lms-customskip/releases/download/3.6.0/lms-customskip-3.6.0.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-customskip</link>
-			<sha>810a4dc33079573961c43ac621769ba4f877fc6f</sha>
+			<sha>163041aaedbe55e7931fef91bad510b3435ff688</sha>
 		</plugin>
 
 
@@ -115,23 +115,23 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" category="information" version="2.7.1" minTarget="8.0" maxTarget="*">
+		<plugin name="RatingsLight" category="information" version="2.7.2" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, import, export, log, backup and restore track ratings. Create virtual libraries for (top) rated tracks with browse menus. Screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.7.1/lms-ratingslight-2.7.1.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.7.2/lms-ratingslight-2.7.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-ratingslight</link>
-			<sha>16919ca14517cc035fc0b1095b548f8abbea91a2</sha>
+			<sha>df343c5af86aca4926722b201458328ce6b9a11d</sha>
 		</plugin>
 
 
-		<plugin name="VirtualLibraryCreator" category="scanning" version="1.3.2" minTarget="8.0" maxTarget="*">
+		<plugin name="VirtualLibraryCreator" category="scanning" version="1.3.3" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
 			<desc lang="EN">Create custom virtual libraries with optional LMS browse menus using a template in a browser or by adding files with customized SQLite statements. Screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.3.2/lms-virtuallibrarycreator-1.3.2.zip</url>
+			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.3.3/lms-virtuallibrarycreator-1.3.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-virtuallibrarycreator</link>
-			<sha>bf37610f40aa665454c1e2ddffbc463b4952902b</sha>
+			<sha>bc4016b0c430577fde07eeb1048a993dba2d6888</sha>
 		</plugin>
 
 
