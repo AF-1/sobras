@@ -3,22 +3,22 @@
 		<title lang="EN">GitHub only Repo (AF1)</title>
 	</details>
 	<plugins>
-		<plugin name="PotPourri" category="tools" version="0.5.4" minTarget="8.4" maxTarget="*">
+		<plugin name="PotPourri" category="tools" version="0.5.5" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
 			<desc lang="EN">A collection of small features. Feature list, screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.4/lms-potpourri-0.5.4.zip</url>
+			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.5/lms-potpourri-0.5.5.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-potpourri</link>
-			<sha>c88a33433ccca9b6a7e795890798e786e6892b8a</sha>
+			<sha>c5d3b762d38b9b978932d66d08c63da210adea83</sha>
 		</plugin>
 
-		<plugin name="ContextStats" category="playlists" version="0.1.5" minTarget="8.4" maxTarget="*">
+		<plugin name="ContextStats" category="playlists" version="0.1.6" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Context Stats</title>
 			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. Screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.1.5/lms-contextstats-0.1.5.zip</url>
+			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.1.6/lms-contextstats-0.1.6.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-contextstats</link>
-			<sha>330bf16e4604003583ea600876cded784e0c7a9f</sha>
+			<sha>6748c1823b4172179cbfe8826d42c1c32f27ae3d</sha>
 		</plugin>
 	</plugins>
 </extensions>
