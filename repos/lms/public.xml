@@ -93,25 +93,25 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" category="playlists" version="4.3.9" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylists4" category="playlists" version="4.4.0" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlists</title>
 			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria.</desc>
 			<desc lang="FR">Jouez des mix continus de musique basés sur des critères de sélection définis dans les listes de lecture dynamiques.</desc>
 			<desc lang="DE">Nutze intelligente/dynamische Wiedergabelisten, um kontinuierliche Wiedergabelisten basierend auf deinen Selektionskriterien zu erstellen.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.3.9/lms-dynamicplaylists-4.3.9.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.4.0/lms-dynamicplaylists-4.4.0.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylists</link>
-			<sha>ed2c6ce3317e9de61197c7cc6b965fabb313aa6d</sha>
+			<sha>b2f0c3f3bb598bb28178bd8eabd4fd430365c519</sha>
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.5.7" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.5.8" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin using templates.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.5.7/lms-dynamicplaylistcreator-1.5.7.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.5.8/lms-dynamicplaylistcreator-1.5.8.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylistcreator</link>
-			<sha>a82a6a809217be7628c4b46744d2b99d4af87645</sha>
+			<sha>a620219d0f5e787ac7056932ce6554138d911b67</sha>
 		</plugin>
 
 
