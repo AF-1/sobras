@@ -119,25 +119,25 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" category="information" version="2.7.5" minTarget="8.0" maxTarget="*">
+		<plugin name="RatingsLight" category="information" version="2.7.6" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, import, export, log, backup and restore track ratings. Create virtual libraries for (top) rated tracks with browse menus.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.7.5/lms-ratingslight-2.7.5.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.7.6/lms-ratingslight-2.7.6.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/RatingsLight/HTML/EN/plugins/RatingsLight/html/images/ratedtracksmenuicon.svg</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-ratingslight</link>
-			<sha>8a3d0dab9888906f5dcc7fe8eb934b9f15fe299e</sha>
+			<sha>6391fdef4696b1c65b1071c0ec9c9b5d0ba4055f</sha>
 		</plugin>
 
 
-		<plugin name="VirtualLibraryCreator" category="scanning" version="1.3.4" minTarget="8.0" maxTarget="*">
+		<plugin name="VirtualLibraryCreator" category="scanning" version="1.3.5" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
 			<desc lang="EN">Create custom virtual libraries with optional LMS browse menus using a template in a browser or by adding files with customized SQLite statements.</desc>
-			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.3.4/lms-virtuallibrarycreator-1.3.4.zip</url>
+			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.3.5/lms-virtuallibrarycreator-1.3.5.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-virtuallibrarycreator/main/VirtualLibraryCreator/HTML/EN/plugins/VirtualLibraryCreator/html/images/vlc_icon.svg</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-virtuallibrarycreator</link>
-			<sha>39cd5ec281e541610fd086c38d9552d09f01dd71</sha>
+			<sha>b80dde14b1e6d4fa8a9a4d0ba6f09d83f2c8048d</sha>
 		</plugin>
 
 
