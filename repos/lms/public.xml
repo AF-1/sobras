@@ -85,13 +85,23 @@
 		</plugin>
 
 
-		<plugin name="DarkDefaultSkin" category="skin" version="1.0.7" minTarget="7.9" maxTarget="*">
+		<plugin name="DarkDefaultSkin" category="skin" version="1.0.8" minTarget="7.9" maxTarget="8.*">
 			<title lang="EN">Dark Default Skin</title>
-			<desc lang="EN">Dark-themed version of the LMS Default skin.</desc>
-			<url>https://github.com/AF-1/lms-darkdefaultskin/releases/download/1.0.7/lms-darkdefaultskin-1.0.7.zip</url>
+			<desc lang="EN">Dark-themed version of the LMS Default skin</desc>
+			<url>https://github.com/AF-1/lms-darkdefaultskin/releases/download/1.0.8/lms-darkdefaultskin-1.0.8.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-darkdefaultskin</link>
-			<sha>2370d9cc491acaeb7d65741f21e617528a9bd8a3</sha>
+			<sha>975daac01a02a865d81f3b0f6b18648cdf55c9c3</sha>
+		</plugin>
+
+
+		<plugin name="DarkLogicSkin" category="skin" version="1.0.0" minTarget="9.0" maxTarget="*">
+			<title lang="EN">Dark Logic Skin</title>
+			<desc lang="EN">Dark-themed version of the LMS Logic Teal skin</desc>
+			<url>https://github.com/AF-1/lms-darklogicskin/releases/download/1.0.0/lms-darklogicskin-1.0.0.zip</url>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/lms-darklogicskin</link>
+			<sha>8def5c3ea3655a130ea03f989a4e537e12fbbf87</sha>
 		</plugin>
 
 
