@@ -95,13 +95,13 @@
 		</plugin>
 
 
-		<plugin name="DarkLogicSkin" category="skin" version="1.0.0" minTarget="9.0" maxTarget="*">
+		<plugin name="DarkLogicSkin" category="skin" version="1.0.1" minTarget="9.0" maxTarget="*">
 			<title lang="EN">Dark Logic Skin</title>
 			<desc lang="EN">Dark-themed version of the LMS Logic Teal skin</desc>
-			<url>https://github.com/AF-1/lms-darklogicskin/releases/download/1.0.0/lms-darklogicskin-1.0.0.zip</url>
+			<url>https://github.com/AF-1/lms-darklogicskin/releases/download/1.0.1/lms-darklogicskin-1.0.1.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-darklogicskin</link>
-			<sha>8def5c3ea3655a130ea03f989a4e537e12fbbf87</sha>
+			<sha>ca192a8ae23f65f8055ddea925ba91239c432fe3</sha>
 		</plugin>
 
 
