@@ -7,7 +7,7 @@
 			<title lang="EN">PotPourri</title>
 			<desc lang="EN">A collection of small features. Feature list, screenshots and more information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.5/lms-potpourri-0.5.5.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/screenshots/ppt_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/PotPourri/HTML/EN/plugins/PotPourri/html/images/ppt_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-potpourri</link>
 			<sha>c5d3b762d38b9b978932d66d08c63da210adea83</sha>
@@ -17,7 +17,7 @@
 			<title lang="EN">Context Stats</title>
 			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. Screenshots and more information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.1.8/lms-contextstats-0.1.8.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/screenshots/cs_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/contextstats_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-contextstats</link>
 			<sha>500535b6dc856b87a2a07ed455971be9c7789c4a</sha>
