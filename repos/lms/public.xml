@@ -157,8 +157,7 @@
 			<desc lang="FR">Explorez les statistiques de votre librairie avec des graphiques.</desc>
 			<desc lang="NL">Bekijk jouw mediabibliotheek statistieken door middel van grafieken.</desc>
 			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/1.7.3/lms-visualstatistics-1.7.3.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-visualstatistics/main/VisualStatistics/HTML/EN/plugins/VisualStatistics/html/images/visualstatistics_svg.png
-			https://raw.githubusercontent.com/AF-1/lms-visualstatistics/main/screenshots/vs_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-visualstatistics/main/VisualStatistics/HTML/EN/plugins/VisualStatistics/html/images/visualstatistics_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-visualstatistics</link>
 			<sha>4b83eed8c76d1c6492d6951b968f12025e97a558</sha>
