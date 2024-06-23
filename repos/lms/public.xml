@@ -42,15 +42,15 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" category="information" version="1.5.2" minTarget="8.0" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="1.5.3" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Use the data with other plugins to create/play smart playlists, virtual libraries or to skip specific tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.5.2/lms-alternativeplaycount-1.5.2.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.5.3/lms-alternativeplaycount-1.5.3.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-alternativeplaycount</link>
-			<sha>e02d8beb2105045042402ffc247dbe60ce120139</sha>
+			<sha>ccc42e7dcef503f5c2d360370ce8577c8783db77</sha>
 		</plugin>
 
 
