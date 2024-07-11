@@ -13,14 +13,14 @@
 			<sha>c5d3b762d38b9b978932d66d08c63da210adea83</sha>
 		</plugin>
 
-		<plugin name="ContextStats" category="playlists" version="0.1.8" minTarget="8.4" maxTarget="*">
+		<plugin name="ContextStats" category="playlists" version="0.2.0" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Context Stats</title>
 			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. Screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.1.8/lms-contextstats-0.1.8.zip</url>
+			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.2.0/lms-contextstats-0.2.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/contextstats_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-contextstats</link>
-			<sha>500535b6dc856b87a2a07ed455971be9c7789c4a</sha>
+			<sha>30112fa4bfdf7082a7c2b20451da609641805f99</sha>
 		</plugin>
 	</plugins>
 </extensions>
