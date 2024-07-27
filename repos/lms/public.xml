@@ -105,27 +105,27 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" category="playlists" version="4.4.3" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylists4" category="playlists" version="4.4.4" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlists</title>
 			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria.</desc>
 			<desc lang="FR">Jouez des mix continus de musique basés sur des critères de sélection définis dans les listes de lecture dynamiques.</desc>
 			<desc lang="DE">Nutze intelligente/dynamische Wiedergabelisten, um kontinuierliche Wiedergabelisten basierend auf deinen Selektionskriterien zu erstellen.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.4.3/lms-dynamicplaylists-4.4.3.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.4.4/lms-dynamicplaylists-4.4.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylists/main/DynamicPlaylists4/HTML/EN/plugins/DynamicPlaylists4/html/images/dpl_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylists</link>
-			<sha>8bb8d94ae243718e0efb88e2d9f5ba01b4233ae0</sha>
+			<sha>0f12a1a2fddbf3305c419401d28a11ff4cb32f2e</sha>
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.6.1" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.6.3" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin using templates.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.6.1/lms-dynamicplaylistcreator-1.6.1.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.6.3/lms-dynamicplaylistcreator-1.6.3.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/DynamicPlaylistCreator/HTML/EN/plugins/DynamicPlaylistCreator/html/images/dplc_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-dynamicplaylistcreator</link>
-			<sha>cde35fb366603b13d0d5b54c7cb2c6ceb830c5ba</sha>
+			<sha>0ef34ce9e3f3aba9c95fb618c0821938b4900f16</sha>
 		</plugin>
 
 
@@ -151,16 +151,16 @@
 		</plugin>
 
 
-		<plugin name="VisualStatistics" category="information" version="1.7.5" minTarget="8.0" maxTarget="*">
+		<plugin name="VisualStatistics" category="information" version="1.7.6" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Visual Statistics</title>
 			<desc lang="EN">Have a look at your library statistics with charts.</desc>
 			<desc lang="FR">Explorez les statistiques de votre librairie avec des graphiques.</desc>
 			<desc lang="NL">Bekijk jouw mediabibliotheek statistieken door middel van grafieken.</desc>
-			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/1.7.5/lms-visualstatistics-1.7.5.zip</url>
+			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/1.7.6/lms-visualstatistics-1.7.6.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-visualstatistics/main/VisualStatistics/HTML/EN/plugins/VisualStatistics/html/images/visualstatistics_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-visualstatistics</link>
-			<sha>74151630470b00a5a4a809f7f6c555c3016a0106</sha>
+			<sha>22415b29b5e7e64fe3b4eb7085616059ae62d31e</sha>
 		</plugin>
 	</plugins>
 </extensions>
