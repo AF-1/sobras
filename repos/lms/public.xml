@@ -9,7 +9,7 @@
 			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1  Windows and Linux users: please read the FAQ BEFORE installing.</desc>
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.0.6.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
+			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
 			<sha>1f4182d5d1f563e236e3b2778e7e9cbd08f40315</sha>
 		</applet>
 
@@ -18,7 +18,7 @@
 			<desc lang="EN">This applet installs the Dark Flat Skins on your piCorePlayer (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1</desc>
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.0.7.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
+			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
 			<sha>313a433f548c5e17f984cafb58de4447772e76c2</sha>
 		</applet>
 
@@ -27,7 +27,7 @@
 			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch (based on WQVGAsmallSkin). More information, screenshots and FAQ on https://github.com/AF-1. See FAQ for information on known SB Touch issue.</desc>
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.0.6.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/jivelite-darkflatskin</link>
+			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
 			<sha>7f4ec607f05a86af8a2712e3999100299dfe3588</sha>
 		</applet>
 
@@ -36,7 +36,7 @@
 			<desc lang="EN">This applet installs a NowPlaying screen with ratings on your SB Radio (for QVGAlandscapeSkin). More information on https://github.com/AF-1</desc>
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=NPwithRatingsInstaller-baby-1.0.4.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1</link>
+			<link>https://github.com/AF-1/#-nowplaying-screen-with-ratings-sb-radio</link>
 			<sha>0d6711902a9080177d7ad211aa6033411ae9b0ce</sha>
 		</applet>
 	</applets>
@@ -49,7 +49,7 @@
 			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.5.4/lms-alternativeplaycount-1.5.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-alternativeplaycount</link>
+			<link>https://github.com/AF-1/#-alternative-play-count</link>
 			<sha>5085c9ec0019c4c05b289f979dce507c08589994</sha>
 		</plugin>
 
@@ -60,7 +60,7 @@
 			<url>https://github.com/AF-1/lms-customskip/releases/download/3.6.3/lms-customskip-3.6.3.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-customskip/main/CustomSkip3/HTML/EN/plugins/CustomSkip3/html/images/cs_icon_svg.png</icon>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-customskip</link>
+			<link>https://github.com/AF-1/#-custom-skip</link>
 			<sha>e818aa076a0f0ffcddf9ce8f1d7238ba5992952d</sha>
 		</plugin>
 
@@ -70,7 +70,7 @@
 			<desc lang="EN">Start and stop tracks at a specific playback time or skip a specific part of the song (e.g. silence) by simply adding custom start, stop or skip times to a track's comments tag.</desc>
 			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.1.7/lms-customstartstoptimes-1.1.7.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-customstartstoptimes</link>
+			<link>https://github.com/AF-1/#-custom-start-stop-times</link>
 			<sha>2427ac0cd99d81de81fb301fe6c1bad84f1eb23c</sha>
 		</plugin>
 
@@ -80,7 +80,7 @@
 			<desc lang="EN">Scans track information from custom tags in your music files (incl. rating tags).</desc>
 			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.2.3/lms-customtagimporter-1.2.3.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-customtagimporter</link>
+			<link>https://github.com/AF-1/#-custom-tag-importer</link>
 			<sha>ae5728c6a294c6d0e4a866ddc52f034ae3e5a10b</sha>
 		</plugin>
 
@@ -90,7 +90,7 @@
 			<desc lang="EN">Dark-themed version of the LMS Default skin</desc>
 			<url>https://github.com/AF-1/lms-darkdefaultskin/releases/download/1.0.8/lms-darkdefaultskin-1.0.8.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-darkdefaultskin</link>
+			<link>https://github.com/AF-1/#%EF%B8%8F-dark-default-skin</link>
 			<sha>975daac01a02a865d81f3b0f6b18648cdf55c9c3</sha>
 		</plugin>
 
@@ -100,7 +100,7 @@
 			<desc lang="EN">Dark-themed version of the LMS Logic Teal skin</desc>
 			<url>https://github.com/AF-1/lms-darklogicskin/releases/download/1.0.1/lms-darklogicskin-1.0.1.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-darklogicskin</link>
+			<link>https://github.com/AF-1/#-dark-logic-skin</link>
 			<sha>ca192a8ae23f65f8055ddea925ba91239c432fe3</sha>
 		</plugin>
 
@@ -113,7 +113,7 @@
 			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.4.6/lms-dynamicplaylists-4.4.6.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylists/main/DynamicPlaylists4/HTML/EN/plugins/DynamicPlaylists4/html/images/dpl_icon_svg.png</icon>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-dynamicplaylists</link>
+			<link>https://github.com/AF-1/#-dynamic-playlists</link>
 			<sha>11aa4abf5a59695e144cf365705b3ab563be581b</sha>
 		</plugin>
 
@@ -124,7 +124,7 @@
 			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.6.4/lms-dynamicplaylistcreator-1.6.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/DynamicPlaylistCreator/HTML/EN/plugins/DynamicPlaylistCreator/html/images/dplc_icon_svg.png</icon>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-dynamicplaylistcreator</link>
+			<link>https://github.com/AF-1/#-dynamic-playlist-creator</link>
 			<sha>6e63c751831444d558a257b2577c1882274a7155</sha>
 		</plugin>
 
@@ -135,7 +135,7 @@
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.7.8/lms-ratingslight-2.7.8.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_icon.png</icon>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-ratingslight</link>
+			<link>https://github.com/AF-1/#-ratings-light</link>
 			<sha>6207be3357460a4fec90f481d254c525fb2a8713</sha>
 		</plugin>
 
@@ -146,7 +146,7 @@
 			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.3.6/lms-virtuallibrarycreator-1.3.6.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-virtuallibrarycreator/main/VirtualLibraryCreator/HTML/EN/plugins/VirtualLibraryCreator/html/images/vlc_icon_svg.png</icon>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-virtuallibrarycreator</link>
+			<link>https://github.com/AF-1/#-virtual-library-creator</link>
 			<sha>41f094e366ed823f82ed6b651c12ddbfdbf2376f</sha>
 		</plugin>
 
@@ -159,7 +159,7 @@
 			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/1.7.7/lms-visualstatistics-1.7.7.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-visualstatistics/main/VisualStatistics/HTML/EN/plugins/VisualStatistics/html/images/visualstatistics_svg.png</icon>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-visualstatistics</link>
+			<link>https://github.com/AF-1/#-ratings-light</link>
 			<sha>907bc1c6e2d17da8157c1b3d11e816b544d0acd3</sha>
 		</plugin>
 	</plugins>
