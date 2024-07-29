@@ -3,24 +3,24 @@
 		<title lang="EN">GitHub only Repo (AF1)</title>
 	</details>
 	<plugins>
-		<plugin name="PotPourri" category="tools" version="0.5.6" minTarget="8.4" maxTarget="*">
-			<title lang="EN">PotPourri</title>
-			<desc lang="EN">A collection of small features. Feature list, screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.6/lms-potpourri-0.5.6.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/PotPourri/HTML/EN/plugins/PotPourri/html/images/ppt_icon_svg.png</icon>
-			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-potpourri</link>
-			<sha>0a75863e808bdae27d148cab291e2f19da81a209</sha>
-		</plugin>
-
 		<plugin name="ContextStats" category="playlists" version="0.2.2" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Context Stats</title>
 			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. Screenshots and more information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.2.2/lms-contextstats-0.2.2.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/contextstats_icon_svg.png</icon>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/lms-contextstats</link>
+			<link>https://github.com/AF-1/#-context-stats</link>
 			<sha>052398d16d7e34694472fceef189a053c9bade5a</sha>
+		</plugin>
+
+		<plugin name="PotPourri" category="tools" version="0.5.6" minTarget="8.4" maxTarget="*">
+			<title lang="EN">PotPourri</title>
+			<desc lang="EN">A collection of small features. Feature list, screenshots and more information on the GitHub page.</desc>
+			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.6/lms-potpourri-0.5.6.zip</url>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/PotPourri/HTML/EN/plugins/PotPourri/html/images/ppt_icon_svg.png</icon>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/#-potpourri</link>
+			<sha>0a75863e808bdae27d148cab291e2f19da81a209</sha>
 		</plugin>
 	</plugins>
 </extensions>
