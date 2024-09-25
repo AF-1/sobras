@@ -3,16 +3,6 @@
 		<title lang="EN">GitHub only Repo (AF1)</title>
 	</details>
 	<plugins>
-		<plugin name="ContextStats" category="playlists" version="0.2.3" minTarget="8.4" maxTarget="*">
-			<title lang="EN">Context Stats</title>
-			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. Screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-contextstats/releases/download/0.2.3/lms-contextstats-0.2.3.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/contextstats_icon_svg.png</icon>
-			<creator>AF</creator>
-			<link>https://github.com/AF-1/#-context-stats</link>
-			<sha>d5fcd04eb170915d92f8d99ea9da09a5ec6f7148</sha>
-		</plugin>
-
 		<plugin name="PotPourri" category="tools" version="0.5.6" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
 			<desc lang="EN">A collection of small features. Feature list, screenshots and more information on the GitHub page.</desc>
