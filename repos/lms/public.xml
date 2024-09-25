@@ -42,15 +42,15 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" category="information" version="1.5.4" minTarget="8.0" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="1.5.5" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.5.4/lms-alternativeplaycount-1.5.4.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.5.5/lms-alternativeplaycount-1.5.5.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-alternative-play-count</link>
-			<sha>5085c9ec0019c4c05b289f979dce507c08589994</sha>
+			<sha>0b3e98fa1140feb7b90f9f5db28bc9ed671aca9a</sha>
 		</plugin>
 
 
@@ -65,24 +65,24 @@
 		</plugin>
 
 
-		<plugin name="CustomSkip3" category="playlists" version="3.6.3" minTarget="8.0" maxTarget="*">
+		<plugin name="CustomSkip3" category="playlists" version="3.6.4" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Custom Skip</title>
 			<desc lang="EN">Set rules for when the current track or upcoming tracks in your player's playlist should be skipped and removed from the playlist automatically.</desc>
-			<url>https://github.com/AF-1/lms-customskip/releases/download/3.6.3/lms-customskip-3.6.3.zip</url>
+			<url>https://github.com/AF-1/lms-customskip/releases/download/3.6.4/lms-customskip-3.6.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-customskip/main/CustomSkip3/HTML/EN/plugins/CustomSkip3/html/images/cs_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-custom-skip</link>
-			<sha>e818aa076a0f0ffcddf9ce8f1d7238ba5992952d</sha>
+			<sha>f9e5d9d13a846a8570939f305065b078e26532c3</sha>
 		</plugin>
 
 
-		<plugin name="CustomStartStopTimes" category="playlists" version="1.1.7" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomStartStopTimes" category="playlists" version="1.1.8" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Custom Start Stop Times</title>
 			<desc lang="EN">Skip unwanted parts of a song (e.g. annoying intros, silence at the end or in the middle).</desc>
-			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.1.7/lms-customstartstoptimes-1.1.7.zip</url>
+			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.1.8/lms-customstartstoptimes-1.1.8.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-custom-start-stop-times</link>
-			<sha>2427ac0cd99d81de81fb301fe6c1bad84f1eb23c</sha>
+			<sha>da46acb26df1f71732c575c9b6937315afc9a910</sha>
 		</plugin>
 
 
@@ -140,14 +140,14 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" category="information" version="2.7.9" minTarget="8.0" maxTarget="*">
+		<plugin name="RatingsLight" category="information" version="2.8.0" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, import, export, log, backup and restore track ratings. Create virtual libraries/library views for rated tracks with LMS browse menus.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.7.9/lms-ratingslight-2.7.9.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.8.0/lms-ratingslight-2.8.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-ratings-light</link>
-			<sha>bd3554ccf09d05b87ccb381c9f9cd82ca3067154</sha>
+			<sha>2190736ed903db67c0bf324b8eda4be9b84bdf64</sha>
 		</plugin>
 
 
