@@ -44,7 +44,7 @@
 	<plugins>
 		<plugin name="AlternativePlayCount" category="information" version="1.5.4" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
-			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Use the data with other plugins to create/play smart playlists, virtual libraries or to skip specific tracks.</desc>
+			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué.</desc>
 			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.5.4/lms-alternativeplaycount-1.5.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
@@ -54,9 +54,20 @@
 		</plugin>
 
 
+		<plugin name="ContextStats" category="playlists" version="1.0.1" minTarget="8.4" maxTarget="*">
+			<title lang="EN">Context Stats</title>
+			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. Screenshots and more information on the GitHub page.</desc>
+			<url>https://github.com/AF-1/lms-contextstats/releases/download/1.0.1/lms-contextstats-1.0.1.zip</url>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/contextstats_icon_svg.png</icon>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/#-context-stats</link>
+			<sha>12f01087cdadf6564f91485d1943d40101768511</sha>
+		</plugin>
+
+
 		<plugin name="CustomSkip3" category="playlists" version="3.6.3" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Custom Skip</title>
-			<desc lang="EN">Set player-specific rules for when the current track or upcoming tracks in your client playlist should be skipped and removed from the playlist automatically.</desc>
+			<desc lang="EN">Set rules for when the current track or upcoming tracks in your player's playlist should be skipped and removed from the playlist automatically.</desc>
 			<url>https://github.com/AF-1/lms-customskip/releases/download/3.6.3/lms-customskip-3.6.3.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-customskip/main/CustomSkip3/HTML/EN/plugins/CustomSkip3/html/images/cs_icon_svg.png</icon>
 			<creator>AF</creator>
@@ -67,7 +78,7 @@
 
 		<plugin name="CustomStartStopTimes" category="playlists" version="1.1.7" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Start Stop Times</title>
-			<desc lang="EN">Start and stop tracks at a specific playback time or skip a specific part of the song (e.g. silence) by simply adding custom start, stop or skip times to a track's comments tag.</desc>
+			<desc lang="EN">Skip unwanted parts of a song (e.g. annoying intros, silence at the end or in the middle).</desc>
 			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.1.7/lms-customstartstoptimes-1.1.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-custom-start-stop-times</link>
@@ -120,7 +131,7 @@
 
 		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.6.4" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
-			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin using templates.</desc>
+			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.6.4/lms-dynamicplaylistcreator-1.6.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/DynamicPlaylistCreator/HTML/EN/plugins/DynamicPlaylistCreator/html/images/dplc_icon_svg.png</icon>
 			<creator>AF</creator>
@@ -131,7 +142,7 @@
 
 		<plugin name="RatingsLight" category="information" version="2.7.9" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
-			<desc lang="EN">Set, import, export, log, backup and restore track ratings. Create virtual libraries for (top) rated tracks with browse menus.</desc>
+			<desc lang="EN">Set, import, export, log, backup and restore track ratings. Create virtual libraries/library views for rated tracks with LMS browse menus.</desc>
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.7.9/lms-ratingslight-2.7.9.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_icon.png</icon>
 			<creator>AF</creator>
@@ -142,7 +153,7 @@
 
 		<plugin name="VirtualLibraryCreator" category="scanning" version="1.3.6" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
-			<desc lang="EN">Create custom virtual libraries with optional LMS browse menus using a template in a browser or by adding files with customized SQLite statements.</desc>
+			<desc lang="EN">A quick and easy way to create and manage your own virtual libraries/library views.</desc>
 			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.3.6/lms-virtuallibrarycreator-1.3.6.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-virtuallibrarycreator/main/VirtualLibraryCreator/HTML/EN/plugins/VirtualLibraryCreator/html/images/vlc_icon_svg.png</icon>
 			<creator>AF</creator>
