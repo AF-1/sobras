@@ -56,7 +56,7 @@
 
 		<plugin name="ContextStats" category="playlists" version="1.0.1" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Context Stats</title>
-			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists. Screenshots and more information on the GitHub page.</desc>
+			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists.</desc>
 			<url>https://github.com/AF-1/lms-contextstats/releases/download/1.0.1/lms-contextstats-1.0.1.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/contextstats_icon_svg.png</icon>
 			<creator>AF</creator>
