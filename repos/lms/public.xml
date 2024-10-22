@@ -10,7 +10,7 @@
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.1.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>edf41cda8822461f613f03c7bf2c44145548045b</sha>
+			<sha>85ab4606aefb3421e3f9b491a0798c62c201e2a5</sha>
 		</applet>
 
 		<applet name="DarkFlatSkinInstaller" version="1.1.2" target="jivelite" maxTarget="*">
@@ -19,7 +19,7 @@
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.1.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>e5ace10fcc5a4085fdfdb4d5628765e0d3569151</sha>
+			<sha>f182f223db5c89359cb5c00cfa980e5a3ec04527</sha>
 		</applet>
 
 		<applet name="DarkFlatSkinInstaller" version="1.0.6" target="fab4" maxTarget="*">
