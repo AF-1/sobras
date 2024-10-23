@@ -4,22 +4,22 @@
 	</details>
 
 	<applets>
-		<applet name="DarkFlatSkinInstaller" version="1.1.2" target="squeezeplay" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.1.4" target="squeezeplay" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1  Windows and Linux users: please read the FAQ BEFORE installing.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.1.2.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.1.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>85ab4606aefb3421e3f9b491a0798c62c201e2a5</sha>
+			<sha>518b6bd873755279ecbb555bc4bfd6807128409e</sha>
 		</applet>
 
-		<applet name="DarkFlatSkinInstaller" version="1.1.2" target="jivelite" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.1.4" target="jivelite" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (for 800 x 480 resolution, based on JogglerSkin). More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.1.2.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.1.4.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>f182f223db5c89359cb5c00cfa980e5a3ec04527</sha>
+			<sha>29574267fff415b041e66b068f21ba354481ac7c</sha>
 		</applet>
 
 		<applet name="DarkFlatSkinInstaller" version="1.0.6" target="fab4" maxTarget="*">
