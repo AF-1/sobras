@@ -13,14 +13,14 @@
 		</applet>
 	</applets>
 	<plugins>
-		<plugin name="PotPourri" category="tools" version="0.5.6" minTarget="8.4" maxTarget="*">
+		<plugin name="PotPourri" category="tools" version="1.0.1" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
-			<desc lang="EN">A collection of small features. Feature list, screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-potpourri/releases/download/0.5.6/lms-potpourri-0.5.6.zip</url>
+			<desc lang="EN">A collection of small features. Examples: change track order of saved/client playlists, set power-on volume level for players or time to turn off all players each day, export saved playlists to playlist files with custom file paths/extensions… Complete feature list, screenshots and more information on the GitHub page.</desc>
+			<url>https://github.com/AF-1/lms-potpourri/releases/download/1.0.1/lms-potpourri-1.0.1.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/PotPourri/HTML/EN/plugins/PotPourri/html/images/ppt_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-potpourri</link>
-			<sha>0a75863e808bdae27d148cab291e2f19da81a209</sha>
+			<sha>9aa83eca589245ff8d4b28f0a92eabf07b1f3725</sha>
 		</plugin>
 	</plugins>
 </extensions>
