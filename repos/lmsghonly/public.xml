@@ -3,15 +3,18 @@
 		<title lang="EN">GitHub only Repo (AF1)</title>
 	</details>
 	<applets>
-		<applet name="DarkFlatSkinInstaller" version="1.1.4" target="fab4" maxTarget="*">
+
+		<applet name="DarkFlatSkinInstaller" version="1.2.0" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
-			<desc lang="EN">Unreleased DEV version - UPDATING: uninstall installed version first using the applet's own uninstaller (see FAQ).  More information, screenshots and FAQ on https://github.com/AF-1. See FAQ for information on known SB Touch issue.</desc>
-			<url>http://af1.userspace.sosou.eu/lmsrepo/DarkFlatSkinInstaller-fab4-1.1.4.zip</url>
+			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch (based on WQVGAsmallSkin).  More information, screenshots and FAQ on https://github.com/AF-1. See FAQ for information on known SB Touch issue.</desc>
+			<url>http://af1.userspace.sosou.eu/lmsrepo/DarkFlatSkinInstaller-fab4-1.2.0.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>a3fe48fd58fe6855907d7f71cda5565a0aa435fc</sha>
+			<sha>414640a717e662a8c218b0697a2f5727665c0827</sha>
 		</applet>
+
 	</applets>
+
 	<plugins>
 		<plugin name="PotPourri" category="tools" version="1.0.2" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
