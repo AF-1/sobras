@@ -10,7 +10,7 @@
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.0.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>bd98fd5eb5a25406679e4960cc90552b773b92a7</sha>
+			<sha>f3d489b97dc0796729d3f2607a05ee3d975911fc</sha>
 		</applet>
 
 		<applet name="DarkFlatSkinInstaller" version="1.1.4" target="jivelite" maxTarget="*">
