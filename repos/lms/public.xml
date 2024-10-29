@@ -4,32 +4,32 @@
 	</details>
 
 	<applets>
+		<applet name="DarkFlatSkinInstaller" version="1.2.2" target="squeezeplay" maxTarget="*">
+			<title lang="EN">Dark Flat Skin Installer</title>
+			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** Windows and Linux users: please read the FAQ BEFORE installing. *** To remove the Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.2.zip</url>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
+			<sha>aa511afd2dc589f67463d88e683dd203aa2352c5</sha>
+		</applet>
+
+		<applet name="DarkFlatSkinInstaller" version="1.2.2" target="jivelite" maxTarget="*">
+			<title lang="EN">Dark Flat Skin Installer</title>
+			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** To remove the Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.2.2.zip</url>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
+			<sha>754d796aa7861c1bcbffe3cc6447e62f8cb9fd3d</sha>
+		</applet>
+
 <!--
-		<applet name="DarkFlatSkinInstaller" version="1.2.1" target="squeezeplay" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.2.2" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
-			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (800 x 480 resolution). More information, screenshots and FAQ on https://github.com/AF-1  Windows and Linux users: please read the FAQ BEFORE installing.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.1.zip</url>
+			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch. ***  More information, screenshots and FAQ on https://github.com/AF-1. *** See FAQ for information on known SB Touch issue. *** To remove Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>e09643725fcade08d5e4dfba792a330c44cf9342</sha>
-		</applet>
-
-		<applet name="DarkFlatSkinInstaller" version="1.1.4" target="jivelite" maxTarget="*">
-			<title lang="EN">Dark Flat Skin Installer</title>
-			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (800 x 480 resolution).  UPDATING: uninstall installed version first using the applet's own uninstaller (see FAQ).  More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.1.4.zip</url>
-			<creator>AF</creator>
-			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>29574267fff415b041e66b068f21ba354481ac7c</sha>
-		</applet>
-
-		<applet name="DarkFlatSkinInstaller" version="1.2.0" target="fab4" maxTarget="*">
-			<title lang="EN">Dark Flat Skin Installer</title>
-			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch.  UPDATING: uninstall installed version first using the applet's own uninstaller (see FAQ).  More information, screenshots and FAQ on https://github.com/AF-1. See FAQ for information on known SB Touch issue.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.0.zip</url>
-			<creator>AF</creator>
-			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>fe613c86fe8d44801ee6b72e22834a9455731e92</sha>
+			<sha>aed3a7eb08a003515c88f25ac0876904c9745f82</sha>
 		</applet>
  -->
 
