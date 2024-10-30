@@ -4,15 +4,6 @@
 	</details>
 	<applets>
 
-		<applet name="DarkFlatSkinInstaller" version="1.2.2" target="fab4" maxTarget="*">
-			<title lang="EN">Dark Flat Skin Installer</title>
-			<desc lang="EN">Dark Flat Skin - SB Touch DEV version</desc>
-			<url>http://af1.userspace.sosou.eu/lmsrepo/DarkFlatSkinInstaller-fab4-1.2.2.zip</url>
-			<creator>AF</creator>
-			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>aed3a7eb08a003515c88f25ac0876904c9745f82</sha>
-		</applet>
-
 	</applets>
 
 	<plugins>
