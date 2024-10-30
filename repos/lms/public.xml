@@ -22,16 +22,14 @@
 			<sha>754d796aa7861c1bcbffe3cc6447e62f8cb9fd3d</sha>
 		</applet>
 
-<!--
 		<applet name="DarkFlatSkinInstaller" version="1.2.2" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch. ***  More information, screenshots and FAQ on https://github.com/AF-1. *** See FAQ for information on known SB Touch issue. *** To remove Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>aed3a7eb08a003515c88f25ac0876904c9745f82</sha>
+			<sha>9a7837a0fecd80620e171255096a7543a8173b01</sha>
 		</applet>
- -->
 
 		<applet name="NPwithRatingsInstaller" version="1.0.4" target="baby" maxTarget="*">
 			<title lang="EN">NowPlaying Screen with Ratings Installer</title>
