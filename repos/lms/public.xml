@@ -4,31 +4,31 @@
 	</details>
 
 	<applets>
-		<applet name="DarkFlatSkinInstaller" version="1.2.2" target="squeezeplay" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.2.3" target="squeezeplay" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** Windows and Linux users: please read the FAQ BEFORE installing. *** To remove the Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.2.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>aa511afd2dc589f67463d88e683dd203aa2352c5</sha>
+			<sha>6daca6663dedf281688e668c3431e041e7e2d042</sha>
 		</applet>
 
-		<applet name="DarkFlatSkinInstaller" version="1.2.2" target="jivelite" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.2.3" target="jivelite" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** To remove the Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.2.2.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.2.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>754d796aa7861c1bcbffe3cc6447e62f8cb9fd3d</sha>
+			<sha>425a97512e1380cea787815d487da49931b52435</sha>
 		</applet>
 
-		<applet name="DarkFlatSkinInstaller" version="1.2.2" target="fab4" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.2.3" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch. ***  More information, screenshots and FAQ on https://github.com/AF-1. *** See FAQ for information on known SB Touch issue. *** To remove Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.2.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.3.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>9a7837a0fecd80620e171255096a7543a8173b01</sha>
+			<sha>7f193a913c83b703f3f22c741f85ff019e87edab</sha>
 		</applet>
 
 		<applet name="NPwithRatingsInstaller" version="1.0.4" target="baby" maxTarget="*">
