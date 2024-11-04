@@ -4,40 +4,43 @@
 	</details>
 
 	<applets>
-		<applet name="DarkFlatSkinInstaller" version="1.2.3" target="squeezeplay" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.2.4" target="squeezeplay" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
-			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** Windows and Linux users: please read the FAQ BEFORE installing. *** To remove the Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.3.zip</url>
+			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** Windows and Linux users: please read the FAQ BEFORE installing.</desc>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.4.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>6daca6663dedf281688e668c3431e041e7e2d042</sha>
+			<link>https://github.com/AF-1</link>
+			<sha>08772e8ecaf3a4efc77401b3925a79d5ee5b4079</sha>
 		</applet>
 
-		<applet name="DarkFlatSkinInstaller" version="1.2.3" target="jivelite" maxTarget="*">
+
+		<applet name="DarkFlatSkinInstaller" version="1.2.4" target="jivelite" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
-			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** To remove the Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.2.3.zip</url>
+			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1</desc>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.2.4.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
-			<sha>425a97512e1380cea787815d487da49931b52435</sha>
+			<link>https://github.com/AF-1</link>
+			<sha>08f9064ccd47d7beaec90bd26e3fcff67f23e261</sha>
 		</applet>
+
 
 		<applet name="DarkFlatSkinInstaller" version="1.2.3" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
-			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch. ***  More information, screenshots and FAQ on https://github.com/AF-1. *** See FAQ for information on known SB Touch issue. *** To remove Dark Flat Skin properly, please use the skin's own uninstaller (Settings > Advanced).</desc>
+			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch. ***  More information, screenshots and FAQ on https://github.com/AF-1. *** See FAQ for information on known SB Touch issue.</desc>
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.3.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/#-dark-flat-skin-picoreplayer-squeezeplay-sb-touch</link>
+			<link>https://github.com/AF-1</link>
 			<sha>7f193a913c83b703f3f22c741f85ff019e87edab</sha>
 		</applet>
 
-		<applet name="NPwithRatingsInstaller" version="1.0.4" target="baby" maxTarget="*">
-			<title lang="EN">NowPlaying Screen with Ratings Installer</title>
-			<desc lang="EN">This applet installs a NowPlaying screen with ratings on your SB Radio (for QVGAlandscapeSkin).  UPDATING: uninstall installed version first using the applet's own uninstaller.  More information on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=NPwithRatingsInstaller-baby-1.0.4.zip</url>
+
+		<applet name="NPInfoPlusInstaller" version="1.1.0" target="baby" maxTarget="*">
+			<title lang="EN">NowPlaying Info Plus</title>
+			<desc lang="EN">This applet installs a Now Playing screen that displays rating, year and audio metadata. *** More information, screenshots and FAQ on https://github.com/AF-1</desc>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=NPInfoPlusInstaller-baby-1.1.0.zip</url>
 			<creator>AF</creator>
-			<link>https://github.com/AF-1/#-nowplaying-screen-with-ratings-sb-radio</link>
-			<sha>0d6711902a9080177d7ad211aa6033411ae9b0ce</sha>
+			<link>https://github.com/AF-1</link>
+			<sha>7e00f01bf1f06e549e36942aa8a65010b8ab4b77</sha>
 		</applet>
 	</applets>
 
