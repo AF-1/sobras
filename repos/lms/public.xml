@@ -36,7 +36,7 @@
 
 		<applet name="NPInfoPlusInstaller" version="1.1.0" target="baby" maxTarget="*">
 			<title lang="EN">NowPlaying Info Plus</title>
-			<desc lang="EN">This applet installs a Now Playing screen that displays rating, year and audio metadata. *** More information, screenshots and FAQ on https://github.com/AF-1</desc>
+			<desc lang="EN">Display additional information on the Now Playing screen (rating, year, audio metadata, status icons). *** More information, screenshots and FAQ on https://github.com/AF-1</desc>
 			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=NPInfoPlusInstaller-baby-1.1.0.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
