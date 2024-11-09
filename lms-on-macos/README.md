@@ -64,4 +64,4 @@ I use a tiny AppleScript app with a Mac wake-on-lan binary to wake my LMS Mac.<b
 One click to start the WakeMac app and the server should wake up.
 
 <br><br>
-[^1]:My (headless) Mac mini runs the latest macOS 10.15. So I don't know if anything I'll describe below works with later OS versions or on Silicion macs but I guess that some or most of it will.
+[^1]:My (headless) Mac mini runs the latest macOS 10.15. So I don't know how much of this works with later OS versions or on Silicion macs but I guess that some or most of it will.
