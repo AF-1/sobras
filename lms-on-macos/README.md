@@ -1,78 +1,7 @@
-LMS on my mac
+How to put your mac to sleep
 ====
-My (headless) Mac mini runs the latest macOS 10.15. So I don't know if anything I'll describe below works with later OS versions or on M1 machines but I guess that some or most of it will.
-<br><br><br>
 
-
-# LMS auto-start
-
-If the default method to start LMS works fine for you, skip this. There's more than one way to start LMS on a Mac. Here's mine:<br>
-I have **auto-login enabled** so that when I start my mac it will boot directly into the user account that runs LMS.<br>
-And I suppose that you've already granted one or more perl binaries (/usr/bin/perl, /usr/bin/perl5.18, /usr/bin/perl5.28 or the one that's installed by the LMS package) **Full Disk Access** (*System Preferences* > *Security & Privacy* > *Full Disk Access*).
-
-Log in to the user account that runs LMS.
-
-Open **System Preferences** > **LMS** > **Status** and set the *auto-start preference* to **Never start server automatically**.
-
-Now **create a launch agent** that will start LMS automatically when you're booting into this user account.
-
-Make sure that the folder `~/Library/LaunchAgents/` exists. Otherwise create it.
-
-Use a text editor of your choice (e.g. [BBEdit](
-https://www.barebones.com/products/bbedit/
-)) to **create a plain text file** called **Squeezebox.plist** with this content:
-
-````
-<plist version="1.0">
-	<dict>
-		<key>Label</key>
-		<string>Squeezebox</string>
-		<key>RunAtLoad</key>
-		<true />
-		<key>Program</key>
-			<string>/Library/PreferencePanes/Squeezebox.prefPane/Contents/server/slimserver.pl</string>
-		<key>WorkingDirectory</key>
-		<string>/Library/PreferencePanes/Squeezebox.prefPane/Contents/server</string>
-		<key>StandardOutPath</key>
-		<string>/Users/YOURUSERNAME/Library/Logs/Squeezebox/server.log</string>
-		<key>StandardErrorPath</key>
-		<string>/Users/YOURUSERNAME/Library/Logs/Squeezebox/server.log</string>
-	</dict>
-</plist>
-````
-
-Replace YOURUSERNAME with your **user account name**. You can use the `whoami` command to display it.
-Then save **Squeezebox.plist** to `~/Library/LaunchAgents/`.
-
-That's basically it. Now LMS should start automatically after every reboot - but probably a bit later in the boot process. That's not a bad thing if your music files are stored on an external volume because sometimes macOS takes a moment before mounting those.
-<br><br><br>
-
-## Suggestion: create 1-click apps to stop/restart LMS from the Dock
-
-Use Apple's **Script Editor** (from */Applications/Utilities/*) to create two very simple LMS scripts that will restart / stop LMS and save them as apps.<br><br>
-
-### LMS Restart
-Paste these lines below, then **save** the script as an **application** and name it **LMS restart**, for example:
-
-````
-do shell script "sh '/Library/PreferencePanes/Squeezebox.prefPane/Contents/Resources/stop-server.sh'"
-delay 3
-do shell script "sh '/Library/PreferencePanes/Squeezebox.prefPane/Contents/Resources/start-server.sh'"
-````
-<br>
-
-### LMS Stop
-Paste the line below, then **save** the script as an **application** and name it **LMS stop**, for example:
-
-```
-do shell script "sh '/Library/PreferencePanes/Squeezebox.prefPane/Contents/Resources/stop-server.sh'"
-```
-
-Now drag/add these applications to the Dock.
-<br><br><br><br>
-
-
-# Put your mac to sleep
+How I make sure that my mac[^1] goes to sleep when I don't use LMS.
 
 ## Narcolepsy
 
@@ -133,3 +62,6 @@ I use a tiny AppleScript app with a Mac wake-on-lan binary to wake my LMS Mac.<b
 `sudo xattr -r -d com.apple.quarantine path/to/WakeMac.app`
 
 One click to start the WakeMac app and the server should wake up.
+
+<br><br>
+[^1]:My (headless) Mac mini runs the latest macOS 10.15. So I don't know if anything I'll describe below works with later OS versions or on Silicion macs but I guess that some or most of it will.
