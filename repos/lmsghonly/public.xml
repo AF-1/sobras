@@ -18,6 +18,16 @@
 		</plugin>
 
 
+		<plugin name="ExportToMusicIP" category="tools" version="0.1.0" minTarget="7.9" maxTarget="*">
+			<title lang="EN">Export To MusicIP</title>
+			<desc lang="EN">Export rating, play count and date last played values from LMS to MusicIP</desc>
+			<url>https://github.com/AF-1/lms-exporttomusicip/releases/download/0.1.0/lms-exporttomusicip-0.1.0.zip</url>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/lms-exporttomusicip</link>
+			<sha>5d7b750c6665445536d956096e5c38d7c24c6640</sha>
+		</plugin>
+
+
 		<plugin name="SugarCube" category="playlists" version="7.0.8" minTarget="7.9" maxTarget="*">
 			<title lang="EN">SugarCube</title>
 			<desc lang="EN">A modified version of the SugarCube plugin.</desc>
