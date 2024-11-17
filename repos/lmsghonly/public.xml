@@ -8,5 +8,24 @@
 
 	<plugins>
 
+		<plugin name="CustomBrowseMenus" category="tools" version="0.1.2" minTarget="7.9" maxTarget="*">
+			<title lang="EN">Custom Browse Menus</title>
+			<desc lang="EN">A modified version of the CustomBrowse plugin.</desc>
+			<url>https://github.com/AF-1/lms-custombrowsemenus/releases/download/0.1.2/lms-custombrowsemenus-0.1.2.zip</url>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/lms-custombrowsemenus</link>
+			<sha>68c242040367fcdbc04b2445042ad1d894f836ba</sha>
+		</plugin>
+
+
+		<plugin name="SugarCube" category="playlists" version="7.0.8" minTarget="7.9" maxTarget="*">
+			<title lang="EN">SugarCube</title>
+			<desc lang="EN">A modified version of the SugarCube plugin.</desc>
+			<url>https://github.com/AF-1/lms-sugarcube/releases/download/7.0.8/lms-sugarcube-7.0.8.zip</url>
+			<creator>Charles Parker, AF</creator>
+			<link>https://github.com/AF-1/lms-sugarcube</link>
+			<sha>697846755ed1d8914da66f20eb12556582feceeb</sha>
+		</plugin>
+
 	</plugins>
 </extensions>
