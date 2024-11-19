@@ -18,13 +18,13 @@
 		</plugin>
 
 
-		<plugin name="ExportToMusicIP" category="tools" version="0.1.1" minTarget="7.9" maxTarget="*">
+		<plugin name="ExportToMusicIP" category="tools" version="0.1.2" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Export To MusicIP</title>
 			<desc lang="EN">Export rating, play count and date last played values from LMS to MusicIP</desc>
-			<url>https://github.com/AF-1/lms-exporttomusicip/releases/download/0.1.1/lms-exporttomusicip-0.1.1.zip</url>
+			<url>https://github.com/AF-1/lms-exporttomusicip/releases/download/0.1.2/lms-exporttomusicip-0.1.2.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/lms-exporttomusicip</link>
-			<sha>c27ea1378d0b4a0cae3894f1a40d908e77a3ecb8</sha>
+			<sha>89e8816322c3da47be4ae96f18f98812dfe44e6e</sha>
 		</plugin>
 
 
