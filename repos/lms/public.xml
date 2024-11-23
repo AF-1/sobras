@@ -119,27 +119,27 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" category="playlists" version="4.4.8" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylists4" category="playlists" version="4.4.9" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlists</title>
 			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria.</desc>
 			<desc lang="FR">Jouez des mix continus de musique basés sur des critères de sélection définis dans les listes de lecture dynamiques.</desc>
 			<desc lang="DE">Nutze intelligente/dynamische Wiedergabelisten, um kontinuierliche Wiedergabelisten basierend auf deinen Selektionskriterien zu erstellen.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.4.8/lms-dynamicplaylists-4.4.8.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.4.9/lms-dynamicplaylists-4.4.9.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylists/main/DynamicPlaylists4/HTML/EN/plugins/DynamicPlaylists4/html/images/dpl_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dynamic-playlists</link>
-			<sha>9becebdbd3e5a9e217de3832af8051d7ef249b91</sha>
+			<sha>ef6f63260a9509a4425bc0dd4998a167ede64d73</sha>
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.6.6" minTarget="8.4" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.6.7" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.6.6/lms-dynamicplaylistcreator-1.6.6.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.6.7/lms-dynamicplaylistcreator-1.6.7.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/DynamicPlaylistCreator/HTML/EN/plugins/DynamicPlaylistCreator/html/images/dplc_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dynamic-playlist-creator</link>
-			<sha>e5c19aba81c86640cb81256b3e93e0f9791beb70</sha>
+			<sha>b2c6986d2d397a133c96b05b84b534b42ec09c69</sha>
 		</plugin>
 
 		<plugin name="PotPourri" category="tools" version="1.0.2" minTarget="8.4" maxTarget="*">
