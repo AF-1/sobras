@@ -4,13 +4,13 @@
 	</details>
 
 	<applets>
-		<applet name="DarkFlatSkinInstaller" version="1.2.5" target="squeezeplay" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.2.6" target="squeezeplay" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** Windows and Linux users: please read the FAQ BEFORE installing.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.5.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.6.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>3190608a1e10d71f60e4091d8ad768bae50689ae</sha>
+			<sha>e8a486d95281aac90f786d76a741714307a6abed</sha>
 		</applet>
 
 
@@ -24,13 +24,13 @@
 		</applet>
 
 
-		<applet name="DarkFlatSkinInstaller" version="1.2.4" target="fab4" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.2.5" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch. ***  More information, screenshots and FAQ on https://github.com/AF-1. *** See FAQ for information on known SB Touch issue.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.4.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.5.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>7eccd63b7d4e699b724b6dce06c3ff9e7c74bad2</sha>
+			<sha>5f6ba95c0d313e38680ab5deecfc0452970c2ff8</sha>
 		</applet>
 
 
