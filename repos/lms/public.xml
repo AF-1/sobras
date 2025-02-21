@@ -4,13 +4,13 @@
 	</details>
 
 	<applets>
-		<applet name="DarkFlatSkinInstaller" version="1.2.6" target="squeezeplay" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.2.7" target="squeezeplay" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** Windows and Linux users: please read the FAQ BEFORE installing.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.6.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>e8a486d95281aac90f786d76a741714307a6abed</sha>
+			<sha>839ae0bbc16cc6969cca7eff2324cdf3298e3bbb</sha>
 		</applet>
 
 
