@@ -24,13 +24,13 @@
 		</applet>
 
 
-		<applet name="DarkFlatSkinInstaller" version="1.2.5" target="fab4" maxTarget="*">
+		<applet name="DarkFlatSkinInstaller" version="1.2.7" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch. ***  More information, screenshots and FAQ on https://github.com/AF-1. *** See FAQ for information on known SB Touch issue.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.5.zip</url>
+			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>5f6ba95c0d313e38680ab5deecfc0452970c2ff8</sha>
+			<sha>3ff6fa353ef2ac8389a5f134cd7a974172ddf73b</sha>
 		</applet>
 
 
