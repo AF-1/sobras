@@ -132,14 +132,14 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.7.1" minTarget="8.4" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.7.2" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.7.1/lms-dynamicplaylistcreator-1.7.1.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.7.2/lms-dynamicplaylistcreator-1.7.2.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/DynamicPlaylistCreator/HTML/EN/plugins/DynamicPlaylistCreator/html/images/dplc_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1/#-dynamic-playlist-creator</link>
-			<sha>a76f17a36062f93b96a1258b3e5864fc9868ef1e</sha>
+			<sha>1a971e58af6ebfb686a3b582b61b34ed8ef25a13</sha>
 		</plugin>
 
 		<plugin name="PotPourri" category="tools" version="1.0.4" minTarget="8.4" maxTarget="*">
