@@ -7,7 +7,7 @@
 		<applet name="DarkFlatSkinInstaller" version="1.2.7" target="squeezeplay" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin for Squeezeplay (800 x 480 resolution). *** More information, screenshots and FAQ on https://github.com/AF-1 *** Windows and Linux users: please read the FAQ BEFORE installing.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.7.zip</url>
+			<url>http://af1.jerq.org/lms_applets/download.php?filename=DarkFlatSkinInstaller-squeezeplay-1.2.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>a32b109cd409901f1d026020455f398a997acad4</sha>
@@ -17,7 +17,7 @@
 		<applet name="DarkFlatSkinInstaller" version="1.2.7" target="jivelite" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your piCorePlayer (800 x 480 resolution). IMPORTANT - piCorePlayer 10: this applet requires the original jivelite. Does not work with jivelite-vis. *** More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.2.7.zip</url>
+			<url>http://af1.jerq.org/lms_applets/download.php?filename=DarkFlatSkinInstaller-pcp-1.2.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>b56a0a1120626c2e8187e62f861267d5d1ba6286</sha>
@@ -27,7 +27,7 @@
 		<applet name="DarkFlatSkinInstaller" version="1.2.7" target="fab4" maxTarget="*">
 			<title lang="EN">Dark Flat Skin Installer</title>
 			<desc lang="EN">This applet installs the Dark Flat Skin on your SB Touch. ***  More information, screenshots and FAQ on https://github.com/AF-1. *** See FAQ for information on known SB Touch issue.</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.7.zip</url>
+			<url>http://af1.jerq.org/lms_applets/download.php?filename=DarkFlatSkinInstaller-fab4-1.2.7.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>3ff6fa353ef2ac8389a5f134cd7a974172ddf73b</sha>
@@ -37,7 +37,7 @@
 		<applet name="NPInfoPlusInstaller" version="1.1.0" target="baby" maxTarget="*">
 			<title lang="EN">NowPlaying Info Plus</title>
 			<desc lang="EN">Display additional information on the Now Playing screen (rating, year, audio metadata, status icons). *** More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.userspace.sosou.eu/lms_applets/download.php?filename=NPInfoPlusInstaller-baby-1.1.0.zip</url>
+			<url>http://af1.jerq.org/lms_applets/download.php?filename=NPInfoPlusInstaller-baby-1.1.0.zip</url>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>7e00f01bf1f06e549e36942aa8a65010b8ab4b77</sha>
