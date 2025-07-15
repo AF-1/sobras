@@ -132,14 +132,14 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.7.6" minTarget="8.4" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.7.7" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.7.6/lms-dynamicplaylistcreator-1.7.6.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.7.7/lms-dynamicplaylistcreator-1.7.7.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/DynamicPlaylistCreator/HTML/EN/plugins/DynamicPlaylistCreator/html/images/dplc_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>5ae6f4e731db68dc8f2f6199a5c589683a137a67</sha>
+			<sha>876c66acec330b67e6be5c954380a96896175161</sha>
 		</plugin>
 
 		<plugin name="PotPourri" category="tools" version="1.0.6" minTarget="8.4" maxTarget="*">
@@ -163,14 +163,14 @@
 		</plugin>
 
 
-		<plugin name="VirtualLibraryCreator" category="scanning" version="1.4.9" minTarget="8.4" maxTarget="*">
+		<plugin name="VirtualLibraryCreator" category="scanning" version="1.5.0" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
 			<desc lang="EN">A quick and easy way to create and manage your own virtual libraries/library views.</desc>
-			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.4.9/lms-virtuallibrarycreator-1.4.9.zip</url>
+			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.5.0/lms-virtuallibrarycreator-1.5.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-virtuallibrarycreator/main/VirtualLibraryCreator/HTML/EN/plugins/VirtualLibraryCreator/html/images/vlc_icon_svg.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>01b803826c16c896651dbf133f6d228394574ca1</sha>
+			<sha>336a500835769a6166dee2ef7aedc5c2ea630059</sha>
 		</plugin>
 
 
