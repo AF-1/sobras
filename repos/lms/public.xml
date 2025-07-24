@@ -32,16 +32,6 @@
 			<link>https://github.com/AF-1</link>
 			<sha>a2daad6468b2357fdbe48f2a8cee5e81fe6fc249</sha>
 		</applet>
-
-
-		<applet name="NPInfoPlusInstaller" version="1.1.0" target="baby" maxTarget="*">
-			<title lang="EN">NowPlaying Info Plus</title>
-			<desc lang="EN">Display additional information on the Now Playing screen (rating, year, audio metadata, status icons). *** More information, screenshots and FAQ on https://github.com/AF-1</desc>
-			<url>http://af1.jerq.org/lms_applets/download.php?filename=NPInfoPlusInstaller-baby-1.1.0.zip</url>
-			<creator>AF</creator>
-			<link>https://github.com/AF-1</link>
-			<sha>7e00f01bf1f06e549e36942aa8a65010b8ab4b77</sha>
-		</applet>
 	</applets>
 
 	<plugins>
