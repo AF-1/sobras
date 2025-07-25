@@ -3,7 +3,7 @@ Change font to use the rating star ★ in LMS title formats
 **(Radio, piCorePlayer, SqueezePlay, Touch, jivelite controllers)**
 
 > [!NOTE]
-> The [Dark Flat Skin](https://github.com/AF-1/jivelite-darkflatskin#dark-flat-skin) applet (*piCorePlayer, SqueezePlay, SB Touch*) already includes the required font files.<br>
+> The [Dark Flat Skin](https://github.com/AF-1/jivelite-darkflatskin#dark-flat-skin) applet (*piCorePlayer, SqueezePlay, SB Touch*, *SB Radio*) already includes the required font files.<br>
 <br>
 
 The *default font* of players with jivelite as graphical frontend (**piCorePlayer**, **SqueezePlay**, SB **Touch**, SB **Radio**...) **does not include** the [**black star**](https://www.fileformat.info/info/unicode/char/2605/index.htm) (unicode 2605) character ★.<br><br>
