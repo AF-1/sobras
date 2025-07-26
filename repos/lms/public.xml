@@ -50,21 +50,21 @@
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué.</desc>
 			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.6.5/lms-alternativeplaycount-1.6.5.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/AlternativePlayCount/HTML/EN/plugins/AlternativePlayCount/html/images/apc_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>697e09ca037ea4a657f3e03dae5a053baaa54950</sha>
 		</plugin>
 
 
-		<plugin name="ContextStats" category="playlists" version="1.0.4" minTarget="8.4" maxTarget="*">
+		<plugin name="ContextStats" category="playlists" version="1.0.5" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Context Stats</title>
 			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists.</desc>
-			<url>https://github.com/AF-1/lms-contextstats/releases/download/1.0.4/lms-contextstats-1.0.4.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/contextstats_icon_svg.png</icon>
+			<url>https://github.com/AF-1/lms-contextstats/releases/download/1.0.5/lms-contextstats-1.0.5.zip</url>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/cs_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>62c59af3e209acb1a64818d6455b09b60a74556c</sha>
+			<sha>c57d426e49825394f723aca8c5778ca476986727</sha>
 		</plugin>
 
 
@@ -79,23 +79,25 @@
 		</plugin>
 
 
-		<plugin name="CustomStartStopTimes" category="playlists" version="1.2.0" minTarget="8.2" maxTarget="*">
+		<plugin name="CustomStartStopTimes" category="playlists" version="1.2.1" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Custom Start Stop Times</title>
 			<desc lang="EN">Skip unwanted parts of a song (e.g. annoying intros, silence at the end or in the middle).</desc>
-			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.2.0/lms-customstartstoptimes-1.2.0.zip</url>
+			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.2.1/lms-customstartstoptimes-1.2.1.zip</url>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-customstartstoptimes/main/CustomStartStopTimes/HTML/EN/plugins/CustomStartStopTimes/html/images/csst_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>d1733a44fa61dcda81f8d3ecee2df4261af3cda7</sha>
+			<sha>f6d4840ae71bfaf8bbe1d759f299ffb71a201680</sha>
 		</plugin>
 
 
-		<plugin name="CustomTagImporter" category="scanning" version="1.2.5" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomTagImporter" category="scanning" version="1.2.6" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Tag Importer</title>
 			<desc lang="EN">Scans track information from custom tags in your music files (incl. rating tags).</desc>
-			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.2.5/lms-customtagimporter-1.2.5.zip</url>
+			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.2.6/lms-customtagimporter-1.2.6.zip</url>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-customtagimporter/main/CustomTagImporter/HTML/EN/plugins/CustomTagImporter/html/images/cti_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>c1af8a70c621b42e157732d6fd23916ffb557364</sha>
+			<sha>c7a851cd1fda0e0962f0ac02850bfbcb4827a0a4</sha>
 		</plugin>
 
 
@@ -142,9 +144,10 @@
 			<sha>876c66acec330b67e6be5c954380a96896175161</sha>
 		</plugin>
 
+
 		<plugin name="PotPourri" category="tools" version="1.0.6" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
-			<desc lang="EN">A collection of small features. Examples: change track order of saved/client playlists, set power-on volume level for players or time to turn off all players each day, export saved playlists to playlist files with custom file paths/extensions… Complete feature list, screenshots and more information on the GitHub page.</desc>
+			<desc lang="EN">A collection of small features: change the track order of playlists, schedule auto power-off of all players, set a player's power-on start volume, limit or lock a player's volume, export static playlists to playlist files with custom file paths and file extensions, purge dead tracks… Complete feature list, screenshots and more information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-potpourri/releases/download/1.0.6/lms-potpourri-1.0.6.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/PotPourri/HTML/EN/plugins/PotPourri/html/images/ppt_icon_svg.png</icon>
 			<creator>AF</creator>
@@ -152,11 +155,12 @@
 			<sha>ebde6e1bc483dee30ba3c31840fe18bd6e3da103</sha>
 		</plugin>
 
+
 		<plugin name="RatingsLight" category="information" version="2.8.9" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
-			<desc lang="EN">Set, import, export, log, backup and restore track ratings. Create virtual libraries/library views for rated tracks with LMS browse menus.</desc>
+			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with LMS browse menus.</desc>
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.8.9/lms-ratingslight-2.8.9.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/RatingsLight/HTML/EN/plugins/RatingsLight/html/images/rl_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>8a48cf339496f46b2e3d944e1c3edcaef7f4187f</sha>
@@ -165,7 +169,7 @@
 
 		<plugin name="VirtualLibraryCreator" category="scanning" version="1.5.0" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
-			<desc lang="EN">A quick and easy way to create and manage your own virtual libraries/library views.</desc>
+			<desc lang="EN">A quick and easy way to create and manage your own virtual sublibraries / library views.</desc>
 			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.5.0/lms-virtuallibrarycreator-1.5.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-virtuallibrarycreator/main/VirtualLibraryCreator/HTML/EN/plugins/VirtualLibraryCreator/html/images/vlc_icon_svg.png</icon>
 			<creator>AF</creator>
