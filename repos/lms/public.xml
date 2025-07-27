@@ -50,7 +50,7 @@
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué.</desc>
 			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.6.5/lms-alternativeplaycount-1.6.5.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/AlternativePlayCount/HTML/EN/plugins/AlternativePlayCount/html/images/apc_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>697e09ca037ea4a657f3e03dae5a053baaa54950</sha>
@@ -94,7 +94,7 @@
 			<title lang="EN">Custom Tag Importer</title>
 			<desc lang="EN">Scans track information from custom tags in your music files (incl. rating tags).</desc>
 			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.2.6/lms-customtagimporter-1.2.6.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-customtagimporter/main/CustomTagImporter/HTML/EN/plugins/CustomTagImporter/html/images/cti_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-customtagimporter/main/screenshots/cti_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>c7a851cd1fda0e0962f0ac02850bfbcb4827a0a4</sha>
@@ -161,7 +161,7 @@
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with LMS browse menus.</desc>
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.8.9/lms-ratingslight-2.8.9.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/RatingsLight/HTML/EN/plugins/RatingsLight/html/images/rl_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>8a48cf339496f46b2e3d944e1c3edcaef7f4187f</sha>
