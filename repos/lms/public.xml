@@ -50,7 +50,7 @@
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué.</desc>
 			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.6.5/lms-alternativeplaycount-1.6.5.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>697e09ca037ea4a657f3e03dae5a053baaa54950</sha>
@@ -139,7 +139,7 @@
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin.</desc>
 			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.7.7/lms-dynamicplaylistcreator-1.7.7.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/screenshots/dplc_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/screenshots/dplc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>876c66acec330b67e6be5c954380a96896175161</sha>
@@ -150,7 +150,7 @@
 			<title lang="EN">PotPourri</title>
 			<desc lang="EN">A collection of small features: change the track order of playlists, schedule auto power-off of all players, set a player's power-on start volume, limit or lock a player's volume, export static playlists to playlist files with custom file paths and file extensions, purge dead tracks… Complete feature list, screenshots and more information on the GitHub page.</desc>
 			<url>https://github.com/AF-1/lms-potpourri/releases/download/1.0.6/lms-potpourri-1.0.6.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/screenshots/ppt_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/screenshots/ppt_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>ebde6e1bc483dee30ba3c31840fe18bd6e3da103</sha>
@@ -161,7 +161,7 @@
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with LMS browse menus.</desc>
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/2.8.9/lms-ratingslight-2.8.9.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>8a48cf339496f46b2e3d944e1c3edcaef7f4187f</sha>
