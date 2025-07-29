@@ -42,6 +42,15 @@
 			<link>https://github.com/AF-1</link>
 			<sha>b05667a4c65e9fb1791e787b9a664e4f4226ed26</sha>
 		</applet>
+
+		<applet name="NPInfoPlusInstaller" version="1.1.2" target="baby" maxTarget="*">
+			<title lang="EN">NowPlaying Info Plus</title>
+			<desc lang="EN">** IMPORTANT **: This applet is deprecated / EOL. Please use the Dark Flat Skin applet instead. For more information on the DFS applet see: https://github.com/AF-1</desc>
+			<url></url>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1</link>
+			<sha></sha>
+		</applet>
 	</applets>
 
 	<plugins>
