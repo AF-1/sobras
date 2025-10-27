@@ -54,15 +54,15 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" category="information" version="1.6.5" minTarget="8.2" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="1.6.6" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.6.5/lms-alternativeplaycount-1.6.5.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.6.6/lms-alternativeplaycount-1.6.6.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>697e09ca037ea4a657f3e03dae5a053baaa54950</sha>
+			<sha>542606316f697c4571e8c05d6109666b99a7e673</sha>
 		</plugin>
 
 
@@ -144,14 +144,14 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.7.8" minTarget="8.4" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.7.9" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.7.8/lms-dynamicplaylistcreator-1.7.8.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.7.9/lms-dynamicplaylistcreator-1.7.9.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/screenshots/dplc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>34eefe29f9878f2d48f858fbd6a9dedd1d42fbba</sha>
+			<sha>60afcee4834414a916f5df30dd94356ed914fc63</sha>
 		</plugin>
 
 
