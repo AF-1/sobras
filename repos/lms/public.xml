@@ -122,16 +122,16 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" category="playlists" version="4.5.9" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylists4" category="playlists" version="4.6.0" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlists</title>
 			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria.</desc>
 			<desc lang="FR">Jouez des mix continus de musique basés sur des critères de sélection définis dans les listes de lecture dynamiques.</desc>
 			<desc lang="DE">Nutze intelligente/dynamische Wiedergabelisten, um kontinuierliche Wiedergabelisten basierend auf deinen Selektionskriterien zu erstellen.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.5.9/lms-dynamicplaylists-4.5.9.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.6.0/lms-dynamicplaylists-4.6.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylists/main/screenshots/dpl_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>952e5577a6bf771cc641f3ebbb21689d3a60fdab</sha>
+			<sha>26c7cf1211a1c8751e37eeef1ae5e40c893cbb48</sha>
 		</plugin>
 
 
