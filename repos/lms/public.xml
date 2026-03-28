@@ -79,14 +79,14 @@
 		</plugin>
 
 
-		<plugin name="CustomStartStopTimes" category="playlists" version="1.2.3" minTarget="8.2" maxTarget="*">
+		<plugin name="CustomStartStopTimes" category="playlists" version="1.2.4" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Custom Start Stop Times</title>
 			<desc lang="EN">Skip unwanted parts of a song (e.g. annoying intros, silence at the end or in the middle).</desc>
-			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.2.3/lms-customstartstoptimes-1.2.3.zip</url>
+			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.2.4/lms-customstartstoptimes-1.2.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-customstartstoptimes/main/CustomStartStopTimes/HTML/EN/plugins/CustomStartStopTimes/html/images/csst_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>5433bfa7039068d2646090a6fdf481294a2e635f</sha>
+			<sha>aa304841e0935a0ef09538130a9e4a722eae6fd2</sha>
 		</plugin>
 
 
@@ -159,7 +159,7 @@
 
 		<plugin name="RatingsLight" category="information" version="3.0.4" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
-			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with LMS browse menus.</desc>
+			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with optional LMS browse menus.</desc>
 			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.0.4/lms-ratingslight-3.0.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_repo_icon.png</icon>
 			<creator>AF</creator>
