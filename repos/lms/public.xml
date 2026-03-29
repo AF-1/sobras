@@ -45,15 +45,15 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" category="information" version="1.8.3" minTarget="8.2" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="1.8.4" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Optionally records a detailed play history with timestamps, player and rating at the time of play, with display for individual tracks, albums, artists or all tracks. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué. Si vous le sautez avant, il compte comme sauté, pas comme joué. Permet d'enregistrer un historique de lecture détaillé avec date et heure, lecteur et évaluation au moment de la lecture. Utilisez les données avec d'autres plugins pour créer/lire des listes de lecture intelligentes (listes de lecture dynamiques), créer des bibliothèques virtuelles ou sauter des morceaux.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.8.3/lms-alternativeplaycount-1.8.3.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.8.4/lms-alternativeplaycount-1.8.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>61983e65025e84c2a948aadfae338ac557651f47</sha>
+			<sha>2ccf5384e378426b13e31bd75f0fd59be707d4c9</sha>
 		</plugin>
 
 
@@ -157,14 +157,14 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" category="information" version="3.0.4" minTarget="8.2" maxTarget="*">
+		<plugin name="RatingsLight" category="information" version="3.0.5" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with optional LMS browse menus.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.0.4/lms-ratingslight-3.0.4.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.0.5/lms-ratingslight-3.0.5.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>ef57fab8785afadffa73fb1d6316a55ea5dfffe9</sha>
+			<sha>9438b4ba153253d1c84960877185b37fb9eeb80f</sha>
 		</plugin>
 
 
