@@ -27,6 +27,14 @@
 			<sha>6f942ed9ce6cb60fe0ada42a3536d9f6c7ea49e7</sha>
 		</plugin>
 
+		<plugin name="RLiPengLegacyRating" category="information" version="0.0.1" minTarget="8.2" maxTarget="*">
+			<title lang="EN">RL iPeng Legacy Rating</title>
+			<desc lang="EN">Restores iPeng menu bar rating support for Ratings Light</desc>
+			<url>https://github.com/AF-1/lms-rlipenglegacyrating/releases/download/0.0.1/lms-rlipenglegacyrating-0.0.1.zip</url>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1/lms-rlipenglegacyrating</link>
+			<sha>d0963cd94ebf2ee67466805aeea000a03d56f985</sha>
+		</plugin>
 
 		<plugin name="SugarCube" category="playlists" version="7.0.8" minTarget="7.9" maxTarget="*">
 			<title lang="EN">SugarCube</title>
