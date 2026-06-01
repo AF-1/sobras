@@ -157,14 +157,14 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" category="information" version="3.0.6" minTarget="8.2" maxTarget="*">
+		<plugin name="RatingsLight" category="information" version="3.0.7" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with optional LMS browse menus.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.0.6/lms-ratingslight-3.0.6.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.0.7/lms-ratingslight-3.0.7.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>c1c25b662e5c419917f5b2922d6b7c6ca82dad12</sha>
+			<sha>645a1697f67e88032d3c329b6f8f0b075f73cc23</sha>
 		</plugin>
 
 
