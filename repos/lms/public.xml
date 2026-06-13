@@ -45,37 +45,37 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" category="information" version="1.8.7" minTarget="8.2" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="1.8.9" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Optionally records a detailed play history with timestamps, player and rating at the time of play, with display for individual tracks, albums, artists or all tracks. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué. Si vous le sautez avant, il compte comme sauté, pas comme joué. Permet d'enregistrer un historique de lecture détaillé avec date et heure, lecteur et évaluation au moment de la lecture. Utilisez les données avec d'autres plugins pour créer/lire des listes de lecture intelligentes (listes de lecture dynamiques), créer des bibliothèques virtuelles ou sauter des morceaux.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.8.7/lms-alternativeplaycount-1.8.7.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.8.9/lms-alternativeplaycount-1.8.9.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>640b248a37dea03ddbcd98e9b7290cb4d6e13dd5</sha>
+			<sha>b3bec433291c1ccb310999e9679c6671add79f30</sha>
 		</plugin>
 
 
-		<plugin name="ContextStats" category="playlists" version="1.1.0" minTarget="8.4" maxTarget="*">
+		<plugin name="ContextStats" category="playlists" version="1.1.1" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Context Stats</title>
 			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists.</desc>
-			<url>https://github.com/AF-1/lms-contextstats/releases/download/1.1.0/lms-contextstats-1.1.0.zip</url>
+			<url>https://github.com/AF-1/lms-contextstats/releases/download/1.1.1/lms-contextstats-1.1.1.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/cs_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>ce50de7af448a987916172df6159c247e322f64c</sha>
+			<sha>b4fed1f524805e8153da8d586107895b3a138911</sha>
 		</plugin>
 
 
-		<plugin name="CustomSkip3" category="playlists" version="3.7.2" minTarget="8.2" maxTarget="*">
+		<plugin name="CustomSkip3" category="playlists" version="3.7.3" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Custom Skip</title>
 			<desc lang="EN">Set rules for when the current track or upcoming tracks in your player's playlist should be skipped and removed from the playlist automatically.</desc>
-			<url>https://github.com/AF-1/lms-customskip/releases/download/3.7.2/lms-customskip-3.7.2.zip</url>
+			<url>https://github.com/AF-1/lms-customskip/releases/download/3.7.3/lms-customskip-3.7.3.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-customskip/main/screenshots/cs_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>545d557f6b12ec8e063e63627f291e2fc8c78fdf</sha>
+			<sha>f7609295e727a9dac3a0c6b9b26ecba57e66a790</sha>
 		</plugin>
 
 
@@ -90,14 +90,14 @@
 		</plugin>
 
 
-		<plugin name="CustomTagImporter" category="scanning" version="1.2.8" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomTagImporter" category="scanning" version="1.2.9" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Tag Importer</title>
 			<desc lang="EN">Scans track information from custom tags in your music files (incl. rating tags).</desc>
-			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.2.8/lms-customtagimporter-1.2.8.zip</url>
+			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.2.9/lms-customtagimporter-1.2.9.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-customtagimporter/main/screenshots/cti_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>f160c0237ec3b090dd249305c1a6fae718330216</sha>
+			<sha>d90cc212e6529bf5cca03c5e4307de846937386c</sha>
 		</plugin>
 
 
@@ -157,14 +157,14 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" category="information" version="3.0.8" minTarget="8.2" maxTarget="*">
+		<plugin name="RatingsLight" category="information" version="3.0.9" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with optional LMS browse menus.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.0.8/lms-ratingslight-3.0.8.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.0.9/lms-ratingslight-3.0.9.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>74fbf204c7ad182f043b94042a77897900ee06e9</sha>
+			<sha>609f10b7c00e88e94d6ed54606bc8e4c75937603</sha>
 		</plugin>
 
 
@@ -179,16 +179,16 @@
 		</plugin>
 
 
-		<plugin name="VisualStatistics" category="information" version="2.0.0" minTarget="8.4" maxTarget="*">
+		<plugin name="VisualStatistics" category="information" version="2.0.1" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Visual Statistics</title>
 			<desc lang="EN">Have a look at your library statistics with charts.</desc>
 			<desc lang="FR">Explorez les statistiques de votre librairie avec des graphiques.</desc>
 			<desc lang="NL">Bekijk jouw mediabibliotheek statistieken door middel van grafieken.</desc>
-			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/2.0.0/lms-visualstatistics-2.0.0.zip</url>
+			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/2.0.1/lms-visualstatistics-2.0.1.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-visualstatistics/main/screenshots/vs_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>382308da1b12c6bcfbc7b6a061c1441403083960</sha>
+			<sha>546da9ee39e13fdd0a48658d4c4ff6b5b8033a2c</sha>
 		</plugin>
 	</plugins>
 </extensions>
