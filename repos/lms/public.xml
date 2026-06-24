@@ -179,16 +179,16 @@
 		</plugin>
 
 
-		<plugin name="VisualStatistics" category="information" version="2.0.1" minTarget="8.4" maxTarget="*">
+		<plugin name="VisualStatistics" category="information" version="2.0.2" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Visual Statistics</title>
 			<desc lang="EN">Have a look at your library statistics with charts.</desc>
 			<desc lang="FR">Explorez les statistiques de votre librairie avec des graphiques.</desc>
 			<desc lang="NL">Bekijk jouw mediabibliotheek statistieken door middel van grafieken.</desc>
-			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/2.0.1/lms-visualstatistics-2.0.1.zip</url>
+			<url>https://github.com/AF-1/lms-visualstatistics/releases/download/2.0.2/lms-visualstatistics-2.0.2.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-visualstatistics/main/screenshots/vs_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>546da9ee39e13fdd0a48658d4c4ff6b5b8033a2c</sha>
+			<sha>8e6cddb1bd181e4d402ecd1129dd7c2e4d43f676</sha>
 		</plugin>
 	</plugins>
 </extensions>
