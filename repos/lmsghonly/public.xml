@@ -36,13 +36,13 @@
 			<sha>d0963cd94ebf2ee67466805aeea000a03d56f985</sha>
 		</plugin>
 
-		<plugin name="SugarCube" category="playlists" version="7.0.8" minTarget="7.9" maxTarget="*">
+		<plugin name="SugarCube" category="playlists" version="7.1.0" minTarget="7.9" maxTarget="*">
 			<title lang="EN">SugarCube</title>
 			<desc lang="EN">A modified version of the SugarCube plugin.</desc>
-			<url>https://github.com/AF-1/lms-sugarcube/releases/download/7.0.8/lms-sugarcube-7.0.8.zip</url>
+			<url>https://github.com/AF-1/lms-sugarcube/releases/download/7.1.0/lms-sugarcube-7.1.0.zip</url>
 			<creator>Charles Parker, AF</creator>
 			<link>https://github.com/AF-1/lms-sugarcube</link>
-			<sha>697846755ed1d8914da66f20eb12556582feceeb</sha>
+			<sha>910150aed030cb3757fda7ba1ccac278e091f8c7</sha>
 		</plugin>
 
 	</plugins>
