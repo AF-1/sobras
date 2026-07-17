@@ -45,15 +45,15 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" category="information" version="1.8.9" minTarget="8.2" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="1.9.0" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Optionally records a detailed play history with timestamps, player and rating at the time of play, with display for individual tracks, albums, artists or all tracks. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué. Si vous le sautez avant, il compte comme sauté, pas comme joué. Permet d'enregistrer un historique de lecture détaillé avec date et heure, lecteur et évaluation au moment de la lecture. Utilisez les données avec d'autres plugins pour créer/lire des listes de lecture intelligentes (listes de lecture dynamiques), créer des bibliothèques virtuelles ou sauter des morceaux.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.8.9/lms-alternativeplaycount-1.8.9.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.9.0/lms-alternativeplaycount-1.9.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>b3bec433291c1ccb310999e9679c6671add79f30</sha>
+			<sha>62f082b279ecaaa54c498ec66cc9217510287cd9</sha>
 		</plugin>
 
 
@@ -90,14 +90,14 @@
 		</plugin>
 
 
-		<plugin name="CustomTagImporter" category="scanning" version="1.2.9" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomTagImporter" category="scanning" version="1.3.0" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Tag Importer</title>
 			<desc lang="EN">Scans track information from custom tags in your music files (incl. rating tags).</desc>
-			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.2.9/lms-customtagimporter-1.2.9.zip</url>
+			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.3.0/lms-customtagimporter-1.3.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-customtagimporter/main/screenshots/cti_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>d90cc212e6529bf5cca03c5e4307de846937386c</sha>
+			<sha>2346b2e18483279268b2c119935185933355d301</sha>
 		</plugin>
 
 
@@ -146,25 +146,25 @@
 		</plugin>
 
 
-		<plugin name="PotPourri" category="tools" version="1.1.0" minTarget="8.4" maxTarget="*">
+		<plugin name="PotPourri" category="tools" version="1.1.1" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
 			<desc lang="EN">A collection of small features: change the track order of playlists, schedule auto power-off of all players, set a player's power-on start volume, limit or lock a player's volume, export static playlists to playlist files with custom file paths and file extensions, purge dead tracks… Complete feature list, screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-potpourri/releases/download/1.1.0/lms-potpourri-1.1.0.zip</url>
+			<url>https://github.com/AF-1/lms-potpourri/releases/download/1.1.1/lms-potpourri-1.1.1.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/screenshots/ppt_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>8763eb139741a0b780ce8c101a60f7d9c6c791db</sha>
+			<sha>32bc40fa212bc7a976309f1223ff7e46903ff5b1</sha>
 		</plugin>
 
 
-		<plugin name="RatingsLight" category="information" version="3.0.9" minTarget="8.2" maxTarget="*">
+		<plugin name="RatingsLight" category="information" version="3.1.0" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with optional LMS browse menus.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.0.9/lms-ratingslight-3.0.9.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.1.0/lms-ratingslight-3.1.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>609f10b7c00e88e94d6ed54606bc8e4c75937603</sha>
+			<sha>3c90747b161d6c8aea6a30fc74ae1ed2cdf20f21</sha>
 		</plugin>
 
 
