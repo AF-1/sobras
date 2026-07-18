@@ -146,14 +146,14 @@
 		</plugin>
 
 
-		<plugin name="PotPourri" category="tools" version="1.1.1" minTarget="8.4" maxTarget="*">
+		<plugin name="PotPourri" category="tools" version="1.1.2" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
 			<desc lang="EN">A collection of small features: change the track order of playlists, schedule auto power-off of all players, set a player's power-on start volume, limit or lock a player's volume, export static playlists to playlist files with custom file paths and file extensions, purge dead tracks… Complete feature list, screenshots and more information on the GitHub page.</desc>
-			<url>https://github.com/AF-1/lms-potpourri/releases/download/1.1.1/lms-potpourri-1.1.1.zip</url>
+			<url>https://github.com/AF-1/lms-potpourri/releases/download/1.1.2/lms-potpourri-1.1.2.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-potpourri/main/screenshots/ppt_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>32bc40fa212bc7a976309f1223ff7e46903ff5b1</sha>
+			<sha>28a28b2175e63f159020ce082793664dc8586c61</sha>
 		</plugin>
 
 
