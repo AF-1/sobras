@@ -50,7 +50,7 @@
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Optionally records a detailed play history with timestamps, player and rating at the time of play, with display for individual tracks, albums, artists or all tracks. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué. Si vous le sautez avant, il compte comme sauté, pas comme joué. Permet d'enregistrer un historique de lecture détaillé avec date et heure, lecteur et évaluation au moment de la lecture. Utilisez les données avec d'autres plugins pour créer/lire des listes de lecture intelligentes (listes de lecture dynamiques), créer des bibliothèques virtuelles ou sauter des morceaux.</desc>
 			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.9.2/lms-alternativeplaycount-1.9.2.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_repo_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>821dad346e2b07b30d99fc84730d345c0f6d2c7a</sha>
@@ -61,7 +61,7 @@
 			<title lang="EN">Context Stats</title>
 			<desc lang="EN">Display lists of tracks, albums or artists sorted by statistics from the context menus of artists, albums, genres, years and playlists.</desc>
 			<url>https://github.com/AF-1/lms-contextstats/releases/download/1.1.4/lms-contextstats-1.1.4.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/ContextStats/HTML/EN/plugins/ContextStats/html/images/cs_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-contextstats/main/screenshots/cs_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>e47cd979de98e68905c4009c8eade422a2679e28</sha>
@@ -83,7 +83,7 @@
 			<title lang="EN">Custom Start Stop Times</title>
 			<desc lang="EN">Skip unwanted parts of a song (e.g. annoying intros, silence at the end or in the middle).</desc>
 			<url>https://github.com/AF-1/lms-customstartstoptimes/releases/download/1.2.4/lms-customstartstoptimes-1.2.4.zip</url>
-			<icon>https://raw.githubusercontent.com/AF-1/lms-customstartstoptimes/main/CustomStartStopTimes/HTML/EN/plugins/CustomStartStopTimes/html/images/csst_icon.png</icon>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-customstartstoptimes/main/screenshots/csst_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
 			<sha>aa304841e0935a0ef09538130a9e4a722eae6fd2</sha>
