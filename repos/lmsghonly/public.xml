@@ -26,14 +26,14 @@
 			<sha>1d55a70a712a344106e41d4262550d52069581b2</sha>
 		</plugin>
 
-		<plugin name="MigrationAssistant" category="tools" version="0.1.0" minTarget="9.1" maxTarget="*">
+		<plugin name="MigrationAssistant" category="tools" version="0.1.1" minTarget="9.1" maxTarget="*">
 			<title lang="EN">Migration Assistant</title>
 			<desc lang="EN">Helps you back up and restore server, plugin and player preferences, playlists and per-track statistics when migrating to a new installation.</desc>
-			<url>https://github.com/AF-1/lms-migrationassistant/releases/download/0.1.0/lms-migrationassistant-0.1.0.zip</url>
+			<url>https://github.com/AF-1/lms-migrationassistant/releases/download/0.1.1/lms-migrationassistant-0.1.1.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-migrationassistant/main/screenshots/miga_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>c5eb0bf94f440565d6f2f1327db48cd59224aad3</sha>
+			<sha>33ad1e9f5a441a357200f141ae9632947e7d93fe</sha>
 		</plugin>
 
 		<plugin name="RLiPengLegacyRating" category="information" version="0.0.1" minTarget="8.2" maxTarget="*">
