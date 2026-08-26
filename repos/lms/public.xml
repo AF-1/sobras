@@ -146,6 +146,17 @@
 		</plugin>
 
 
+		<plugin name="MigrationAssistant" category="tools" version="1.0.1" minTarget="9.0" maxTarget="*">
+			<title lang="EN">Migration Assistant</title>
+			<desc lang="EN">Helps you back up and restore server, plugin and player preferences, playlists and per-track statistics when migrating to a new installation.</desc>
+			<url>https://github.com/AF-1/lms-migrationassistant/releases/download/1.0.1/lms-migrationassistant-1.0.1.zip</url>
+			<icon>https://raw.githubusercontent.com/AF-1/lms-migrationassistant/main/screenshots/miga_icon.png</icon>
+			<creator>AF</creator>
+			<link>https://github.com/AF-1</link>
+			<sha>f3114ea2336647920f75ec82b9a1917a6049d29e</sha>
+		</plugin>
+
+
 		<plugin name="PotPourri" category="tools" version="1.1.7" minTarget="8.4" maxTarget="*">
 			<title lang="EN">PotPourri</title>
 			<desc lang="EN">A collection of small features: change the track order of playlists, schedule auto power-off of all players, set a player's power-on start volume, limit or lock a player's volume, export static playlists to playlist files with custom file paths and file extensions, purge dead tracks… Complete feature list, screenshots and more information on the GitHub page.</desc>
