@@ -146,14 +146,14 @@
 		</plugin>
 
 
-		<plugin name="MigrationAssistant" category="tools" version="1.0.1" minTarget="9.0" maxTarget="*">
+		<plugin name="MigrationAssistant" category="tools" version="1.0.2" minTarget="9.0" maxTarget="*">
 			<title lang="EN">Migration Assistant</title>
 			<desc lang="EN">Helps you back up and restore server, plugin and player preferences, playlists and per-track statistics when migrating to a new installation.</desc>
-			<url>https://github.com/AF-1/lms-migrationassistant/releases/download/1.0.1/lms-migrationassistant-1.0.1.zip</url>
+			<url>https://github.com/AF-1/lms-migrationassistant/releases/download/1.0.2/lms-migrationassistant-1.0.2.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-migrationassistant/main/screenshots/miga_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>f3114ea2336647920f75ec82b9a1917a6049d29e</sha>
+			<sha>1856d416e7d8c4f562cc1507950bb0914314039c</sha>
 		</plugin>
 
 
