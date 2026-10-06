@@ -122,27 +122,27 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" category="playlists" version="4.6.0" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylists4" category="playlists" version="4.7.0" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlists</title>
 			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria.</desc>
 			<desc lang="FR">Jouez des mix continus de musique basés sur des critères de sélection définis dans les listes de lecture dynamiques.</desc>
 			<desc lang="DE">Nutze intelligente/dynamische Wiedergabelisten, um kontinuierliche Wiedergabelisten basierend auf deinen Selektionskriterien zu erstellen.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.6.0/lms-dynamicplaylists-4.6.0.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.7.0/lms-dynamicplaylists-4.7.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylists/main/screenshots/dpl_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>26c7cf1211a1c8751e37eeef1ae5e40c893cbb48</sha>
+			<sha>da56e334a64a3f9e40ceec86fa2ab4cdf4854af9</sha>
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.8.1" minTarget="8.4" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.9.0" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.8.1/lms-dynamicplaylistcreator-1.8.1.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.9.0/lms-dynamicplaylistcreator-1.9.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/screenshots/dplc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>bd991f4c8d2a9096cd7836239070ff6454d6678c</sha>
+			<sha>1178fe198f9a9bffae43061b9658d2cff236d27b</sha>
 		</plugin>
 
 
@@ -179,14 +179,14 @@
 		</plugin>
 
 
-		<plugin name="VirtualLibraryCreator" category="scanning" version="1.5.6" minTarget="8.4" maxTarget="*">
+		<plugin name="VirtualLibraryCreator" category="scanning" version="1.6.0" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
 			<desc lang="EN">A quick and easy way to create and manage your own virtual sublibraries / library views.</desc>
-			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.5.6/lms-virtuallibrarycreator-1.5.6.zip</url>
+			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.6.0/lms-virtuallibrarycreator-1.6.0.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-virtuallibrarycreator/main/screenshots/vlc_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>5bf71516974a950404e252c89216f88d168c6f41</sha>
+			<sha>ae1fb785c7136d1f9be6c2e54c7c11fbb720e99a</sha>
 		</plugin>
 
 
