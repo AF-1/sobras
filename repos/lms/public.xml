@@ -45,15 +45,15 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" category="information" version="1.9.5" minTarget="8.2" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="1.9.6" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Optionally records a detailed play history with timestamps, player and rating at the time of play, with display for individual tracks, albums, artists or all tracks. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué. Si vous le sautez avant, il compte comme sauté, pas comme joué. Permet d'enregistrer un historique de lecture détaillé avec date et heure, lecteur et évaluation au moment de la lecture. Utilisez les données avec d'autres plugins pour créer/lire des listes de lecture intelligentes (listes de lecture dynamiques), créer des bibliothèques virtuelles ou sauter des morceaux.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.9.5/lms-alternativeplaycount-1.9.5.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/1.9.6/lms-alternativeplaycount-1.9.6.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>121702aa9f7245b33019e085f05213f7216bfda6</sha>
+			<sha>d88b7fb1ad5aabc0486d3ba51d7cd953b065178d</sha>
 		</plugin>
 
 
@@ -68,14 +68,14 @@
 		</plugin>
 
 
-		<plugin name="CustomSkip3" category="playlists" version="3.7.5" minTarget="8.2" maxTarget="*">
+		<plugin name="CustomSkip3" category="playlists" version="3.7.6" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Custom Skip</title>
 			<desc lang="EN">Set rules for when the current track or upcoming tracks in your player's playlist should be skipped and removed from the playlist automatically.</desc>
-			<url>https://github.com/AF-1/lms-customskip/releases/download/3.7.5/lms-customskip-3.7.5.zip</url>
+			<url>https://github.com/AF-1/lms-customskip/releases/download/3.7.6/lms-customskip-3.7.6.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-customskip/main/screenshots/cs_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>9932bbd451918bc5e1f8430b8e74b8646b8b8fee</sha>
+			<sha>0a8ad5fa9b07e84b91e61986b05cff0df717fc88</sha>
 		</plugin>
 
 
@@ -90,14 +90,14 @@
 		</plugin>
 
 
-		<plugin name="CustomTagImporter" category="scanning" version="1.3.1" minTarget="7.9" maxTarget="*">
+		<plugin name="CustomTagImporter" category="scanning" version="1.3.2" minTarget="7.9" maxTarget="*">
 			<title lang="EN">Custom Tag Importer</title>
 			<desc lang="EN">Scans track information from custom tags in your music files (incl. rating tags).</desc>
-			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.3.1/lms-customtagimporter-1.3.1.zip</url>
+			<url>https://github.com/AF-1/lms-customtagimporter/releases/download/1.3.2/lms-customtagimporter-1.3.2.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-customtagimporter/main/screenshots/cti_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>c65b00e504858169ea1f6773255f409e8df119e6</sha>
+			<sha>071e0fd220cde88f270b0c83d1855e4fac74dc38</sha>
 		</plugin>
 
 
