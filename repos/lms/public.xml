@@ -122,27 +122,27 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylists4" category="playlists" version="4.7.3" minTarget="8.0" maxTarget="*">
+		<plugin name="DynamicPlaylists4" category="playlists" version="4.7.4" minTarget="8.0" maxTarget="*">
 			<title lang="EN">Dynamic Playlists</title>
 			<desc lang="EN">Use smart playlists (dynamic playlists) to play continuous music mixes based on your selection criteria.</desc>
 			<desc lang="FR">Jouez des mix continus de musique basés sur des critères de sélection définis dans les listes de lecture dynamiques.</desc>
 			<desc lang="DE">Nutze intelligente/dynamische Wiedergabelisten, um kontinuierliche Wiedergabelisten basierend auf deinen Selektionskriterien zu erstellen.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.7.3/lms-dynamicplaylists-4.7.3.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylists/releases/download/4.7.4/lms-dynamicplaylists-4.7.4.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylists/main/screenshots/dpl_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>0f1390f3eab3043fcde25c9f9b82d92be41ac5c4</sha>
+			<sha>192d93c6f74346acc39bcfef22c5dc9a125a20b3</sha>
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.9.0" minTarget="8.4" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.9.1" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.9.0/lms-dynamicplaylistcreator-1.9.0.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.9.1/lms-dynamicplaylistcreator-1.9.1.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/screenshots/dplc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>1178fe198f9a9bffae43061b9658d2cff236d27b</sha>
+			<sha>84380754f2b0aa677ef643c3badee668536f493b</sha>
 		</plugin>
 
 
