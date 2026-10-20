@@ -179,14 +179,14 @@
 		</plugin>
 
 
-		<plugin name="VirtualLibraryCreator" category="scanning" version="1.6.0" minTarget="8.4" maxTarget="*">
+		<plugin name="VirtualLibraryCreator" category="scanning" version="1.6.1" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Virtual Library Creator</title>
 			<desc lang="EN">A quick and easy way to create and manage your own virtual sublibraries / library views.</desc>
-			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.6.0/lms-virtuallibrarycreator-1.6.0.zip</url>
+			<url>https://github.com/AF-1/lms-virtuallibrarycreator/releases/download/1.6.1/lms-virtuallibrarycreator-1.6.1.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-virtuallibrarycreator/main/screenshots/vlc_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>ae1fb785c7136d1f9be6c2e54c7c11fbb720e99a</sha>
+			<sha>bf4e86f06b23b984a7e3a7ffa1c669c37f28e150</sha>
 		</plugin>
 
 
