@@ -135,14 +135,14 @@
 		</plugin>
 
 
-		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.9.1" minTarget="8.4" maxTarget="*">
+		<plugin name="DynamicPlaylistCreator" category="playlists" version="1.9.2" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Dynamic Playlist Creator</title>
 			<desc lang="EN">Helps you create custom smart playlists (dynamic playlists) for the Dynamic Playlists plugin.</desc>
-			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.9.1/lms-dynamicplaylistcreator-1.9.1.zip</url>
+			<url>https://github.com/AF-1/lms-dynamicplaylistcreator/releases/download/1.9.2/lms-dynamicplaylistcreator-1.9.2.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-dynamicplaylistcreator/main/screenshots/dplc_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>84380754f2b0aa677ef643c3badee668536f493b</sha>
+			<sha>f476350bb65e14a2dee90554ddcb116f02769bcf</sha>
 		</plugin>
 
 
