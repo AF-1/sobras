@@ -45,15 +45,15 @@
 	</applets>
 
 	<plugins>
-		<plugin name="AlternativePlayCount" category="information" version="2.0.0" minTarget="8.2" maxTarget="*">
+		<plugin name="AlternativePlayCount" category="information" version="2.0.1" minTarget="8.2" maxTarget="*">
 			<title lang="EN">Alternative Play Count</title>
 			<desc lang="EN">Provides alternative play counts and skip counts that aim to reflect your true listening history. You set a time after which a song counts as played. If you skip the song before, it counts as skipped, not played. Optionally records a detailed play history with timestamps, player and rating at the time of play, with display for individual tracks, albums, artists or all tracks. Use the data with other plugins to create/play smart playlists (dynamic playlists), create virtual libraries or skip tracks.</desc>
 			<desc lang="FR">Fournit un nombre de lectures et de sauts alternatif qui vise à refléter votre vrai historique de lecture. Définissez une durée après laquelle un morceau est considéré comme joué. Si vous le sautez avant, il compte comme sauté, pas comme joué. Permet d'enregistrer un historique de lecture détaillé avec date et heure, lecteur et évaluation au moment de la lecture. Utilisez les données avec d'autres plugins pour créer/lire des listes de lecture intelligentes (listes de lecture dynamiques), créer des bibliothèques virtuelles ou sauter des morceaux.</desc>
-			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/2.0.0/lms-alternativeplaycount-2.0.0.zip</url>
+			<url>https://github.com/AF-1/lms-alternativeplaycount/releases/download/2.0.1/lms-alternativeplaycount-2.0.1.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-alternativeplaycount/main/screenshots/apc_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>b0e342c091c89182d3dbafda1157a89fab321f11</sha>
+			<sha>f63326748a4acfea09059decb22715a735b6171f</sha>
 		</plugin>
 
 
@@ -146,14 +146,14 @@
 		</plugin>
 
 
-		<plugin name="MigrationAssistant" category="tools" version="1.0.4" minTarget="9.0" maxTarget="*">
+		<plugin name="MigrationAssistant" category="tools" version="1.0.5" minTarget="9.0" maxTarget="*">
 			<title lang="EN">Migration Assistant</title>
 			<desc lang="EN">Helps you back up and restore server, plugin and player preferences, playlists and per-track statistics when migrating to a new installation.</desc>
-			<url>https://github.com/AF-1/lms-migrationassistant/releases/download/1.0.4/lms-migrationassistant-1.0.4.zip</url>
+			<url>https://github.com/AF-1/lms-migrationassistant/releases/download/1.0.5/lms-migrationassistant-1.0.5.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-migrationassistant/main/screenshots/miga_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>f5166b424ce30fff1d79266dc3410dbd1ae36fcc</sha>
+			<sha>ec7e7995cd8489b59ef5ddb2b7d228a58d329813</sha>
 		</plugin>
 
 
@@ -168,14 +168,14 @@
 		</plugin>
 
 
-		<plugin name="RatingsLight" category="information" version="3.2.1" minTarget="8.4" maxTarget="*">
+		<plugin name="RatingsLight" category="information" version="3.2.2" minTarget="8.4" maxTarget="*">
 			<title lang="EN">Ratings Light</title>
 			<desc lang="EN">Set, display, import, export, log, backup and restore track ratings. Create virtual sublibraries / library views for rated tracks with optional LMS browse menus.</desc>
-			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.2.1/lms-ratingslight-3.2.1.zip</url>
+			<url>https://github.com/AF-1/lms-ratingslight/releases/download/3.2.2/lms-ratingslight-3.2.2.zip</url>
 			<icon>https://raw.githubusercontent.com/AF-1/lms-ratingslight/main/screenshots/rl_repo_icon.png</icon>
 			<creator>AF</creator>
 			<link>https://github.com/AF-1</link>
-			<sha>2de4ab162ceb087d92de2b34f9a7708de1924d35</sha>
+			<sha>4041358f34947ea1a91cf87dbfccbe942e970b14</sha>
 		</plugin>
 
 
